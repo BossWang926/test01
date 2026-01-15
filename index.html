@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        heading: ['Poppins', 'sans-serif'],
+                        body: ['Open Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#18181B',
+                        secondary: '#3F3F46',
+                        cta: '#2563EB',
+                        background: '#FAFAFA',
+                        text: '#09090B',
+                        border: '#E4E4E7',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Custom hover transitions */
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* CTA button hover */
+        .cta-button {
+            transition: all 0.2s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #1d4ed8;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="font-body bg-background text-text antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-border">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="#" class="font-heading text-xl font-semibold text-primary">
+                    我的主页
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-secondary hover:text-primary transition-colors duration-200">特性</a>
+                    <a href="#about" class="text-secondary hover:text-primary transition-colors duration-200">关于</a>
+                    <a href="#contact" class="cta-button bg-cta text-white px-4 py-2 rounded-lg cursor-pointer">联系我</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto">
+                <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-primary mb-6 leading-tight">
+                    欢迎来到我的个人主页
+                </h1>
+                <p class="text-lg sm:text-xl text-secondary mb-8 leading-relaxed">
+                    这里是我展示作品、分享想法和与世界连接的地方。专注于创造有价值的数字体验。
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#features" class="cta-button bg-cta text-white px-8 py-3 rounded-lg text-center cursor-pointer font-medium">
+                        了解更多
+                    </a>
+                    <a href="#contact" class="border-2 border-primary text-primary px-8 py-3 rounded-lg text-center hover:bg-primary hover:text-white transition-all duration-200 cursor-pointer font-medium">
+                        联系我
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-3xl sm:text-4xl font-bold text-primary mb-4">
+                    我的专长
+                </h2>
+                <p class="text-secondary text-lg">
+                    在这些领域，我能为你提供专业帮助
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card bg-background border border-border rounded-xl p-8 cursor-pointer">
+                    <div class="w-12 h-12 bg-cta/10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading text-xl font-semibold text-primary mb-3">
+                        网页设计
+                    </h3>
+                    <p class="text-secondary leading-relaxed">
+                        创造美观且用户友好的网站界面，注重用户体验和视觉美感。
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card bg-background border border-border rounded-xl p-8 cursor-pointer">
+                    <div class="w-12 h-12 bg-cta/10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading text-xl font-semibold text-primary mb-3">
+                        前端开发
+                    </h3>
+                    <p class="text-secondary leading-relaxed">
+                        使用现代技术栈构建响应式、高性能的网页应用。
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card bg-background border border-border rounded-xl p-8 cursor-pointer">
+                    <div class="w-12 h-12 bg-cta/10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading text-xl font-semibold text-primary mb-3">
+                        品牌设计
+                    </h3>
+                    <p class="text-secondary leading-relaxed">
+                        帮助品牌建立独特的视觉形象，传达品牌价值和理念。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-bold text-primary mb-6">
+                        关于我
+                    </h2>
+                    <p class="text-secondary text-lg leading-relaxed mb-6">
+                        我是一名热爱设计与开发的创作者。我相信好的设计不仅要美观，更要解决问题。通过持续学习和实践，我不断提升自己的技能，为客户创造更好的数字体验。
+                    </p>
+                    <p class="text-secondary text-lg leading-relaxed">
+                        在工作之余，我喜欢探索新技术、阅读设计文章，以及参与开源社区。
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-cta/20 to-cta/5 rounded-2xl p-8 border border-border">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="font-heading text-4xl font-bold text-cta mb-2">5+</div>
+                            <div class="text-secondary">年经验</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="font-heading text-4xl font-bold text-cta mb-2">50+</div>
+                            <div class="text-secondary">完成项目</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="font-heading text-4xl font-bold text-cta mb-2">30+</div>
+                            <div class="text-secondary">满意客户</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="font-heading text-4xl font-bold text-cta mb-2">100%</div>
+                            <div class="text-secondary">热情投入</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-primary text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-heading text-3xl sm:text-4xl font-bold mb-6">
+                准备开始你的项目？
+            </h2>
+            <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                让我们一起创造出色的数字体验。随时联系我，讨论你的想法。
+            </p>
+            <a href="mailto:your.email@example.com" class="cta-button inline-block bg-cta text-white px-10 py-4 rounded-lg text-lg font-medium cursor-pointer">
+                开始合作
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-background border-t border-border py-8 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <span class="font-heading text-lg font-semibold text-primary">我的主页</span>
+                    <p class="text-secondary text-sm mt-1">创造有价值的数字体验</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-secondary hover:text-primary transition-colors duration-200 cursor-pointer">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-secondary hover:text-primary transition-colors duration-200 cursor-pointer">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-secondary hover:text-primary transition-colors duration-200 cursor-pointer">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-border text-center text-secondary text-sm">
+                <p>&copy; 2024 我的主页. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
