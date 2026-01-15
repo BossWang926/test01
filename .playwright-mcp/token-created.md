@@ -1,0 +1,362 @@
+### Page state
+- Page URL: https://github.com/settings/personal-access-tokens/new
+- Page Title: 新型细粒度个人访问令牌
+- Page Snapshot:
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4009]:
+    - region
+    - generic [ref=e4010]:
+      - link "跳至内容" [ref=e4663] [cursor=pointer]:
+        - /url: "#start-of-content"
+        - generic [ref=e4664]: 跳至内容
+      - banner [ref=e4013]:
+        - heading "导航菜单" [level=2] [ref=e4665]:
+          - generic [ref=e4666]: 导航菜单
+        - generic [ref=e4015]:
+          - generic [ref=e4016]:
+            - button "打开全局导航菜单" [ref=e4667] [cursor=pointer]:
+              - img [ref=e4022]
+            - link "首页" [ref=e4668] [cursor=pointer]:
+              - /url: https://github.com/
+              - img [ref=e4025]
+            - navigation "GitHub 面包屑导航" [ref=e4669]:
+              - list [ref=e4030]:
+                - listitem [ref=e4031]:
+                  - link "设置" [ref=e4670] [cursor=pointer]:
+                    - /url: /settings/profile
+                    - generic [ref=e4671]: 设置
+                  - generic [ref=e4035]:
+                    - generic [ref=e4672]: /
+                    - img [ref=e4037]
+                - listitem [ref=e4039]:
+                  - link "开发者设置" [ref=e4673] [cursor=pointer]:
+                    - /url: /settings/apps
+                    - generic [ref=e4674]: 开发者设置
+          - generic [ref=e4042]:
+            - generic [ref=e4048]:
+              - generic "搜索或跳转至…":
+                - img
+              - button "输入 / 搜索内容" [ref=e4675] [cursor=pointer]:
+                - generic [ref=e4051]:
+                  - generic [ref=e4676]: 输入
+                  - generic [ref=e4052]: /
+                  - generic [ref=e4677]: 搜索内容
+            - generic [ref=e4054]:
+              - link "Chat with Copilot" [ref=e4056] [cursor=pointer]:
+                - /url: /copilot
+                - img
+              - button "Open Copilot…" [ref=e4059] [cursor=pointer]:
+                - img
+            - generic [ref=e4060]:
+              - button "创造新事物" [ref=e4678] [cursor=pointer]:
+                - generic [ref=e4063]:
+                  - generic:
+                    - img
+                  - img [ref=e4065]
+              - link "Your issues" [ref=e4067] [cursor=pointer]:
+                - /url: /issues
+                - img
+              - link "Your pull requests" [ref=e4068] [cursor=pointer]:
+                - /url: /pulls
+                - img
+              - link "Repositories" [ref=e4069] [cursor=pointer]:
+                - /url: /repos
+                - img
+            - link "You have no unread notifications" [ref=e4071] [cursor=pointer]:
+              - /url: /notifications
+              - img
+            - button "打开用户导航菜单" [ref=e4679] [cursor=pointer]
+    - main [ref=e4081]:
+      - generic [ref=e4083]:
+        - navigation "开发者设置" [ref=e4680]:
+          - list [ref=e4088]:
+            - listitem [ref=e4089]:
+              - link "GitHub 应用" [ref=e4681] [cursor=pointer]:
+                - /url: /settings/apps
+                - generic:
+                  - img
+                - generic [ref=e4682]: GitHub 应用
+            - listitem [ref=e4092]:
+              - link "OAuth 应用" [ref=e4683] [cursor=pointer]:
+                - /url: /settings/developers
+                - generic:
+                  - img
+                - generic [ref=e4684]: OAuth 应用
+            - listitem [ref=e4095]:
+              - button "个人访问令牌" [expanded] [ref=e4685] [cursor=pointer]:
+                - generic:
+                  - img
+                - generic [ref=e4686]: 个人访问令牌
+                - generic:
+                  - img
+              - list "个人访问令牌" [ref=e4687]:
+                - listitem [ref=e4099]:
+                  - link "精细化标记" [ref=e4688] [cursor=pointer]:
+                    - /url: /settings/personal-access-tokens
+                    - generic [ref=e4689]: 精细化标记
+                - listitem [ref=e4102]:
+                  - link "代币（经典）" [ref=e4690] [cursor=pointer]:
+                    - /url: /settings/tokens
+                    - generic [ref=e4691]: 代币（经典）
+        - generic [ref=e4107]:
+          - heading "新型细粒度个人访问令牌" [level=2] [ref=e4692]:
+            - generic [ref=e4694]: 新型细粒度个人访问令牌
+          - paragraph [ref=e4110]:
+            - generic [ref=e4695]: 创建一个细粒度的、仓库范围的令牌，适用于个人 API 使用以及通过 HTTPS 使用 Git。
+          - form "个人访问令牌" [ref=e4696]:
+            - generic [ref=e4112]:
+              - generic [ref=e4113]:
+                - generic [ref=e4697]: 令牌名称
+                - generic [ref=e4699]: "*"
+              - textbox "令牌名称" [ref=e4700]: Claude Code MCP - GitHub
+              - generic [ref=e4231]:
+                - img [ref=e4233]
+                - generic [ref=e4235]:
+                  - generic [ref=e4701]: “
+                  - strong [ref=e4236]:
+                    - generic [ref=e4702]: Claude Code MCP - GitHub
+                  - generic [ref=e4703]: ”已上线。
+              - generic [ref=e4705]: 此代币的唯一名称。资源所有者或持有该代币的用户可能可以看到此名称。
+            - generic [ref=e4117]:
+              - generic [ref=e4706]: 描述
+              - textbox "描述" [ref=e4707]
+            - generic [ref=e4120]:
+              - generic [ref=e4708]: 资源所有者
+              - button "资源所有者" [ref=e4709] [cursor=pointer]:
+                - generic [ref=e4126]:
+                  - img "@BossWang926" [ref=e4127]
+                  - generic [ref=e4710]: BossWang926
+                - generic:
+                  - img
+              - generic [ref=e4711]: 该令牌只能修改选定资源所有者拥有的资源。令牌始终可以读取所有公共存储库。
+            - generic [ref=e4130]:
+              - generic [ref=e4131]:
+                - generic [ref=e4132]:
+                  - term [ref=e4133]:
+                    - generic [ref=e4713]: 到期日
+                  - definition [ref=e4134]:
+                    - button "风俗" [ref=e4714] [cursor=pointer]:
+                      - generic [ref=e4140]:
+                        - generic:
+                          - img
+                        - generic [ref=e4716]: 风俗
+                      - generic:
+                        - img
+                - generic [ref=e4262]:
+                  - term [ref=e4263]:
+                    - generic [ref=e4718]: 选择日期 *
+                  - definition [ref=e4264]:
+                    - textbox "到期日" [ref=e4719]: 2027-01-15
+              - generic [ref=e4720]: 令牌将在选定日期过期。
+            - generic [ref=e4143]:
+              - generic [ref=e4144]:
+                - heading "存储库访问" [level=3] [ref=e4721]:
+                  - generic [ref=e4722]: 存储库访问
+                - radiogroup [ref=e4148]:
+                  - generic [ref=e4149]:
+                    - generic [ref=e4150]:
+                      - radio "公共存储库" [ref=e4723] [cursor=pointer]
+                      - generic [ref=e4152]:
+                        - generic [ref=e4724] [cursor=pointer]: 公共存储库
+                        - generic [ref=e4725]: 对公共存储库的只读访问权限。
+                    - generic [ref=e4155]:
+                      - radio "所有仓库" [checked] [ref=e4726] [cursor=pointer]
+                      - generic [ref=e4157]:
+                        - generic [ref=e4727] [cursor=pointer]: 所有仓库
+                        - generic [ref=e4728]: 这适用于您未来拥有的所有代码库，也包括公共代码库（只读）。
+              - generic [ref=e4161]:
+                - heading "权限" [level=3] [ref=e4729]:
+                  - generic [ref=e4730]: 权限
+                - paragraph [ref=e4164]:
+                  - generic [ref=e4731]:
+                    - text: 选择满足您需求的最低权限。
+                    - link "了解更多权限信息。" [ref=e4732] [cursor=pointer]:
+                      - /url: https://docs.github.com/rest/overview/permissions-required-for-fine-grained-personal-access-tokens
+                  - link:
+                    - /url: https://docs.github.com/rest/overview/permissions-required-for-fine-grained-personal-access-tokens
+                - generic [ref=e4167]:
+                  - heading "权限" [level=2] [ref=e4733]:
+                    - generic [ref=e4734]: 权限
+                  - generic [ref=e4169]:
+                    - generic [ref=e4170]:
+                      - button "存储库 (4)" [ref=e4984] [cursor=pointer]:
+                        - generic [ref=e4268]:
+                          - generic [ref=e4736]: 存储库
+                          - generic:
+                            - generic: "4"
+                            - generic: (4)
+                      - button "帐户 (0)" [ref=e4737] [cursor=pointer]:
+                        - generic [ref=e4173]:
+                          - generic [ref=e4738]: 帐户
+                          - generic:
+                            - generic: "0"
+                            - generic: (0)
+                    - button "添加权限" [ref=e4739] [cursor=pointer]:
+                      - generic [ref=e4179]:
+                        - img [ref=e4180]
+                        - generic [ref=e4741]: 添加权限
+                  - list "权限" [ref=e4742]:
+                    - listitem "目录。更多信息请见下文。" [ref=e4743]:
+                      - heading "内容" [level=3] [ref=e4744]:
+                        - generic [ref=e4746]: 内容
+                      - generic [ref=e4423]:
+                        - generic [ref=e4747]: 仓库内容、提交、分支、下载、发布和合并。
+                        - link "了解更多。" [ref=e4748] [cursor=pointer]:
+                          - /url: https://docs.github.com/rest/overview/permissions-required-for-fine-grained-personal-access-tokens#repository-permissions-for-contents
+                          - generic [ref=e4749]: 了解更多。
+                      - generic [ref=e4426]:
+                        - button "访问权限：只读" [ref=e4750] [cursor=pointer]:
+                          - generic [ref=e4429]:
+                            - generic [ref=e4752]: 访问权限：
+                            - generic [ref=e4753]: 只读
+                          - generic:
+                            - img
+                        - button "Remove Contents" [ref=e4430] [cursor=pointer]:
+                          - img [ref=e4431]
+                    - listitem "Issues. More information available below." [ref=e4754]:
+                      - heading "Issues" [level=3] [ref=e4756]
+                      - generic [ref=e4759]:
+                        - text: Issues and related comments, assignees, labels, and milestones.
+                        - link "Learn more." [ref=e4760] [cursor=pointer]:
+                          - /url: https://docs.github.com/rest/overview/permissions-required-for-fine-grained-personal-access-tokens#repository-permissions-for-issues
+                      - generic [ref=e4762]:
+                        - button "Access:Read-only" [ref=e4763] [cursor=pointer]:
+                          - generic [ref=e4765]: Access:Read-only
+                          - generic:
+                            - img
+                        - button "Remove Issues" [ref=e4766] [cursor=pointer]:
+                          - img [ref=e4767]
+                    - listitem "元数据。更多信息请见下方。" [ref=e4769]:
+                      - generic [ref=e4434]:
+                        - heading "元数据" [level=3] [ref=e4770]:
+                          - generic [ref=e4772]: 元数据
+                        - generic [ref=e4773]: 必需的
+                      - generic [ref=e4443]:
+                        - generic [ref=e4774]: 搜索存储库、列出合作者并访问存储库元数据。
+                        - link "了解更多。" [ref=e4775] [cursor=pointer]:
+                          - /url: https://docs.github.com/rest/overview/permissions-required-for-fine-grained-personal-access-tokens#repository-permissions-for-metadata
+                          - generic [ref=e4776]: 了解更多。
+                      - generic [ref=e4446]:
+                        - button "访问权限：只读" [ref=e4777]:
+                          - generic [ref=e4449]:
+                            - generic [ref=e4778]: 访问权限：只读
+                            - img [ref=e4450]
+                        - button "Read access required to use other repository permissions" [ref=e4452] [cursor=pointer]:
+                          - img [ref=e4453]
+                    - listitem "Pull requests. More information available below." [ref=e4985]:
+                      - heading "Pull requests" [level=3] [ref=e4987]
+                      - generic [ref=e4990]:
+                        - text: Pull requests and related comments, assignees, labels, milestones, and merges.
+                        - link "Learn more." [ref=e4991] [cursor=pointer]:
+                          - /url: https://docs.github.com/rest/overview/permissions-required-for-fine-grained-personal-access-tokens#repository-permissions-for-pull-requests
+                      - generic [ref=e4993]:
+                        - button "Access:Read-only" [ref=e4994] [cursor=pointer]:
+                          - generic [ref=e4996]: Access:Read-only
+                          - generic:
+                            - img
+                        - button "Remove Pull requests" [ref=e4997] [cursor=pointer]:
+                          - img [ref=e4998]
+              - generic [ref=e4192]:
+                - button "生成令牌" [ref=e4779] [cursor=pointer]:
+                  - generic [ref=e4780]: 生成令牌
+                - link "取消" [ref=e4781] [cursor=pointer]:
+                  - /url: /settings/personal-access-tokens
+                  - generic [ref=e4782]: 取消
+              - paragraph [ref=e4199]:
+                - generic [ref=e4783]: 此令牌可立即使用。
+      - dialog "新个人访问令牌" [ref=e5000]:
+        - generic [ref=e5002]:
+          - heading "新个人访问令牌" [level=1] [ref=e5004]:
+            - generic [ref=e5005]: 新个人访问令牌
+          - button "关闭" [active] [ref=e5007] [cursor=pointer]:
+            - img [ref=e5008]
+        - region "新个人访问令牌" [ref=e5010]:
+          - generic [ref=e5011]:
+            - paragraph [ref=e5012]:
+              - generic [ref=e5013]: 您的新个人访问令牌
+              - strong [ref=e5014]:
+                - generic [ref=e5015]: Claude Code MCP - GitHub
+              - generic [ref=e5016]: 将立即可用。该令牌将于
+              - strong [ref=e5017]:
+                - generic [ref=e5018]: 2027 年 1 月 15 日星期五
+              - generic [ref=e5019]: 过期。
+            - paragraph [ref=e5020]:
+              - generic [ref=e5021]: Claude Code MCP - GitHub 授予您
+              - strong [ref=e5022]:
+                - generic [ref=e5023]: 所有仓库的 4 项权限：
+            - list [ref=e5025]:
+              - listitem [ref=e5026]:
+                - generic [ref=e5027]:
+                  - generic [ref=e5029]: 内容
+                  - generic "只读" [ref=e5030]:
+                    - generic [ref=e5031]: 只读
+              - listitem [ref=e5032]:
+                - generic [ref=e5033]:
+                  - generic [ref=e5035]: 问题
+                  - generic "只读" [ref=e5036]:
+                    - generic [ref=e5037]: 只读
+              - listitem [ref=e5038]:
+                - generic [ref=e5039]:
+                  - generic [ref=e5041]: 元数据
+                  - generic "只读" [ref=e5042]:
+                    - generic [ref=e5043]: 只读
+              - listitem [ref=e5044]:
+                - generic [ref=e5045]:
+                  - generic [ref=e5047]: 拉取请求
+                  - generic "只读" [ref=e5048]:
+                    - generic [ref=e5049]: 只读
+        - generic [ref=e5050]:
+          - button "取消" [ref=e5051] [cursor=pointer]:
+            - generic [ref=e5054]: 取消
+          - button "生成令牌" [ref=e5055] [cursor=pointer]:
+            - generic [ref=e5058]: 生成令牌
+    - contentinfo [ref=e4200]:
+      - heading "页脚" [level=2] [ref=e4784]:
+        - generic [ref=e4785]: 页脚
+      - generic [ref=e4202]:
+        - generic [ref=e4203]:
+          - link "GitHub 主页" [ref=e4786] [cursor=pointer]:
+            - /url: https://github.com
+            - img [ref=e4205]
+          - generic [ref=e4787]: © 2026 GitHub, Inc.
+        - navigation "页脚" [ref=e4788]:
+          - heading "页脚导航" [level=3] [ref=e4789]:
+            - generic [ref=e4790]: 页脚导航
+          - list "页脚导航" [ref=e4791]:
+            - listitem [ref=e4211]:
+              - link "条款" [ref=e4792] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+                - generic [ref=e4793]: 条款
+            - listitem [ref=e4213]:
+              - link "隐私" [ref=e4794] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+                - generic [ref=e4795]: 隐私
+            - listitem [ref=e4215]:
+              - link "安全" [ref=e4796] [cursor=pointer]:
+                - /url: https://github.com/security
+                - generic [ref=e4797]: 安全
+            - listitem [ref=e4217]:
+              - link "地位" [ref=e4798] [cursor=pointer]:
+                - /url: https://www.githubstatus.com/
+                - generic [ref=e4799]: 地位
+            - listitem [ref=e4219]:
+              - link "社区" [ref=e4800] [cursor=pointer]:
+                - /url: https://github.community/
+                - generic [ref=e4801]: 社区
+            - listitem [ref=e4221]:
+              - link "文档" [ref=e4802] [cursor=pointer]:
+                - /url: https://docs.github.com/
+                - generic [ref=e4803]: 文档
+            - listitem [ref=e4223]:
+              - link "接触" [ref=e4804] [cursor=pointer]:
+                - /url: https://support.github.com?tags=dotcom-footer
+                - generic [ref=e4805]: 接触
+            - listitem [ref=e4225]:
+              - button "管理 Cookie" [ref=e4806] [cursor=pointer]:
+                - generic [ref=e4807]: 管理 Cookie
+            - listitem [ref=e4228]:
+              - button "请勿分享我的个人信息" [ref=e4808] [cursor=pointer]:
+                - generic [ref=e4809]: 请勿分享我的个人信息
+  - alert [ref=e4007]
+```

@@ -1,0 +1,1694 @@
+### Page state
+- Page URL: https://github.com/github/github-mcp-server/releases
+- Page Title: Releases · github/github-mcp-server
+- Page Snapshot:
+```yaml
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Open global navigation menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e15]
+          - link "Homepage" [ref=e17] [cursor=pointer]:
+            - /url: https://github.com/
+            - img [ref=e18]
+          - navigation "GitHub Breadcrumb" [ref=e22]:
+            - list [ref=e23]:
+              - listitem [ref=e24]:
+                - link "github" [ref=e25] [cursor=pointer]:
+                  - /url: /github
+                  - generic [ref=e26]: github
+                - generic [ref=e28]:
+                  - generic [ref=e29]: /
+                  - img [ref=e30]
+              - listitem [ref=e32]:
+                - link "github-mcp-server" [ref=e33] [cursor=pointer]:
+                  - /url: /github/github-mcp-server
+                  - generic [ref=e34]: github-mcp-server
+        - generic [ref=e35]:
+          - generic [ref=e41]:
+            - generic "Search or jump to…":
+              - img
+            - button "Type / to search" [ref=e42] [cursor=pointer]:
+              - generic [ref=e44]:
+                - text: Type
+                - generic [ref=e45]: /
+                - text: to search
+          - generic [ref=e47]:
+            - link "Chat with Copilot" [ref=e49] [cursor=pointer]:
+              - /url: /copilot
+              - img
+            - button "Open Copilot…" [ref=e52] [cursor=pointer]:
+              - img
+          - generic [ref=e53]:
+            - button "Create something new" [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]:
+                - generic:
+                  - img
+                - img [ref=e58]
+            - link "Your issues" [ref=e60] [cursor=pointer]:
+              - /url: /issues
+              - img
+            - link "Your pull requests" [ref=e61] [cursor=pointer]:
+              - /url: /pulls
+              - img
+            - link "Repositories" [ref=e62] [cursor=pointer]:
+              - /url: /repos
+              - img
+          - link "You have no unread notifications" [ref=e64] [cursor=pointer]:
+            - /url: /notifications
+            - img
+          - button "Open user navigation menu" [ref=e69] [cursor=pointer]
+      - navigation "Repository" [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Code" [ref=e76] [cursor=pointer]:
+              - /url: /github/github-mcp-server
+              - img [ref=e77]
+              - generic [ref=e79]: Code
+          - listitem [ref=e80]:
+            - link "Issues 136" [ref=e81] [cursor=pointer]:
+              - /url: /github/github-mcp-server/issues
+              - img [ref=e82]
+              - generic [ref=e85]: Issues
+              - generic "136" [ref=e86]
+          - listitem [ref=e87]:
+            - link "Pull requests 108" [ref=e88] [cursor=pointer]:
+              - /url: /github/github-mcp-server/pulls
+              - img [ref=e89]
+              - generic [ref=e91]: Pull requests
+              - generic "108" [ref=e92]
+          - listitem [ref=e93]:
+            - link "Discussions" [ref=e94] [cursor=pointer]:
+              - /url: /github/github-mcp-server/discussions
+              - img [ref=e95]
+              - generic [ref=e97]: Discussions
+          - listitem [ref=e98]:
+            - link "Actions" [ref=e99] [cursor=pointer]:
+              - /url: /github/github-mcp-server/actions
+              - img [ref=e100]
+              - generic [ref=e102]: Actions
+          - listitem [ref=e103]:
+            - link "Models" [ref=e104] [cursor=pointer]:
+              - /url: /github/github-mcp-server/models
+              - img [ref=e105]
+              - generic [ref=e107]: Models
+          - listitem [ref=e108]:
+            - link "Security" [ref=e109] [cursor=pointer]:
+              - /url: /github/github-mcp-server/security
+              - img [ref=e110]
+              - generic [ref=e112]: Security
+          - listitem [ref=e113]:
+            - link "Insights" [ref=e114] [cursor=pointer]:
+              - /url: /github/github-mcp-server/pulse
+              - img [ref=e115]
+              - generic [ref=e117]: Insights
+  - main [ref=e121]:
+    - generic [ref=e123]:
+      - 'heading "Releases: github/github-mcp-server" [level=1] [ref=e124]'
+      - generic [ref=e125]:
+        - generic [ref=e127]:
+          - navigation "Releases and Tags" [ref=e128]:
+            - link "Releases" [ref=e129] [cursor=pointer]:
+              - /url: /github/github-mcp-server/releases
+            - link "Tags" [ref=e130] [cursor=pointer]:
+              - /url: /github/github-mcp-server/tags
+          - generic [ref=e133]:
+            - searchbox "Find a release" [ref=e134]
+            - img
+        - generic [ref=e135]:
+          - region "GitHub MCP Server 0.28.1" [ref=e136]:
+            - heading "GitHub MCP Server 0.28.1" [level=2] [ref=e137]
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]: 12 Jan 15:45 3 days ago
+                - generic [ref=e141]:
+                  - img "@github-actions" [ref=e142]
+                  - link "github-actions" [ref=e143] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e144]:
+                  - img [ref=e145]
+                  - generic [ref=e147]:
+                    - text: Immutable
+                    - generic [ref=e148]: release. Only release title and notes can be modified.
+                - link "Tag v0.28.1" [ref=e150] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.28.1
+                  - generic [ref=e151]:
+                    - img "Tag" [ref=e152]
+                    - text: v0.28.1
+                - link "Commit f62ff63" [ref=e155] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/commit/f62ff634c53b94e9cf38a80ee1fc93fef8d532fb
+                  - img "Commit" [ref=e156]
+                  - code [ref=e158]: f62ff63
+                - button "Compare" [ref=e162] [cursor=pointer]:
+                  - generic [ref=e163]:
+                    - generic [ref=e164]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - generic [ref=e170]:
+                    - link "GitHub MCP Server 0.28.1" [ref=e172] [cursor=pointer]:
+                      - /url: /github/github-mcp-server/releases/tag/v0.28.1
+                    - link "Latest" [ref=e174] [cursor=pointer]:
+                      - /url: /github/github-mcp-server/releases/latest
+                      - generic [ref=e175]: Latest
+                  - generic [ref=e176]:
+                    - heading "Highlights" [level=2] [ref=e177]
+                    - paragraph [ref=e178]:
+                      - text: You can now stack PRs with base_ref option for both
+                      - code [ref=e179]: create_pull_request_with_copilot
+                      - text: and
+                      - code [ref=e180]: assign_copilot_to_issue
+                      - text: tools.
+                    - heading "What's Changed" [level=2] [ref=e181]
+                    - list [ref=e182]:
+                      - listitem [ref=e183]:
+                        - text: Add base_ref parameter and GraphQL-Features header support to assign_copilot_to_issue tool by @Copilot in
+                        - link "#1779" [ref=e184] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1779
+                    - paragraph [ref=e185]:
+                      - strong [ref=e186]: Full Changelog
+                      - text: ":"
+                      - link "v0.28.0...v0.28.1" [ref=e187] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/compare/v0.28.0...v0.28.1
+                - generic [ref=e188]:
+                  - group [ref=e191]:
+                    - button "Assets 12" [expanded] [ref=e192] [cursor=pointer]:
+                      - generic [ref=e193]:
+                        - generic [ref=e194]: Assets
+                        - generic "12" [ref=e195]
+                    - list [ref=e198]:
+                      - listitem [ref=e199]:
+                        - generic [ref=e200]:
+                          - img [ref=e201]
+                          - link "github-mcp-server_0.28.1_checksums.txt" [ref=e203] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/releases/download/v0.28.1/github-mcp-server_0.28.1_checksums.txt
+                            - generic [ref=e204]: github-mcp-server_0.28.1_checksums.txt
+                        - generic [ref=e206]:
+                          - generic [ref=e207]:
+                            - generic [ref=e209]: sha256:41ede7723a8927e60288bd15778b012327fc849790265dbb88097ba1c9dce1ca
+                            - button "Copy to clipboard digest for github-mcp-server_0.28.1_checksums.txt" [ref=e211] [cursor=pointer]:
+                              - img [ref=e212]
+                          - generic [ref=e216]: 824 Bytes
+                          - generic [ref=e217]: 2026-01-12T15:04:05Z3 days ago
+                      - listitem [ref=e218]:
+                        - generic [ref=e219]:
+                          - img [ref=e220]
+                          - link "github-mcp-server_Darwin_arm64.tar.gz" [ref=e222] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/releases/download/v0.28.1/github-mcp-server_Darwin_arm64.tar.gz
+                            - generic [ref=e223]: github-mcp-server_Darwin_arm64.tar.gz
+                        - generic [ref=e225]:
+                          - generic [ref=e226]:
+                            - generic [ref=e228]: sha256:d998cc3edb7f8d7907cb6cc5b03db2343864441d026b743e402ec02d46c4bbf9
+                            - button "Copy to clipboard digest for github-mcp-server_Darwin_arm64.tar.gz" [ref=e230] [cursor=pointer]:
+                              - img [ref=e231]
+                          - generic [ref=e235]: 5.14 MB
+                          - generic [ref=e236]: 2026-01-12T15:04:04Z3 days ago
+                      - listitem [ref=e237]:
+                        - generic [ref=e238]:
+                          - img [ref=e239]
+                          - link "github-mcp-server_Darwin_x86_64.tar.gz" [ref=e241] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/releases/download/v0.28.1/github-mcp-server_Darwin_x86_64.tar.gz
+                            - generic [ref=e242]: github-mcp-server_Darwin_x86_64.tar.gz
+                        - generic [ref=e244]:
+                          - generic [ref=e245]:
+                            - generic [ref=e247]: sha256:6894347e53b2b1ec6c66e5038fa813e7dedc064be32e1395211bc6020b2a5f7a
+                            - button "Copy to clipboard digest for github-mcp-server_Darwin_x86_64.tar.gz" [ref=e249] [cursor=pointer]:
+                              - img [ref=e250]
+                          - generic [ref=e254]: 5.49 MB
+                          - generic [ref=e255]: 2026-01-12T15:04:04Z3 days ago
+                      - listitem [ref=e256]:
+                        - generic [ref=e257]:
+                          - img [ref=e258]
+                          - link "github-mcp-server_Linux_arm64.tar.gz" [ref=e260] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/releases/download/v0.28.1/github-mcp-server_Linux_arm64.tar.gz
+                            - generic [ref=e261]: github-mcp-server_Linux_arm64.tar.gz
+                        - generic [ref=e263]:
+                          - generic [ref=e264]:
+                            - generic [ref=e266]: sha256:2873e0b9e8f773f16533d8685681fd7e8b6814f97cb5e62e79e0d2bd8e4520c1
+                            - button "Copy to clipboard digest for github-mcp-server_Linux_arm64.tar.gz" [ref=e268] [cursor=pointer]:
+                              - img [ref=e269]
+                          - generic [ref=e273]: 4.9 MB
+                          - generic [ref=e274]: 2026-01-12T15:04:03Z3 days ago
+                      - listitem [ref=e275]:
+                        - generic [ref=e276]:
+                          - img [ref=e277]
+                          - link "github-mcp-server_Linux_i386.tar.gz" [ref=e279] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/releases/download/v0.28.1/github-mcp-server_Linux_i386.tar.gz
+                            - generic [ref=e280]: github-mcp-server_Linux_i386.tar.gz
+                        - generic [ref=e282]:
+                          - generic [ref=e283]:
+                            - generic [ref=e285]: sha256:2a460dfe4f43f410c0b502cfa7346bf90d07d101f2a06481c70cf9375547a931
+                            - button "Copy to clipboard digest for github-mcp-server_Linux_i386.tar.gz" [ref=e287] [cursor=pointer]:
+                              - img [ref=e288]
+                          - generic [ref=e292]: 5.08 MB
+                          - generic [ref=e293]: 2026-01-12T15:04:03Z3 days ago
+                      - listitem [ref=e294]:
+                        - generic [ref=e295]:
+                          - img [ref=e296]
+                          - link "github-mcp-server_Linux_x86_64.tar.gz" [ref=e298] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/releases/download/v0.28.1/github-mcp-server_Linux_x86_64.tar.gz
+                            - generic [ref=e299]: github-mcp-server_Linux_x86_64.tar.gz
+                        - generic [ref=e301]:
+                          - generic [ref=e302]:
+                            - generic [ref=e304]: sha256:09587b7eb6aa534013f6412ca80fddf30f10479af38b29f906ee43d514040282
+                            - button "Copy to clipboard digest for github-mcp-server_Linux_x86_64.tar.gz" [ref=e306] [cursor=pointer]:
+                              - img [ref=e307]
+                          - generic [ref=e311]: 5.36 MB
+                          - generic [ref=e312]: 2026-01-12T15:04:03Z3 days ago
+                      - listitem [ref=e313]:
+                        - generic [ref=e314]:
+                          - img [ref=e315]
+                          - link "github-mcp-server_Windows_arm64.zip" [ref=e317] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/releases/download/v0.28.1/github-mcp-server_Windows_arm64.zip
+                            - generic [ref=e318]: github-mcp-server_Windows_arm64.zip
+                        - generic [ref=e320]:
+                          - generic [ref=e321]:
+                            - generic [ref=e323]: sha256:be6876c383d53bacec578068ef1d109396989e15adae21214ae0b44c6a126828
+                            - button "Copy to clipboard digest for github-mcp-server_Windows_arm64.zip" [ref=e325] [cursor=pointer]:
+                              - img [ref=e326]
+                          - generic [ref=e330]: 4.96 MB
+                          - generic [ref=e331]: 2026-01-12T15:04:04Z3 days ago
+                      - listitem [ref=e332]:
+                        - generic [ref=e333]:
+                          - img [ref=e334]
+                          - link "github-mcp-server_Windows_i386.zip" [ref=e336] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/releases/download/v0.28.1/github-mcp-server_Windows_i386.zip
+                            - generic [ref=e337]: github-mcp-server_Windows_i386.zip
+                        - generic [ref=e339]:
+                          - generic [ref=e340]:
+                            - generic [ref=e342]: sha256:160d2dbfc508ee0a19e518dcc9b44dd43a9f79cb0603579666c38b853a51080e
+                            - button "Copy to clipboard digest for github-mcp-server_Windows_i386.zip" [ref=e344] [cursor=pointer]:
+                              - img [ref=e345]
+                          - generic [ref=e349]: 5.32 MB
+                          - generic [ref=e350]: 2026-01-12T15:04:04Z3 days ago
+                      - listitem [ref=e351]:
+                        - generic [ref=e352]:
+                          - img [ref=e353]
+                          - link "github-mcp-server_Windows_x86_64.zip" [ref=e355] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/releases/download/v0.28.1/github-mcp-server_Windows_x86_64.zip
+                            - generic [ref=e356]: github-mcp-server_Windows_x86_64.zip
+                        - generic [ref=e358]:
+                          - generic [ref=e359]:
+                            - generic [ref=e361]: sha256:7d0aa31a826af2897cb05ff2cd4dcfcecfb14806dcb56d41c75c8731297d146a
+                            - button "Copy to clipboard digest for github-mcp-server_Windows_x86_64.zip" [ref=e363] [cursor=pointer]:
+                              - img [ref=e364]
+                          - generic [ref=e368]: 5.51 MB
+                          - generic [ref=e369]: 2026-01-12T15:04:03Z3 days ago
+                      - listitem [ref=e370]:
+                        - generic [ref=e371]:
+                          - img [ref=e372]
+                          - link "Source code (zip)" [ref=e374] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/archive/refs/tags/v0.28.1.zip
+                            - generic [ref=e375]: Source code
+                            - generic [ref=e376]: (zip)
+                        - generic [ref=e378]: 2026-01-12T15:01:32Z3 days ago
+                      - listitem [ref=e379]:
+                        - generic [ref=e380]:
+                          - img [ref=e381]
+                          - link "Source code (tar.gz)" [ref=e383] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/archive/refs/tags/v0.28.1.tar.gz
+                            - generic [ref=e384]: Source code
+                            - generic [ref=e385]: (tar.gz)
+                        - generic [ref=e387]: 2026-01-12T15:01:32Z3 days ago
+                      - listitem [ref=e388]:
+                        - generic [ref=e389]:
+                          - img [ref=e390]
+                          - link "Release attestation (json)" [ref=e392] [cursor=pointer]:
+                            - /url: /github/github-mcp-server/attestations/16459132/download
+                            - generic [ref=e393]: Release attestation
+                            - generic [ref=e394]: (json)
+                        - generic [ref=e396]: 2026-01-12T15:01:32Z3 days ago
+                  - generic [ref=e398]:
+                    - group [ref=e400]:
+                      - generic "Add or remove reactions" [ref=e401] [cursor=pointer]:
+                        - img [ref=e402]
+                    - generic [ref=e405]:
+                      - 'button "hooray (2): github-actions[bot], 03:01PM on January 12" [ref=e406] [cursor=pointer]':
+                        - generic [ref=e407]: 🎉
+                        - generic [ref=e408]: "2"
+                      - 'button "rocket (3): github-actions[bot], 03:01PM on January 12" [ref=e409] [cursor=pointer]':
+                        - generic [ref=e410]: 🚀
+                        - generic [ref=e411]: "3"
+                      - 'button "eyes (1): github-actions[bot], 03:01PM on January 12" [ref=e412] [cursor=pointer]':
+                        - generic [ref=e413]: 👀
+                        - generic [ref=e414]: "1"
+                    - generic [ref=e415]: 5 people reacted
+          - region "GitHub MCP Server 0.28.0" [ref=e416]:
+            - heading "GitHub MCP Server 0.28.0" [level=2] [ref=e417]
+            - generic [ref=e418]:
+              - generic [ref=e419]:
+                - generic [ref=e420]: 12 Jan 14:20 3 days ago
+                - generic [ref=e421]:
+                  - img "@github-actions" [ref=e422]
+                  - link "github-actions" [ref=e423] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e424]:
+                  - img [ref=e425]
+                  - generic [ref=e427]:
+                    - text: Immutable
+                    - generic [ref=e428]: release. Only release title and notes can be modified.
+                - link "Tag v0.28.0" [ref=e430] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.28.0
+                  - generic [ref=e431]:
+                    - img "Tag" [ref=e432]
+                    - text: v0.28.0
+                - link "Commit c44ce2e" [ref=e435] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/commit/c44ce2e2b881a7cadc37ca38941cc608e6c5d085
+                  - img "Commit" [ref=e436]
+                  - code [ref=e438]: c44ce2e
+                - button "Compare" [ref=e442] [cursor=pointer]:
+                  - generic [ref=e443]:
+                    - generic [ref=e444]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e446]:
+                - generic [ref=e447]:
+                  - link "GitHub MCP Server 0.28.0" [ref=e452] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/releases/tag/v0.28.0
+                  - generic [ref=e454]:
+                    - heading "Highlights" [level=2] [ref=e455]
+                    - paragraph [ref=e456]:
+                      - text: We have introduced the consolidated Projects toolset in this release, this can be enabled through the use of the
+                      - code [ref=e457]: remote_mcp_consolidated_projects
+                      - text: feature flag. Additionally, when using a classic PAT, tools are now filtered based on token scopes. Includes bug fixes.
+                    - heading "What's Changed" [level=2] [ref=e458]
+                    - list [ref=e459]:
+                      - listitem [ref=e460]:
+                        - text: Add OAuth scope metadata to all MCP tools by @Copilot in
+                        - link "#1679" [ref=e461] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1679
+                      - listitem [ref=e462]:
+                        - text: Add PAT scope filtering for stdio server by
+                        - link "@SamMorrowDrums" [ref=e463] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1741" [ref=e464] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1741
+                      - listitem [ref=e465]:
+                        - text: Replace go-github-mock with stretchr/testify for actions/issues/projects tests by @Copilot in
+                        - link "#1737" [ref=e466] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1737
+                      - listitem [ref=e467]:
+                        - text: Projects consolidation by
+                        - link "@mattdholloway" [ref=e468] [cursor=pointer]:
+                          - /url: https://github.com/mattdholloway
+                        - text: in
+                        - link "#1706" [ref=e469] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1706
+                      - listitem [ref=e470]:
+                        - text: Update command instructions for terminal usage by
+                        - link "@floriangrousset" [ref=e471] [cursor=pointer]:
+                          - /url: https://github.com/floriangrousset
+                        - text: in
+                        - link "#1307" [ref=e472] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1307
+                      - listitem [ref=e473]:
+                        - text: Fix nil pointer dereference in completion handler by
+                        - link "@SamMorrowDrums" [ref=e474] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1754" [ref=e475] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1754
+                      - listitem [ref=e476]:
+                        - text: Update toolset names in remote-server.md docs by
+                        - link "@tommaso-moro" [ref=e477] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                        - text: in
+                        - link "#1756" [ref=e478] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1756
+                      - listitem [ref=e479]:
+                        - text: "feat: Add list-scopes command using inventory architecture by @Copilot in"
+                        - link "#1750" [ref=e480] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1750
+                      - listitem [ref=e481]:
+                        - text: Update Claude Code installation command for v2.1.1+ add-json format by @Copilot in
+                        - link "#1766" [ref=e482] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1766
+                      - listitem [ref=e483]:
+                        - text: "bug fix: --tools flag not working with feature-flagged tools and deprecation aliases by"
+                        - link "@tommaso-moro" [ref=e484] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                        - text: in
+                        - link "#1775" [ref=e485] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1775
+                      - listitem [ref=e486]:
+                        - text: Bringing back local mcp server registry config by
+                        - link "@almaleksia" [ref=e487] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                        - text: in
+                        - link "#1767" [ref=e488] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1767
+                      - listitem [ref=e489]:
+                        - text: Fix docs automation to use toolset IDs instead of display names by @Copilot in
+                        - link "#1780" [ref=e490] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1780
+                      - listitem [ref=e491]:
+                        - text: Fix resource handler to use deps from context by
+                        - link "@SamMorrowDrums" [ref=e492] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1777" [ref=e493] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1777
+                      - listitem [ref=e494]:
+                        - text: "fix: keep all resources registered for resources/read requests by"
+                        - link "@SamMorrowDrums" [ref=e495] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1792" [ref=e496] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1792
+                    - heading "New Contributors" [level=2] [ref=e497]
+                    - list [ref=e498]:
+                      - listitem [ref=e499]:
+                        - link "@floriangrousset" [ref=e500] [cursor=pointer]:
+                          - /url: https://github.com/floriangrousset
+                        - text: made their first contribution in
+                        - link "#1307" [ref=e501] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1307
+                    - paragraph [ref=e502]:
+                      - strong [ref=e503]: Full Changelog
+                      - text: ":"
+                      - link "v0.27.0...v0.28.0" [ref=e504] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/compare/v0.27.0...v0.28.0
+                - generic [ref=e505]:
+                  - generic [ref=e506]:
+                    - heading "Contributors" [level=3] [ref=e507]
+                    - list [ref=e508]:
+                      - listitem [ref=e509]:
+                        - link "@mattdholloway" [ref=e510] [cursor=pointer]:
+                          - /url: https://github.com/mattdholloway
+                          - img "@mattdholloway" [ref=e511]
+                      - listitem [ref=e512]:
+                        - link "@almaleksia" [ref=e513] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                          - img "@almaleksia" [ref=e514]
+                      - listitem [ref=e515]:
+                        - link "@floriangrousset" [ref=e516] [cursor=pointer]:
+                          - /url: https://github.com/floriangrousset
+                          - img "@floriangrousset" [ref=e517]
+                      - listitem [ref=e518]:
+                        - link "@SamMorrowDrums" [ref=e519] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                          - img "@SamMorrowDrums" [ref=e520]
+                      - listitem [ref=e521]:
+                        - link "@tommaso-moro" [ref=e522] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                          - img "@tommaso-moro" [ref=e523]
+                    - generic [ref=e524]: mattdholloway, almaleksia, and 3 other contributors
+                  - group [ref=e527]:
+                    - button "Assets 12" [ref=e528] [cursor=pointer]:
+                      - generic [ref=e529]:
+                        - generic [ref=e530]: Assets
+                        - generic "12" [ref=e531]
+                  - generic [ref=e533]:
+                    - group [ref=e535]:
+                      - generic "Add or remove reactions" [ref=e536] [cursor=pointer]:
+                        - img [ref=e537]
+                    - generic [ref=e540]:
+                      - 'button "hooray (2): github-actions[bot], 02:11PM on January 12" [ref=e541] [cursor=pointer]':
+                        - generic [ref=e542]: 🎉
+                        - generic [ref=e543]: "2"
+                      - 'button "rocket (2): github-actions[bot], 02:11PM on January 12" [ref=e544] [cursor=pointer]':
+                        - generic [ref=e545]: 🚀
+                        - generic [ref=e546]: "2"
+                    - generic [ref=e547]: 3 people reacted
+          - region "GitHub MCP Server 0.27.0" [ref=e548]:
+            - heading "GitHub MCP Server 0.27.0" [level=2] [ref=e549]
+            - generic [ref=e550]:
+              - generic [ref=e551]:
+                - generic [ref=e552]: 05 Jan 14:23 last week
+                - generic [ref=e553]:
+                  - img "@github-actions" [ref=e554]
+                  - link "github-actions" [ref=e555] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e556]:
+                  - img [ref=e557]
+                  - generic [ref=e559]:
+                    - text: Immutable
+                    - generic [ref=e560]: release. Only release title and notes can be modified.
+                - link "Tag v0.27.0" [ref=e562] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.27.0
+                  - generic [ref=e563]:
+                    - img "Tag" [ref=e564]
+                    - text: v0.27.0
+                - generic [ref=e566]:
+                  - link "Commit 2b352ab" [ref=e567] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/commit/2b352ab0b914cde8c16d44200a7cace9f400be71
+                    - img "Commit" [ref=e568]
+                    - code [ref=e570]: 2b352ab
+                  - group [ref=e571]:
+                    - generic "Verified commit signature" [ref=e572] [cursor=pointer]:
+                      - img "Verified commit signature" [ref=e573]
+                - button "Compare" [ref=e578] [cursor=pointer]:
+                  - generic [ref=e579]:
+                    - generic [ref=e580]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e582]:
+                - generic [ref=e583]:
+                  - link "GitHub MCP Server 0.27.0" [ref=e588] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/releases/tag/v0.27.0
+                  - generic [ref=e590]:
+                    - heading "Highlights" [level=2] [ref=e591]
+                    - paragraph [ref=e592]:
+                      - text: We improved
+                      - code [ref=e593]: get_file_contents
+                      - text: and
+                      - code [ref=e594]: push_files
+                      - text: tools. We covered many common scenarios that should no longer result in failures. For example, pushing files to non-initialized repos and new branches is possible now.
+                    - heading "What's Changed" [level=2] [ref=e595]
+                    - list [ref=e596]:
+                      - listitem [ref=e597]:
+                        - text: Add raw client error annotation and annotate GetFileContents by
+                        - link "@omgitsads" [ref=e598] [cursor=pointer]:
+                          - /url: https://github.com/omgitsads
+                        - text: in
+                        - link "#1570" [ref=e599] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1570
+                      - listitem [ref=e600]:
+                        - text: "feat: Add DestructiveHint to delete_project_item tool annotation by"
+                        - link "@triepod-ai" [ref=e601] [cursor=pointer]:
+                          - /url: https://github.com/triepod-ai
+                        - text: in
+                        - link "#1665" [ref=e602] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1665
+                      - listitem [ref=e603]:
+                        - code [ref=e604]: get_file_contents
+                        - text: fetch refs improvements by
+                        - link "@almaleksia" [ref=e605] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                        - text: in
+                        - link "#1655" [ref=e606] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1655
+                      - listitem [ref=e607]:
+                        - text: remove experiments toolset by
+                        - link "@tommaso-moro" [ref=e608] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                        - text: in
+                        - link "#1667" [ref=e609] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1667
+                      - listitem [ref=e610]:
+                        - text: "build(deps): bump docker/setup-buildx-action from 3.11.1 to 3.12.0 by"
+                        - link "@dependabot" [ref=e611] [cursor=pointer]:
+                          - /url: https://github.com/dependabot
+                        - text: "[bot] in"
+                        - link "#1672" [ref=e612] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1672
+                      - listitem [ref=e613]:
+                        - text: "feat: auto-fix license files on PRs and improve CI reliability by"
+                        - link "@SamMorrowDrums" [ref=e614] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1583" [ref=e615] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1583
+                      - listitem [ref=e616]:
+                        - text: Fix invalid YAML syntax in license-check workflow by @Copilot in
+                        - link "#1674" [ref=e617] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1674
+                      - listitem [ref=e618]:
+                        - text: "build(deps): bump github.com/google/jsonschema-go from 0.3.0 to 0.4.2 by"
+                        - link "@dependabot" [ref=e619] [cursor=pointer]:
+                          - /url: https://github.com/dependabot
+                        - text: "[bot] in"
+                        - link "#1670" [ref=e620] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1670
+                      - listitem [ref=e621]:
+                        - text: "build(deps): bump github.com/modelcontextprotocol/go-sdk from 1.2.0-pre.1 to 1.2.0 by"
+                        - link "@dependabot" [ref=e622] [cursor=pointer]:
+                          - /url: https://github.com/dependabot
+                        - text: "[bot] in"
+                        - link "#1671" [ref=e623] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1671
+                      - listitem [ref=e624]:
+                        - text: Update PR template to include tool renaming section by
+                        - link "@tommaso-moro" [ref=e625] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                        - text: in
+                        - link "#1657" [ref=e626] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1657
+                      - listitem [ref=e627]:
+                        - text: "build(deps): bump github.com/spf13/cobra from 1.10.1 to 1.10.2 by"
+                        - link "@dependabot" [ref=e628] [cursor=pointer]:
+                          - /url: https://github.com/dependabot
+                        - text: "[bot] in"
+                        - link "#1558" [ref=e629] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1558
+                      - listitem [ref=e630]:
+                        - text: Fallback to default branch in get_file_contents when main doesn't exist by
+                        - link "@almaleksia" [ref=e631] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                        - text: in
+                        - link "#1669" [ref=e632] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1669
+                      - listitem [ref=e633]:
+                        - text: "fix: Skip CodeQL scanning on forked repositories by"
+                        - link "@kaovilai" [ref=e634] [cursor=pointer]:
+                          - /url: https://github.com/kaovilai
+                        - text: in
+                        - link "#873" [ref=e635] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/873
+                      - listitem [ref=e636]:
+                        - text: "build(deps): bump docker/metadata-action from 5.9.0 to 5.10.0 by"
+                        - link "@dependabot" [ref=e637] [cursor=pointer]:
+                          - /url: https://github.com/dependabot
+                        - text: "[bot] in"
+                        - link "#1516" [ref=e638] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1516
+                      - listitem [ref=e639]:
+                        - text: Update docs to remove Claude Web mention by
+                        - link "@tommaso-moro" [ref=e640] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                        - text: in
+                        - link "#1684" [ref=e641] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1684
+                      - listitem [ref=e642]:
+                        - text: Change list workflow runs to allow empty resource id to list all runs in repo by
+                        - link "@mattdholloway" [ref=e643] [cursor=pointer]:
+                          - /url: https://github.com/mattdholloway
+                        - text: in
+                        - link "#1682" [ref=e644] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1682
+                      - listitem [ref=e645]:
+                        - text: "build(deps): bump actions/github-script from 7 to 8 by"
+                        - link "@dependabot" [ref=e646] [cursor=pointer]:
+                          - /url: https://github.com/dependabot
+                        - text: "[bot] in"
+                        - link "#1699" [ref=e647] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1699
+                      - listitem [ref=e648]:
+                        - text: Update README.md to hyperlink Open AI Codex installation guide by
+                        - link "@s-sanjay" [ref=e649] [cursor=pointer]:
+                          - /url: https://github.com/s-sanjay
+                        - text: in
+                        - link "#1692" [ref=e650] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1692
+                      - listitem [ref=e651]:
+                        - text: "docs: add Docker image name to Prerequisites section by"
+                        - link "@majiayu000" [ref=e652] [cursor=pointer]:
+                          - /url: https://github.com/majiayu000
+                        - text: in
+                        - link "#1701" [ref=e653] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1701
+                      - listitem [ref=e654]:
+                        - text: "fix: use gh pr checkout to handle fork PRs in license-check workflow by @Copilot in"
+                        - link "#1709" [ref=e655] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1709
+                      - listitem [ref=e656]:
+                        - text: "refactor: use consistent snake_case for issue_number parameter by"
+                        - link "@majiayu000" [ref=e657] [cursor=pointer]:
+                          - /url: https://github.com/majiayu000
+                        - text: in
+                        - link "#1702" [ref=e658] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1702
+                      - listitem [ref=e659]:
+                        - text: Add API Error annotations to GitHub issue errors by
+                        - link "@omgitsads" [ref=e660] [cursor=pointer]:
+                          - /url: https://github.com/omgitsads
+                        - text: in
+                        - link "#1566" [ref=e661] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1566
+                      - listitem [ref=e662]:
+                        - text: "docs: add docs for Rovo Dev CLI installation by"
+                        - link "@atinylittleshell" [ref=e663] [cursor=pointer]:
+                          - /url: https://github.com/atinylittleshell
+                        - text: in
+                        - link "#875" [ref=e664] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/875
+                      - listitem [ref=e665]:
+                        - text: "fix: get_job_logs fails by"
+                        - link "@majiayu000" [ref=e666] [cursor=pointer]:
+                          - /url: https://github.com/majiayu000
+                        - text: in
+                        - link "#1719" [ref=e667] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1719
+                      - listitem [ref=e668]:
+                        - text: Exclude tools requiring feature flag from docs by
+                        - link "@mattdholloway" [ref=e669] [cursor=pointer]:
+                          - /url: https://github.com/mattdholloway
+                        - text: in
+                        - link "#1721" [ref=e670] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1721
+                      - listitem [ref=e671]:
+                        - text: Improvements to push_files tool by
+                        - link "@almaleksia" [ref=e672] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                        - text: in
+                        - link "#1676" [ref=e673] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1676
+                    - heading "New Contributors" [level=2] [ref=e674]
+                    - list [ref=e675]:
+                      - listitem [ref=e676]:
+                        - link "@triepod-ai" [ref=e677] [cursor=pointer]:
+                          - /url: https://github.com/triepod-ai
+                        - text: made their first contribution in
+                        - link "#1665" [ref=e678] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1665
+                      - listitem [ref=e679]:
+                        - link "@kaovilai" [ref=e680] [cursor=pointer]:
+                          - /url: https://github.com/kaovilai
+                        - text: made their first contribution in
+                        - link "#873" [ref=e681] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/873
+                      - listitem [ref=e682]:
+                        - link "@s-sanjay" [ref=e683] [cursor=pointer]:
+                          - /url: https://github.com/s-sanjay
+                        - text: made their first contribution in
+                        - link "#1692" [ref=e684] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1692
+                      - listitem [ref=e685]:
+                        - link "@majiayu000" [ref=e686] [cursor=pointer]:
+                          - /url: https://github.com/majiayu000
+                        - text: made their first contribution in
+                        - link "#1701" [ref=e687] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1701
+                      - listitem [ref=e688]:
+                        - link "@atinylittleshell" [ref=e689] [cursor=pointer]:
+                          - /url: https://github.com/atinylittleshell
+                        - text: made their first contribution in
+                        - link "#875" [ref=e690] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/875
+                    - paragraph [ref=e691]:
+                      - strong [ref=e692]: Full Changelog
+                      - text: ":"
+                      - link "v0.26.3...v0.27.0" [ref=e693] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/compare/v0.26.3...v0.27.0
+                - generic [ref=e694]:
+                  - generic [ref=e695]:
+                    - heading "Contributors" [level=3] [ref=e696]
+                    - list [ref=e697]:
+                      - listitem [ref=e698]:
+                        - link "@omgitsads" [ref=e699] [cursor=pointer]:
+                          - /url: https://github.com/omgitsads
+                          - img "@omgitsads" [ref=e700]
+                      - listitem [ref=e701]:
+                        - link "@mattdholloway" [ref=e702] [cursor=pointer]:
+                          - /url: https://github.com/mattdholloway
+                          - img "@mattdholloway" [ref=e703]
+                      - listitem [ref=e704]:
+                        - link "@almaleksia" [ref=e705] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                          - img "@almaleksia" [ref=e706]
+                      - listitem [ref=e707]:
+                        - link "@atinylittleshell" [ref=e708] [cursor=pointer]:
+                          - /url: https://github.com/atinylittleshell
+                          - img "@atinylittleshell" [ref=e709]
+                      - listitem [ref=e710]:
+                        - link "@SamMorrowDrums" [ref=e711] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                          - img "@SamMorrowDrums" [ref=e712]
+                      - listitem [ref=e713]:
+                        - link "@s-sanjay" [ref=e714] [cursor=pointer]:
+                          - /url: https://github.com/s-sanjay
+                          - img "@s-sanjay" [ref=e715]
+                      - listitem [ref=e716]:
+                        - link "@kaovilai" [ref=e717] [cursor=pointer]:
+                          - /url: https://github.com/kaovilai
+                          - img "@kaovilai" [ref=e718]
+                      - listitem [ref=e719]:
+                        - link "@majiayu000" [ref=e720] [cursor=pointer]:
+                          - /url: https://github.com/majiayu000
+                          - img "@majiayu000" [ref=e721]
+                      - listitem [ref=e722]:
+                        - link "@dependabot" [ref=e723] [cursor=pointer]:
+                          - /url: https://github.com/dependabot
+                          - img "@dependabot" [ref=e724]
+                      - listitem [ref=e725]:
+                        - link "@tommaso-moro" [ref=e726] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                          - img "@tommaso-moro" [ref=e727]
+                      - listitem [ref=e728]:
+                        - link "@triepod-ai" [ref=e729] [cursor=pointer]:
+                          - /url: https://github.com/triepod-ai
+                          - img "@triepod-ai" [ref=e730]
+                    - generic [ref=e731]: omgitsads, mattdholloway, and 9 other contributors
+                  - group [ref=e734]:
+                    - button "Assets 12" [ref=e735] [cursor=pointer]:
+                      - generic [ref=e736]:
+                        - generic [ref=e737]: Assets
+                        - generic "12" [ref=e738]
+                  - generic [ref=e740]:
+                    - group [ref=e742]:
+                      - generic "Add or remove reactions" [ref=e743] [cursor=pointer]:
+                        - img [ref=e744]
+                    - generic [ref=e747]:
+                      - 'button "hooray (3): github-actions[bot], 02:08PM on January 05" [ref=e748] [cursor=pointer]':
+                        - generic [ref=e749]: 🎉
+                        - generic [ref=e750]: "3"
+                      - 'button "heart (1): github-actions[bot], 02:08PM on January 05" [ref=e751] [cursor=pointer]':
+                        - generic [ref=e752]: ❤️
+                        - generic [ref=e753]: "1"
+                      - 'button "rocket (8): github-actions[bot], 02:08PM on January 05" [ref=e754] [cursor=pointer]':
+                        - generic [ref=e755]: 🚀
+                        - generic [ref=e756]: "8"
+                    - generic [ref=e757]: 11 people reacted
+          - region "GitHub MCP Server 0.26.3" [ref=e758]:
+            - heading "GitHub MCP Server 0.26.3" [level=2] [ref=e759]
+            - generic [ref=e760]:
+              - generic [ref=e761]:
+                - generic [ref=e762]: 19 Dec 10:43 last month
+                - generic [ref=e763]:
+                  - img "@github-actions" [ref=e764]
+                  - link "github-actions" [ref=e765] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e766]:
+                  - img [ref=e767]
+                  - generic [ref=e769]:
+                    - text: Immutable
+                    - generic [ref=e770]: release. Only release title and notes can be modified.
+                - link "Tag v0.26.3" [ref=e772] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.26.3
+                  - generic [ref=e773]:
+                    - img "Tag" [ref=e774]
+                    - text: v0.26.3
+                - generic [ref=e776]:
+                  - link "Commit 63c7db0" [ref=e777] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/commit/63c7db030a081b0ff1a4de7ab10f237da4fac491
+                    - img "Commit" [ref=e778]
+                    - code [ref=e780]: 63c7db0
+                  - group [ref=e781]:
+                    - generic "Verified commit signature" [ref=e782] [cursor=pointer]:
+                      - img "Verified commit signature" [ref=e783]
+                - button "Compare" [ref=e788] [cursor=pointer]:
+                  - generic [ref=e789]:
+                    - generic [ref=e790]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e792]:
+                - generic [ref=e793]:
+                  - link "GitHub MCP Server 0.26.3" [ref=e798] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/releases/tag/v0.26.3
+                  - generic [ref=e800]:
+                    - heading "What's Changed" [level=2] [ref=e801]
+                    - list [ref=e802]:
+                      - listitem [ref=e803]:
+                        - text: Add aliases for new actions tools by
+                        - link "@tommaso-moro" [ref=e804] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                        - text: in
+                        - link "#1652" [ref=e805] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1652
+                    - paragraph [ref=e806]:
+                      - strong [ref=e807]: Full Changelog
+                      - text: ":"
+                      - link "v0.26.2...v0.26.3" [ref=e808] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/compare/v0.26.2...v0.26.3
+                - generic [ref=e809]:
+                  - generic [ref=e810]:
+                    - heading "Contributors" [level=3] [ref=e811]
+                    - list [ref=e812]:
+                      - listitem [ref=e813]:
+                        - link "@tommaso-moro" [ref=e814] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                          - img "@tommaso-moro" [ref=e815]
+                    - generic [ref=e816]: tommaso-moro
+                  - group [ref=e819]:
+                    - button "Assets 12" [ref=e820] [cursor=pointer]:
+                      - generic [ref=e821]:
+                        - generic [ref=e822]: Assets
+                        - generic "12" [ref=e823]
+                  - generic [ref=e825]:
+                    - group [ref=e827]:
+                      - generic "Add or remove reactions" [ref=e828] [cursor=pointer]:
+                        - img [ref=e829]
+                    - generic [ref=e832]:
+                      - 'button "thumbs up (1): github-actions[bot], 10:38AM on December 19, 2025" [ref=e833] [cursor=pointer]':
+                        - generic [ref=e834]: 👍
+                        - generic [ref=e835]: "1"
+                      - 'button "hooray (2): github-actions[bot], 10:38AM on December 19, 2025" [ref=e836] [cursor=pointer]':
+                        - generic [ref=e837]: 🎉
+                        - generic [ref=e838]: "2"
+                      - 'button "rocket (2): github-actions[bot], 10:38AM on December 19, 2025" [ref=e839] [cursor=pointer]':
+                        - generic [ref=e840]: 🚀
+                        - generic [ref=e841]: "2"
+                    - generic [ref=e842]: 4 people reacted
+          - region "GitHub MCP Server 0.26.2" [ref=e843]:
+            - heading "GitHub MCP Server 0.26.2" [level=2] [ref=e844]
+            - generic [ref=e845]:
+              - generic [ref=e846]:
+                - generic [ref=e847]: 19 Dec 05:57 last month
+                - generic [ref=e848]:
+                  - img "@github-actions" [ref=e849]
+                  - link "github-actions" [ref=e850] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e851]:
+                  - img [ref=e852]
+                  - generic [ref=e854]:
+                    - text: Immutable
+                    - generic [ref=e855]: release. Only release title and notes can be modified.
+                - link "Tag v0.26.2" [ref=e857] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.26.2
+                  - generic [ref=e858]:
+                    - img "Tag" [ref=e859]
+                    - text: v0.26.2
+                - link "Commit 311d581" [ref=e862] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/commit/311d58152003c51bcc48c1853bf45239915d4ba0
+                  - img "Commit" [ref=e863]
+                  - code [ref=e865]: 311d581
+                - button "Compare" [ref=e869] [cursor=pointer]:
+                  - generic [ref=e870]:
+                    - generic [ref=e871]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e873]:
+                - generic [ref=e874]:
+                  - link "GitHub MCP Server 0.26.2" [ref=e879] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/releases/tag/v0.26.2
+                  - generic [ref=e881]:
+                    - heading "What's Changed" [level=2] [ref=e882]
+                    - list [ref=e883]:
+                      - listitem [ref=e884]:
+                        - text: "Fix stdio mode panic: inject ToolDependencies into request context by @Copilot in"
+                        - link "#1647" [ref=e885] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1647
+                    - paragraph [ref=e886]:
+                      - strong [ref=e887]: Full Changelog
+                      - text: ":"
+                      - link "v0.26.1...v0.26.2" [ref=e888] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/compare/v0.26.1...v0.26.2
+                - generic [ref=e889]:
+                  - group [ref=e892]:
+                    - button "Assets 12" [ref=e893] [cursor=pointer]:
+                      - generic [ref=e894]:
+                        - generic [ref=e895]: Assets
+                        - generic "12" [ref=e896]
+                  - generic [ref=e898]:
+                    - group [ref=e900]:
+                      - generic "Add or remove reactions" [ref=e901] [cursor=pointer]:
+                        - img [ref=e902]
+                    - generic [ref=e905]:
+                      - 'button "hooray (2): github-actions[bot], 10:04PM on December 18, 2025" [ref=e906] [cursor=pointer]':
+                        - generic [ref=e907]: 🎉
+                        - generic [ref=e908]: "2"
+                      - 'button "rocket (2): github-actions[bot], 10:04PM on December 18, 2025" [ref=e909] [cursor=pointer]':
+                        - generic [ref=e910]: 🚀
+                        - generic [ref=e911]: "2"
+                    - generic [ref=e912]: 3 people reacted
+          - region "GitHub MCP Server 0.26.1" [ref=e913]:
+            - heading "GitHub MCP Server 0.26.1" [level=2] [ref=e914]
+            - generic [ref=e915]:
+              - generic [ref=e916]:
+                - generic [ref=e917]: 18 Dec 18:54 last month
+                - generic [ref=e918]:
+                  - img "@github-actions" [ref=e919]
+                  - link "github-actions" [ref=e920] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e921]:
+                  - img [ref=e922]
+                  - generic [ref=e924]:
+                    - text: Immutable
+                    - generic [ref=e925]: release. Only release title and notes can be modified.
+                - link "Tag v0.26.1" [ref=e927] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.26.1
+                  - generic [ref=e928]:
+                    - img "Tag" [ref=e929]
+                    - text: v0.26.1
+                - link "Commit a8fafad" [ref=e932] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/commit/a8fafad82b44a6d4a62723f7e4b9f1335926d2b1
+                  - img "Commit" [ref=e933]
+                  - code [ref=e935]: a8fafad
+                - button "Compare" [ref=e939] [cursor=pointer]:
+                  - generic [ref=e940]:
+                    - generic [ref=e941]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e943]:
+                - generic [ref=e944]:
+                  - link "GitHub MCP Server 0.26.1" [ref=e949] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/releases/tag/v0.26.1
+                  - generic [ref=e951]:
+                    - paragraph [ref=e952]:
+                      - text: Fixes regression breaking some clients
+                      - link "#1644" [ref=e953] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/issues/1644
+                    - heading "What's Changed" [level=2] [ref=e954]
+                    - list [ref=e955]:
+                      - listitem [ref=e956]:
+                        - text: Fix ring buffer panic by
+                        - link "@mattdholloway" [ref=e957] [cursor=pointer]:
+                          - /url: https://github.com/mattdholloway
+                        - text: in
+                        - link "#1556" [ref=e958] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1556
+                      - listitem [ref=e959]:
+                        - text: Omit icon sizes field for backward compatibility with older MCP clients by @Copilot in
+                        - link "#1645" [ref=e960] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1645
+                    - paragraph [ref=e961]:
+                      - strong [ref=e962]: Full Changelog
+                      - text: ":"
+                      - link "v0.26.0...v0.26.1" [ref=e963] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/compare/v0.26.0...v0.26.1
+                - generic [ref=e964]:
+                  - generic [ref=e965]:
+                    - heading "Contributors" [level=3] [ref=e966]
+                    - list [ref=e967]:
+                      - listitem [ref=e968]:
+                        - link "@mattdholloway" [ref=e969] [cursor=pointer]:
+                          - /url: https://github.com/mattdholloway
+                          - img "@mattdholloway" [ref=e970]
+                    - generic [ref=e971]: mattdholloway
+                  - group [ref=e974]:
+                    - button "Assets 12" [ref=e975] [cursor=pointer]:
+                      - generic [ref=e976]:
+                        - generic [ref=e977]: Assets
+                        - generic "12" [ref=e978]
+                  - generic [ref=e980]:
+                    - group [ref=e982]:
+                      - generic "Add or remove reactions" [ref=e983] [cursor=pointer]:
+                        - img [ref=e984]
+                    - generic [ref=e987]:
+                      - 'button "hooray (2): github-actions[bot], 06:47PM on December 18, 2025" [ref=e988] [cursor=pointer]':
+                        - generic [ref=e989]: 🎉
+                        - generic [ref=e990]: "2"
+                      - 'button "rocket (2): github-actions[bot], 06:47PM on December 18, 2025" [ref=e991] [cursor=pointer]':
+                        - generic [ref=e992]: 🚀
+                        - generic [ref=e993]: "2"
+                    - generic [ref=e994]: 3 people reacted
+          - region "GitHub MCP Server 0.26.0" [ref=e995]:
+            - heading "GitHub MCP Server 0.26.0" [level=2] [ref=e996]
+            - generic [ref=e997]:
+              - generic [ref=e998]:
+                - generic [ref=e999]: 18 Dec 15:20 last month
+                - generic [ref=e1000]:
+                  - img "@github-actions" [ref=e1001]
+                  - link "github-actions" [ref=e1002] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e1003]:
+                  - img [ref=e1004]
+                  - generic [ref=e1006]:
+                    - text: Immutable
+                    - generic [ref=e1007]: release. Only release title and notes can be modified.
+                - link "Tag v0.26.0" [ref=e1009] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.26.0
+                  - generic [ref=e1010]:
+                    - img "Tag" [ref=e1011]
+                    - text: v0.26.0
+                - link "Commit cc5f536" [ref=e1014] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/commit/cc5f53620e20e88ddb5e51b18aa6d742c2361f69
+                  - img "Commit" [ref=e1015]
+                  - code [ref=e1017]: cc5f536
+                - button "Compare" [ref=e1021] [cursor=pointer]:
+                  - generic [ref=e1022]:
+                    - generic [ref=e1023]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e1025]:
+                - generic [ref=e1026]:
+                  - link "GitHub MCP Server 0.26.0" [ref=e1031] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/releases/tag/v0.26.0
+                  - generic [ref=e1033]:
+                    - heading "GitHub MCP Server gets a touch of gloss 💅" [level=2] [ref=e1034]
+                    - paragraph [ref=e1035]: "For clients that support icons (part of the newest MCP specification) we now provide them:"
+                    - link "new mcp icons shown in the vscode tool selection ui" [ref=e1036] [cursor=pointer]:
+                      - /url: https://private-user-images.githubusercontent.com/4811358/528157437-3f8d20e2-ff95-4f4d-ab00-f8fca3ae392f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NzE1MDQsIm5iZiI6MTc2ODQ3MTIwNCwicGF0aCI6Ii80ODExMzU4LzUyODE1NzQzNy0zZjhkMjBlMi1mZjk1LTRmNGQtYWIwMC1mOGZjYTNhZTM5MmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDExNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjAxMTVUMTAwMDA0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmRhYjJjYWM1MzE3OTMxOWViZGFjNWVmNTA4MWUwZmFlYjg5MTZmODU3ZWE2OWU0NDU0YWRiY2MyNGU1MGEzZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.8HItXljrIaZkG7IMr6eDrGH22kvqrriwaGxE8pSUzyM
+                      - img "new mcp icons shown in the vscode tool selection ui" [ref=e1037]
+                    - link "new mcp icons shown in the vscode mcp resource ui" [ref=e1038] [cursor=pointer]:
+                      - /url: https://private-user-images.githubusercontent.com/4811358/528157758-f2147d8e-ad06-45d7-a229-3244c7ae9b57.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NzE1MDQsIm5iZiI6MTc2ODQ3MTIwNCwicGF0aCI6Ii80ODExMzU4LzUyODE1Nzc1OC1mMjE0N2Q4ZS1hZDA2LTQ1ZDctYTIyOS0zMjQ0YzdhZTliNTcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDExNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjAxMTVUMTAwMDA0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YjAwZTE3ZDQxZjBkODM5NDc4YjUxZWI5OWFiMGRhMGJlMTliMjU1ZTM2MzY3YjkxOTY2OTk4YmY5ZDZmYTc4YSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.X1sKwFyphAMLDla0NyddwTOEBKPxjTmJQ5mWKST4Td0
+                      - img "new mcp icons shown in the vscode mcp resource ui" [ref=e1039]
+                    - heading "Main Features" [level=2] [ref=e1040]
+                    - heading "🎨 Octicon Icons for Tools, Resources, and Prompts" [level=3] [ref=e1041]
+                    - paragraph [ref=e1042]: MCP clients that support the new icons specification will now display GitHub's Octicon icons alongside tools and resources, making it easier to identify capabilities at a glance.
+                    - heading "🏗️ Inventory Pattern Architecture" [level=3] [ref=e1043]
+                    - paragraph [ref=e1044]: A new internal architecture introduces the Inventory pattern with builder, filtering, and per-request optimization. This lays groundwork for better performance and configurability, especially for remote server deployments.
+                    - heading "🚩 Feature Flag Support & Consolidated Actions Toolsets" [level=3] [ref=e1045]
+                    - paragraph [ref=e1046]: Added infrastructure for feature flag-based tool enablement, plus a consolidated actions toolset for better organization of GitHub Actions-related tools gated by a feature flag.
+                    - list [ref=e1047]:
+                      - listitem [ref=e1048]:
+                        - code [ref=e1049]: "--features"
+                        - text: cli flag or
+                        - code [ref=e1050]: GITHUB_MCP_FEATURES
+                        - text: via ENV.
+                    - heading "🔧 Bug Fixes" [level=3] [ref=e1051]
+                    - list [ref=e1052]:
+                      - listitem [ref=e1053]:
+                        - strong [ref=e1054]:
+                          - text: Fixed
+                          - code [ref=e1055]: create_or_update
+                          - text: SHA failures
+                        - text: "- Resolved issues where file updates could fail due to SHA mismatches"
+                      - listitem [ref=e1056]:
+                        - strong [ref=e1057]: Path parameter now optional
+                        - text: "- Fixed incorrect required parameter validation"
+                    - heading "📚 Documentation" [level=3] [ref=e1058]
+                    - list [ref=e1059]:
+                      - listitem [ref=e1060]:
+                        - text: New
+                        - link "Antigravity installation guide" [ref=e1061] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/blob/main/docs/installation-guides/install-antigravity.md
+                      - listitem [ref=e1062]:
+                        - text: New
+                        - link "tool renaming guide" [ref=e1063] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/blob/main/docs/tool-renaming.md
+                        - text: for handling deprecated tool names
+                    - heading "What's Changed" [level=2] [ref=e1064]
+                    - list [ref=e1065]:
+                      - listitem [ref=e1066]:
+                        - text: Fix create_or_update SHA-related failures by
+                        - link "@almaleksia" [ref=e1067] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                        - text: in
+                        - link "#1621" [ref=e1068] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1621
+                      - listitem [ref=e1069]:
+                        - text: "docs: Add Antigravity installation guide by"
+                        - link "@ManoloZocco" [ref=e1070] [cursor=pointer]:
+                          - /url: https://github.com/ManoloZocco
+                        - text: in
+                        - link "#1549" [ref=e1071] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1549
+                      - listitem [ref=e1072]:
+                        - text: Update docs to include tool renaming guide by
+                        - link "@tommaso-moro" [ref=e1073] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                        - text: in
+                        - link "#1623" [ref=e1074] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1623
+                      - listitem [ref=e1075]:
+                        - text: Update pr template by
+                        - link "@JoannaaKL" [ref=e1076] [cursor=pointer]:
+                          - /url: https://github.com/JoannaaKL
+                        - text: in
+                        - link "#1605" [ref=e1077] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1605
+                      - listitem [ref=e1078]:
+                        - text: "Chore: Add testify-based HTTP mocking infrastructure and pilot migration by @Copilot in"
+                        - link "#1606" [ref=e1079] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1606
+                      - listitem [ref=e1080]:
+                        - text: "build(deps): bump actions/cache from 4 to 5 by"
+                        - link "@dependabot" [ref=e1081] [cursor=pointer]:
+                          - /url: https://github.com/dependabot
+                        - text: "[bot] in"
+                        - link "#1609" [ref=e1082] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1609
+                      - listitem [ref=e1083]:
+                        - text: "refactor: Introduce Inventory pattern with builder, filtering, and per-request optimization by"
+                        - link "@SamMorrowDrums" [ref=e1084] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1589" [ref=e1085] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1589
+                      - listitem [ref=e1086]:
+                        - text: "Fix: path param should be optional by"
+                        - link "@almaleksia" [ref=e1087] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                        - text: in
+                        - link "#1631" [ref=e1088] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1631
+                      - listitem [ref=e1089]:
+                        - text: "fix: track HTTP status code errors in context for observability by"
+                        - link "@SamMorrowDrums" [ref=e1090] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1630" [ref=e1091] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1630
+                      - listitem [ref=e1092]:
+                        - text: "feat: Add Octicon icons to MCP tools, resources, and prompts by"
+                        - link "@SamMorrowDrums" [ref=e1093] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1603" [ref=e1094] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1603
+                      - listitem [ref=e1095]:
+                        - text: Update docs generation to populate correct docs, remove redundant docs by
+                        - link "@tommaso-moro" [ref=e1096] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                        - text: in
+                        - link "#1634" [ref=e1097] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1634
+                      - listitem [ref=e1098]:
+                        - text: "refactor: inject deps via context instead of closures by"
+                        - link "@SamMorrowDrums" [ref=e1099] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1640" [ref=e1100] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1640
+                      - listitem [ref=e1101]:
+                        - text: Partial migration from go-github-mock to testify-based mocks by @Copilot in
+                        - link "#1629" [ref=e1102] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1629
+                      - listitem [ref=e1103]:
+                        - text: Add ff support and consolidated actions toolsets by
+                        - link "@mattdholloway" [ref=e1104] [cursor=pointer]:
+                          - /url: https://github.com/mattdholloway
+                        - text: in
+                        - link "#1622" [ref=e1105] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1622
+                    - heading "New Contributors" [level=2] [ref=e1106]
+                    - list [ref=e1107]:
+                      - listitem [ref=e1108]:
+                        - link "@ManoloZocco" [ref=e1109] [cursor=pointer]:
+                          - /url: https://github.com/ManoloZocco
+                        - text: made their first contribution in
+                        - link "#1549" [ref=e1110] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1549
+                    - paragraph [ref=e1111]:
+                      - strong [ref=e1112]: Full Changelog
+                      - text: ":"
+                      - link "v0.25.0...v0.26.0" [ref=e1113] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/compare/v0.25.0...v0.26.0
+                - generic [ref=e1114]:
+                  - generic [ref=e1115]:
+                    - heading "Contributors" [level=3] [ref=e1116]
+                    - list [ref=e1117]:
+                      - listitem [ref=e1118]:
+                        - link "@mattdholloway" [ref=e1119] [cursor=pointer]:
+                          - /url: https://github.com/mattdholloway
+                          - img "@mattdholloway" [ref=e1120]
+                      - listitem [ref=e1121]:
+                        - link "@almaleksia" [ref=e1122] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                          - img "@almaleksia" [ref=e1123]
+                      - listitem [ref=e1124]:
+                        - link "@SamMorrowDrums" [ref=e1125] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                          - img "@SamMorrowDrums" [ref=e1126]
+                      - listitem [ref=e1127]:
+                        - link "@dependabot" [ref=e1128] [cursor=pointer]:
+                          - /url: https://github.com/dependabot
+                          - img "@dependabot" [ref=e1129]
+                      - listitem [ref=e1130]:
+                        - link "@ManoloZocco" [ref=e1131] [cursor=pointer]:
+                          - /url: https://github.com/ManoloZocco
+                          - img "@ManoloZocco" [ref=e1132]
+                      - listitem [ref=e1133]:
+                        - link "@tommaso-moro" [ref=e1134] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                          - img "@tommaso-moro" [ref=e1135]
+                      - listitem [ref=e1136]:
+                        - link "@JoannaaKL" [ref=e1137] [cursor=pointer]:
+                          - /url: https://github.com/JoannaaKL
+                          - img "@JoannaaKL" [ref=e1138]
+                    - generic [ref=e1139]: mattdholloway, almaleksia, and 5 other contributors
+                  - group [ref=e1142]:
+                    - button "Assets 12" [ref=e1143] [cursor=pointer]:
+                      - generic [ref=e1144]:
+                        - generic [ref=e1145]: Assets
+                        - generic "12" [ref=e1146]
+                  - generic [ref=e1148]:
+                    - group [ref=e1150]:
+                      - generic "Add or remove reactions" [ref=e1151] [cursor=pointer]:
+                        - img [ref=e1152]
+                    - generic [ref=e1155]:
+                      - 'button "hooray (6): github-actions[bot], 03:06PM on December 18, 2025" [ref=e1156] [cursor=pointer]':
+                        - generic [ref=e1157]: 🎉
+                        - generic [ref=e1158]: "6"
+                      - 'button "rocket (2): github-actions[bot], 03:06PM on December 18, 2025" [ref=e1159] [cursor=pointer]':
+                        - generic [ref=e1160]: 🚀
+                        - generic [ref=e1161]: "2"
+                    - generic [ref=e1162]: 7 people reacted
+          - region "GitHub MCP Server 0.26.0-rc.3" [ref=e1163]:
+            - heading "GitHub MCP Server 0.26.0-rc.3" [level=2] [ref=e1164]
+            - generic [ref=e1165]:
+              - generic [ref=e1166]:
+                - generic [ref=e1167]: 17 Dec 00:09 last month
+                - generic [ref=e1168]:
+                  - img "@github-actions" [ref=e1169]
+                  - link "github-actions" [ref=e1170] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e1171]:
+                  - img [ref=e1172]
+                  - generic [ref=e1174]:
+                    - text: Immutable
+                    - generic [ref=e1175]: release. Only release title and notes can be modified.
+                - link "Tag v0.26.0-rc.3" [ref=e1177] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.26.0-rc.3
+                  - generic [ref=e1178]:
+                    - img "Tag" [ref=e1179]
+                    - text: v0.26.0-rc.3
+                - generic [ref=e1181]:
+                  - link "Commit bab6b7c" [ref=e1182] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/commit/bab6b7c971a13fa1d095c086e502b52597dbdf20
+                    - img "Commit" [ref=e1183]
+                    - code [ref=e1185]: bab6b7c
+                  - group [ref=e1186]:
+                    - generic "Verified commit signature" [ref=e1187] [cursor=pointer]:
+                      - img "Verified commit signature" [ref=e1188]
+                - button "Compare" [ref=e1193] [cursor=pointer]:
+                  - generic [ref=e1194]:
+                    - generic [ref=e1195]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e1197]:
+                - generic [ref=e1198]:
+                  - generic [ref=e1201]:
+                    - link "GitHub MCP Server 0.26.0-rc.3" [ref=e1203] [cursor=pointer]:
+                      - /url: /github/github-mcp-server/releases/tag/v0.26.0-rc.3
+                    - generic [ref=e1205]: Pre-release
+                  - paragraph [ref=e1207]:
+                    - text: Rename registry.Registry to inventory.Inventory in order to avoid a namespace collision with MCP Registry
+                    - strong [ref=e1208]: Full Changelog
+                    - text: ":"
+                    - link "v0.26.0-rc.2...v0.26.0-rc.3" [ref=e1209] [cursor=pointer]:
+                      - /url: https://github.com/github/github-mcp-server/compare/v0.26.0-rc.2...v0.26.0-rc.3
+                - generic [ref=e1210]:
+                  - group [ref=e1213]:
+                    - button "Assets 12" [ref=e1214] [cursor=pointer]:
+                      - generic [ref=e1215]:
+                        - generic [ref=e1216]: Assets
+                        - generic "12" [ref=e1217]
+                  - generic [ref=e1219]:
+                    - group [ref=e1221]:
+                      - generic "Add or remove reactions" [ref=e1222] [cursor=pointer]:
+                        - img [ref=e1223]
+                    - generic [ref=e1226]:
+                      - 'button "laugh (3): github-actions[bot], 11:48PM on December 16, 2025" [ref=e1227] [cursor=pointer]':
+                        - generic [ref=e1228]: 😄
+                        - generic [ref=e1229]: "3"
+                      - 'button "hooray (3): github-actions[bot], 11:48PM on December 16, 2025" [ref=e1230] [cursor=pointer]':
+                        - generic [ref=e1231]: 🎉
+                        - generic [ref=e1232]: "3"
+                      - 'button "eyes (1): github-actions[bot], 11:48PM on December 16, 2025" [ref=e1233] [cursor=pointer]':
+                        - generic [ref=e1234]: 👀
+                        - generic [ref=e1235]: "1"
+                    - generic [ref=e1236]: 6 people reacted
+          - region "GitHub MCP Server 0.26.0-rc.2" [ref=e1237]:
+            - heading "GitHub MCP Server 0.26.0-rc.2" [level=2] [ref=e1238]
+            - generic [ref=e1239]:
+              - generic [ref=e1240]:
+                - generic [ref=e1241]: 16 Dec 22:58 last month
+                - generic [ref=e1242]:
+                  - img "@github-actions" [ref=e1243]
+                  - link "github-actions" [ref=e1244] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e1245]:
+                  - img [ref=e1246]
+                  - generic [ref=e1248]:
+                    - text: Immutable
+                    - generic [ref=e1249]: release. Only release title and notes can be modified.
+                - link "Tag v0.26.0-rc.2" [ref=e1251] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.26.0-rc.2
+                  - generic [ref=e1252]:
+                    - img "Tag" [ref=e1253]
+                    - text: v0.26.0-rc.2
+                - generic [ref=e1255]:
+                  - link "Commit fa18a2f" [ref=e1256] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/commit/fa18a2f5e99ba52ae0bdb78470bc059a18efbd5c
+                    - img "Commit" [ref=e1257]
+                    - code [ref=e1259]: fa18a2f
+                  - group [ref=e1260]:
+                    - generic "Verified commit signature" [ref=e1261] [cursor=pointer]:
+                      - img "Verified commit signature" [ref=e1262]
+                - button "Compare" [ref=e1267] [cursor=pointer]:
+                  - generic [ref=e1268]:
+                    - generic [ref=e1269]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e1271]:
+                - generic [ref=e1272]:
+                  - generic [ref=e1275]:
+                    - link "GitHub MCP Server 0.26.0-rc.2" [ref=e1277] [cursor=pointer]:
+                      - /url: /github/github-mcp-server/releases/tag/v0.26.0-rc.2
+                    - generic [ref=e1279]: Pre-release
+                  - generic [ref=e1280]:
+                    - heading "v0.26.0-rc.2 Release Notes" [level=2] [ref=e1281]
+                    - heading "Fixes" [level=3] [ref=e1282]
+                    - list [ref=e1283]:
+                      - listitem [ref=e1284]:
+                        - paragraph [ref=e1285]:
+                          - strong [ref=e1286]: "fix(get_file_contents):"
+                          - text: Restore correct implementation from
+                          - link "#1582" [ref=e1287] [cursor=pointer]:
+                            - /url: https://github.com/github/github-mcp-server/pull/1582
+                        - list [ref=e1288]:
+                          - listitem [ref=e1289]: Fixed control flow to resolve git reference SHA before calling GetContents API
+                          - listitem [ref=e1290]:
+                            - text: Restored
+                            - code [ref=e1291]: matchFiles
+                            - text: helper function for proper fallback when files aren't found directly
+                          - listitem [ref=e1292]:
+                            - text: Ensures proper URI construction with resolved SHA (e.g.,
+                            - code [ref=e1293]: repo://owner/repo/<sha>/contents/path
+                            - text: )
+                      - listitem [ref=e1294]:
+                        - paragraph [ref=e1295]:
+                          - strong [ref=e1296]: "chore:"
+                          - text: Update server.json schema to 2025-12-11
+                        - list [ref=e1297]:
+                          - listitem [ref=e1298]: Fixed MCP registry publish workflow by updating to non-deprecated schema
+                          - listitem [ref=e1299]:
+                            - text: Removed
+                            - code [ref=e1300]: status
+                            - text: field (now managed by registry)
+                    - heading "Summary" [level=3] [ref=e1301]
+                    - paragraph [ref=e1302]:
+                      - text: This pre-release fixes a regression in
+                      - code [ref=e1303]: get_file_contents
+                      - text: "that was introduced during the registry refactor. The tool was returning empty responses because:"
+                    - list [ref=e1304]:
+                      - listitem [ref=e1305]: The resolved SHA wasn't being applied before the GitHub Contents API call
+                      - listitem [ref=e1306]:
+                        - text: The
+                        - code [ref=e1307]: matchFiles
+                        - text: fallback logic was incorrectly restructured
+                    - paragraph [ref=e1308]:
+                      - text: Both issues are now fixed, restoring the behavior from PR
+                      - link "#1582" [ref=e1309] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/pull/1582
+                      - text: .
+                    - paragraph [ref=e1310]:
+                      - strong [ref=e1311]: Full Changelog
+                      - text: ":"
+                      - link "v0.26.0-rc.1...v0.26.0-rc.2" [ref=e1312] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/compare/v0.26.0-rc.1...v0.26.0-rc.2
+                - generic [ref=e1313]:
+                  - group [ref=e1316]:
+                    - button "Assets 12" [ref=e1317] [cursor=pointer]:
+                      - generic [ref=e1318]:
+                        - generic [ref=e1319]: Assets
+                        - generic "12" [ref=e1320]
+                  - generic [ref=e1322]:
+                    - group [ref=e1324]:
+                      - generic "Add or remove reactions" [ref=e1325] [cursor=pointer]:
+                        - img [ref=e1326]
+                    - generic [ref=e1329]:
+                      - 'button "hooray (1): github-actions[bot], 10:46PM on December 16, 2025" [ref=e1330] [cursor=pointer]':
+                        - generic [ref=e1331]: 🎉
+                        - generic [ref=e1332]: "1"
+                      - 'button "eyes (1): github-actions[bot], 10:46PM on December 16, 2025" [ref=e1333] [cursor=pointer]':
+                        - generic [ref=e1334]: 👀
+                        - generic [ref=e1335]: "1"
+                    - generic [ref=e1336]: 2 people reacted
+          - region "GitHub MCP Server 0.26.0-rc.1" [ref=e1337]:
+            - heading "GitHub MCP Server 0.26.0-rc.1" [level=2] [ref=e1338]
+            - generic [ref=e1339]:
+              - generic [ref=e1340]:
+                - generic [ref=e1341]: 16 Dec 22:56 last month
+                - generic [ref=e1342]:
+                  - img "@github-actions" [ref=e1343]
+                  - link "github-actions" [ref=e1344] [cursor=pointer]:
+                    - /url: /apps/github-actions
+                - generic [ref=e1345]:
+                  - img [ref=e1346]
+                  - generic [ref=e1348]:
+                    - text: Immutable
+                    - generic [ref=e1349]: release. Only release title and notes can be modified.
+                - link "Tag v0.26.0-rc.1" [ref=e1351] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tree/v0.26.0-rc.1
+                  - generic [ref=e1352]:
+                    - img "Tag" [ref=e1353]
+                    - text: v0.26.0-rc.1
+                - generic [ref=e1355]:
+                  - link "Commit 04a842f" [ref=e1356] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/commit/04a842f54560e5ad8662606642c7a6f83b59718d
+                    - img "Commit" [ref=e1357]
+                    - code [ref=e1359]: 04a842f
+                  - group [ref=e1360]:
+                    - generic "Verified commit signature" [ref=e1361] [cursor=pointer]:
+                      - img "Verified commit signature" [ref=e1362]
+                - button "Compare" [ref=e1367] [cursor=pointer]:
+                  - generic [ref=e1368]:
+                    - generic [ref=e1369]: Compare
+                    - generic:
+                      - img
+              - generic [ref=e1371]:
+                - generic [ref=e1372]:
+                  - generic [ref=e1375]:
+                    - link "GitHub MCP Server 0.26.0-rc.1" [ref=e1377] [cursor=pointer]:
+                      - /url: /github/github-mcp-server/releases/tag/v0.26.0-rc.1
+                    - generic [ref=e1379]: Pre-release
+                  - generic [ref=e1380]:
+                    - heading "Highlights" [level=2] [ref=e1381]
+                    - heading "🏗️ Registry Pattern Refactoring" [level=3] [ref=e1382]
+                    - list [ref=e1383]:
+                      - listitem [ref=e1384]:
+                        - text: Migrate context_tools to new ServerTool pattern (
+                        - link "#1590" [ref=e1385] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1590
+                        - text: )
+                      - listitem [ref=e1386]:
+                        - text: Migrate notifications.go to NewTool pattern (
+                        - link "#1592" [ref=e1387] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1592
+                        - text: )
+                    - paragraph [ref=e1388]:
+                      - text: These PRs are part of a larger refactoring effort moving all tools to a new
+                      - code [ref=e1389]: ServerTool
+                      - text: pattern with typed dependency injection. This improves code maintainability and enables better testability.
+                    - heading "🐛 Bug Fix" [level=3] [ref=e1390]
+                    - list [ref=e1391]:
+                      - listitem [ref=e1392]:
+                        - strong [ref=e1393]:
+                          - code [ref=e1394]: create_or_update_file
+                        - text: "- SHA is now optional; if not supplied, the tool automatically retrieves the original SHA ("
+                        - link "#1621" [ref=e1395] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1621
+                        - text: )
+                    - heading "📚 Documentation" [level=3] [ref=e1396]
+                    - list [ref=e1397]:
+                      - listitem [ref=e1398]:
+                        - text: Add Antigravity installation guide (
+                        - link "#1549" [ref=e1399] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1549
+                        - text: )
+                      - listitem [ref=e1400]:
+                        - text: Add tool renaming guide (
+                        - link "#1623" [ref=e1401] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1623
+                        - text: )
+                    - separator [ref=e1402]
+                    - heading "What's Changed" [level=2] [ref=e1403]
+                    - list [ref=e1404]:
+                      - listitem [ref=e1405]:
+                        - text: Fix create_or_update SHA-related failures by
+                        - link "@almaleksia" [ref=e1406] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                        - text: in
+                        - link "#1621" [ref=e1407] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1621
+                      - listitem [ref=e1408]:
+                        - text: "docs: Add Antigravity installation guide by"
+                        - link "@ManoloZocco" [ref=e1409] [cursor=pointer]:
+                          - /url: https://github.com/ManoloZocco
+                        - text: in
+                        - link "#1549" [ref=e1410] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1549
+                      - listitem [ref=e1411]:
+                        - text: Update docs to include tool renaming guide by
+                        - link "@tommaso-moro" [ref=e1412] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                        - text: in
+                        - link "#1623" [ref=e1413] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1623
+                      - listitem [ref=e1414]:
+                        - text: Migrate context_tools to new ServerTool pattern by
+                        - link "@SamMorrowDrums" [ref=e1415] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1590" [ref=e1416] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1590
+                      - listitem [ref=e1417]:
+                        - text: "refactor(notifications): migrate notifications.go to NewTool pattern by"
+                        - link "@SamMorrowDrums" [ref=e1418] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                        - text: in
+                        - link "#1592" [ref=e1419] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1592
+                    - heading "New Contributors" [level=2] [ref=e1420]
+                    - list [ref=e1421]:
+                      - listitem [ref=e1422]:
+                        - link "@ManoloZocco" [ref=e1423] [cursor=pointer]:
+                          - /url: https://github.com/ManoloZocco
+                        - text: made their first contribution in
+                        - link "#1549" [ref=e1424] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1549
+                    - paragraph [ref=e1425]:
+                      - strong [ref=e1426]: Full Changelog
+                      - text: ":"
+                      - link "v0.25.0...v0.26.0-rc.1" [ref=e1427] [cursor=pointer]:
+                        - /url: https://github.com/github/github-mcp-server/compare/v0.25.0...v0.26.0-rc.1
+                - generic [ref=e1428]:
+                  - generic [ref=e1429]:
+                    - heading "Contributors" [level=3] [ref=e1430]
+                    - list [ref=e1431]:
+                      - listitem [ref=e1432]:
+                        - link "@almaleksia" [ref=e1433] [cursor=pointer]:
+                          - /url: https://github.com/almaleksia
+                          - img "@almaleksia" [ref=e1434]
+                      - listitem [ref=e1435]:
+                        - link "@SamMorrowDrums" [ref=e1436] [cursor=pointer]:
+                          - /url: https://github.com/SamMorrowDrums
+                          - img "@SamMorrowDrums" [ref=e1437]
+                      - listitem [ref=e1438]:
+                        - link "@ManoloZocco" [ref=e1439] [cursor=pointer]:
+                          - /url: https://github.com/ManoloZocco
+                          - img "@ManoloZocco" [ref=e1440]
+                      - listitem [ref=e1441]:
+                        - link "@tommaso-moro" [ref=e1442] [cursor=pointer]:
+                          - /url: https://github.com/tommaso-moro
+                          - img "@tommaso-moro" [ref=e1443]
+                    - generic [ref=e1444]: almaleksia, SamMorrowDrums, and 2 other contributors
+                  - group [ref=e1447]:
+                    - button "Assets 12" [ref=e1448] [cursor=pointer]:
+                      - generic [ref=e1449]:
+                        - generic [ref=e1450]: Assets
+                        - generic "12" [ref=e1451]
+                  - generic [ref=e1453]:
+                    - group [ref=e1455]:
+                      - generic "Add or remove reactions" [ref=e1456] [cursor=pointer]:
+                        - img [ref=e1457]
+                    - 'button "hooray (1): github-actions[bot], 10:02PM on December 16, 2025" [ref=e1461] [cursor=pointer]':
+                      - generic [ref=e1462]: 🎉
+                      - generic [ref=e1463]: "1"
+                    - generic [ref=e1464]: 1 person reacted
+          - navigation "Pagination" [ref=e1466]:
+            - generic "Previous page" [ref=e1467]: Previous
+            - emphasis [ref=e1468] [cursor=pointer]: "1"
+            - link "Page 2" [ref=e1469] [cursor=pointer]:
+              - /url: /github/github-mcp-server/releases?page=2
+              - text: "2"
+            - link "Page 3" [ref=e1470] [cursor=pointer]:
+              - /url: /github/github-mcp-server/releases?page=3
+              - text: "3"
+            - link "Page 4" [ref=e1471] [cursor=pointer]:
+              - /url: /github/github-mcp-server/releases?page=4
+              - text: "4"
+            - link "Page 5" [ref=e1472] [cursor=pointer]:
+              - /url: /github/github-mcp-server/releases?page=5
+              - text: "5"
+            - link "Next page" [ref=e1473] [cursor=pointer]:
+              - /url: /github/github-mcp-server/releases?page=2
+              - text: Next
+  - contentinfo [ref=e1474]:
+    - heading "Footer" [level=2] [ref=e1475]
+    - generic [ref=e1476]:
+      - generic [ref=e1477]:
+        - link "GitHub Homepage" [ref=e1478] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1479]
+        - generic [ref=e1481]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1482]:
+        - heading "Footer navigation" [level=3] [ref=e1483]
+        - list "Footer navigation" [ref=e1484]:
+          - listitem [ref=e1485]:
+            - link "Terms" [ref=e1486] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1487]:
+            - link "Privacy" [ref=e1488] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1489]:
+            - link "Security" [ref=e1490] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1491]:
+            - link "Status" [ref=e1492] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1493]:
+            - link "Community" [ref=e1494] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1495]:
+            - link "Docs" [ref=e1496] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1497]:
+            - link "Contact" [ref=e1498] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1499]:
+            - button "Manage cookies" [ref=e1501] [cursor=pointer]
+          - listitem [ref=e1502]:
+            - button "Do not share my personal information" [ref=e1504] [cursor=pointer]
+```

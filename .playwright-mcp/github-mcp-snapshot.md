@@ -1,0 +1,1858 @@
+### Page state
+- Page URL: https://github.com/github/github-mcp-server
+- Page Title: github/github-mcp-server: GitHub's official MCP Server
+- Page Snapshot:
+```yaml
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Open global navigation menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e15]
+          - link "Homepage" [ref=e17] [cursor=pointer]:
+            - /url: https://github.com/
+            - img [ref=e18]
+          - navigation "GitHub Breadcrumb" [ref=e22]:
+            - list [ref=e23]:
+              - listitem [ref=e24]:
+                - link "github" [ref=e25] [cursor=pointer]:
+                  - /url: /github
+                  - generic [ref=e26]: github
+                - generic [ref=e28]:
+                  - generic [ref=e29]: /
+                  - img [ref=e30]
+              - listitem [ref=e32]:
+                - link "github-mcp-server" [ref=e33] [cursor=pointer]:
+                  - /url: /github/github-mcp-server
+                  - generic [ref=e34]: github-mcp-server
+        - generic [ref=e35]:
+          - generic [ref=e41]:
+            - generic "Search or jump to…":
+              - img
+            - button "Type / to search" [ref=e42] [cursor=pointer]:
+              - generic [ref=e44]:
+                - text: Type
+                - generic [ref=e45]: /
+                - text: to search
+          - generic [ref=e47]:
+            - link "Chat with Copilot" [ref=e49] [cursor=pointer]:
+              - /url: /copilot
+              - img
+            - button "Open Copilot…" [ref=e52] [cursor=pointer]:
+              - img
+          - generic [ref=e53]:
+            - button "Create something new" [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]:
+                - generic:
+                  - img
+                - img [ref=e58]
+            - link "Your issues" [ref=e60] [cursor=pointer]:
+              - /url: /issues
+              - img
+            - link "Your pull requests" [ref=e61] [cursor=pointer]:
+              - /url: /pulls
+              - img
+            - link "Repositories" [ref=e62] [cursor=pointer]:
+              - /url: /repos
+              - img
+          - link "You have no unread notifications" [ref=e64] [cursor=pointer]:
+            - /url: /notifications
+            - img
+          - button "Open user navigation menu" [ref=e69] [cursor=pointer]
+      - navigation "Repository" [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Code" [ref=e76] [cursor=pointer]:
+              - /url: /github/github-mcp-server
+              - img [ref=e77]
+              - generic [ref=e79]: Code
+          - listitem [ref=e80]:
+            - link "Issues 136" [ref=e81] [cursor=pointer]:
+              - /url: /github/github-mcp-server/issues
+              - img [ref=e82]
+              - generic [ref=e85]: Issues
+              - generic "136" [ref=e86]
+          - listitem [ref=e87]:
+            - link "Pull requests 108" [ref=e88] [cursor=pointer]:
+              - /url: /github/github-mcp-server/pulls
+              - img [ref=e89]
+              - generic [ref=e91]: Pull requests
+              - generic "108" [ref=e92]
+          - listitem [ref=e93]:
+            - link "Discussions" [ref=e94] [cursor=pointer]:
+              - /url: /github/github-mcp-server/discussions
+              - img [ref=e95]
+              - generic [ref=e97]: Discussions
+          - listitem [ref=e98]:
+            - link "Actions" [ref=e99] [cursor=pointer]:
+              - /url: /github/github-mcp-server/actions
+              - img [ref=e100]
+              - generic [ref=e102]: Actions
+          - listitem [ref=e103]:
+            - link "Models" [ref=e104] [cursor=pointer]:
+              - /url: /github/github-mcp-server/models
+              - img [ref=e105]
+              - generic [ref=e107]: Models
+          - listitem [ref=e108]:
+            - link "Security" [ref=e109] [cursor=pointer]:
+              - /url: /github/github-mcp-server/security
+              - img [ref=e110]
+              - generic [ref=e112]: Security
+          - listitem [ref=e113]:
+            - link "Insights" [ref=e114] [cursor=pointer]:
+              - /url: /github/github-mcp-server/pulse
+              - img [ref=e115]
+              - generic [ref=e117]: Insights
+  - main [ref=e121]:
+    - generic [ref=e123]:
+      - generic [ref=e125]:
+        - img "Owner avatar" [ref=e126]
+        - strong [ref=e127]:
+          - link "github-mcp-server" [ref=e128] [cursor=pointer]:
+            - /url: /github/github-mcp-server
+        - generic [ref=e129]: Public
+      - generic [ref=e130]:
+        - list:
+          - listitem [ref=e131]:
+            - 'button "Watch: Participating in github/github-mcp-server" [ref=e135] [cursor=pointer]':
+              - generic [ref=e136]:
+                - generic:
+                  - img
+                - generic [ref=e137]:
+                  - text: Watch
+                  - generic [ref=e138]: "294"
+              - generic:
+                - img
+          - listitem [ref=e139]:
+            - generic [ref=e140]:
+              - link "Fork 3.4k" [ref=e141] [cursor=pointer]:
+                - /url: /github/github-mcp-server/fork
+                - img [ref=e142]
+                - text: Fork
+                - generic "3,377" [ref=e144]: 3.4k
+              - group [ref=e145]:
+                - button "See your forks of this repository" [ref=e146] [cursor=pointer]:
+                  - img [ref=e147]
+          - listitem [ref=e149]:
+            - generic [ref=e1753]:
+              - button "Starred, click to unstar this repository (25.9k)" [active] [ref=e1755] [cursor=pointer]:
+                - img [ref=e1756]
+                - text: Starred
+                - generic "25.9k users starred this repository" [ref=e1758]: 25.9k
+              - group [ref=e1759]:
+                - button "Add this repository to a list" [ref=e1760] [cursor=pointer]:
+                  - img [ref=e1761]
+    - generic [ref=e164]:
+      - heading "github/github-mcp-server" [level=1] [ref=e165]
+      - generic [ref=e168]:
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - button "main branch" [ref=e176] [cursor=pointer]:
+                - generic [ref=e177]:
+                  - generic [ref=e179]:
+                    - img [ref=e181]
+                    - generic [ref=e184]: main
+                  - generic:
+                    - img
+              - generic [ref=e185]:
+                - link "194 Branches" [ref=e1763] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/branches
+                  - generic [ref=e187]:
+                    - generic:
+                      - img
+                    - generic [ref=e1764]:
+                      - strong [ref=e1765]: "194"
+                      - text: Branches
+                - link "51 Tags" [ref=e1766] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/tags
+                  - generic [ref=e190]:
+                    - generic:
+                      - img
+                    - generic [ref=e1767]:
+                      - strong [ref=e1768]: "51"
+                      - text: Tags
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - generic [ref=e1771]:
+                  - img [ref=e1773]
+                  - combobox "Go to file" [ref=e1775]
+                  - generic [ref=e1777]: t
+                - generic [ref=e194]:
+                  - heading "Add file" [level=2] [ref=e195]
+                  - button "Add file" [ref=e196] [cursor=pointer]:
+                    - generic [ref=e199]:
+                      - text: Add file
+                      - img [ref=e200]
+              - button "Code" [ref=e202] [cursor=pointer]:
+                - generic [ref=e203]:
+                  - generic:
+                    - img
+                  - generic [ref=e204]: Code
+                  - generic:
+                    - img
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - heading "Folders and files" [level=2] [ref=e207]
+              - table "Folders and files" [ref=e208]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e209]:
+                  - 'row "Latest commit alexandear SamMorrowDrums commits by alexandear and commits by SamMorrowDrums chore: remove binary files success Commit 31b541e · Jan 13, 20263 days ago History 622 Commits" [ref=e1778]':
+                    - 'cell "Latest commit alexandear SamMorrowDrums commits by alexandear and commits by SamMorrowDrums chore: remove binary files success Commit 31b541e · Jan 13, 20263 days ago History 622 Commits" [ref=e1779]':
+                      - generic [ref=e212]:
+                        - heading "Latest commit" [level=2] [ref=e213]
+                        - generic [ref=e1780]:
+                          - generic [ref=e1781]:
+                            - generic [ref=e1783]:
+                              - img "alexandear" [ref=e1784]
+                              - img "SamMorrowDrums" [ref=e1785]
+                            - link "commits by alexandear" [ref=e1787] [cursor=pointer]:
+                              - /url: /github/github-mcp-server/commits?author=alexandear
+                              - text: alexandear
+                            - generic [ref=e1788]: and
+                            - link "commits by SamMorrowDrums" [ref=e1790] [cursor=pointer]:
+                              - /url: /github/github-mcp-server/commits?author=SamMorrowDrums
+                              - text: SamMorrowDrums
+                          - generic [ref=e1791]:
+                            - 'link "chore: remove binary files" [ref=e1794] [cursor=pointer]':
+                              - /url: /github/github-mcp-server/commit/31b541ea0806479b619125d10c4282b9c2ae4913
+                            - button "success" [ref=e1795] [cursor=pointer]:
+                              - img [ref=e1796]
+                        - generic [ref=e215]:
+                          - generic [ref=e1799]:
+                            - link "Commit 31b541e" [ref=e1800] [cursor=pointer]:
+                              - /url: /github/github-mcp-server/commit/31b541ea0806479b619125d10c4282b9c2ae4913
+                              - text: 31b541e
+                            - text: ·
+                            - generic "Jan 13, 2026, 2:59 AM GMT+8" [ref=e1801]: Jan 13, 20263 days ago
+                          - generic [ref=e216]:
+                            - heading "History" [level=2] [ref=e217]
+                            - link "622 Commits" [ref=e218] [cursor=pointer]:
+                              - /url: /github/github-mcp-server/commits/main/
+                              - generic [ref=e219]:
+                                - generic:
+                                  - img
+                                - generic [ref=e220]: 622 Commits
+                  - 'row ".github, (Directory) fix: use gh pr checkout to handle fork PRs in license-check workflow Jan 1, 20262 weeks ago" [ref=e1802]':
+                    - cell ".github, (Directory)" [ref=e222]:
+                      - generic [ref=e223]:
+                        - img [ref=e224]
+                        - link ".github, (Directory)" [ref=e229] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/tree/main/.github
+                          - text: .github
+                    - 'cell "fix: use gh pr checkout to handle fork PRs in license-check workflow" [ref=e1803]':
+                      - 'link "fix: use gh pr checkout to handle fork PRs in license-check workflow" [ref=e1806] [cursor=pointer]':
+                        - /url: /github/github-mcp-server/commit/953d26f9c082dff842073f57fbc6207cbc918bf8
+                    - cell "Jan 1, 20262 weeks ago" [ref=e1807]:
+                      - generic [ref=e1808]: Jan 1, 20262 weeks ago
+                  - row ".vscode, (Directory) add vscode launch configuration (#104) Apr 5, 202510 months ago" [ref=e1809]:
+                    - cell ".vscode, (Directory)" [ref=e235]:
+                      - generic [ref=e236]:
+                        - img [ref=e237]
+                        - link ".vscode, (Directory)" [ref=e242] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/tree/main/.vscode
+                          - text: .vscode
+                    - cell "add vscode launch configuration (#104)" [ref=e1810]:
+                      - generic [ref=e1812]:
+                        - link "add vscode launch configuration (" [ref=e1813] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/17e4bd414ed7adcc84812346a2a220a553e82aef
+                        - link "#104" [ref=e1814] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/104
+                        - link ")" [ref=e1815] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/17e4bd414ed7adcc84812346a2a220a553e82aef
+                    - cell "Apr 5, 202510 months ago" [ref=e1816]:
+                      - generic [ref=e1817]: Apr 5, 202510 months ago
+                  - 'row "cmd, (Directory) chore: remove binary files Jan 13, 20263 days ago" [ref=e1818]':
+                    - cell "cmd, (Directory)" [ref=e248]:
+                      - generic [ref=e249]:
+                        - img [ref=e250]
+                        - link "cmd, (Directory)" [ref=e255] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/tree/main/cmd
+                          - text: cmd
+                    - 'cell "chore: remove binary files" [ref=e1819]':
+                      - 'link "chore: remove binary files" [ref=e1822] [cursor=pointer]':
+                        - /url: /github/github-mcp-server/commit/31b541ea0806479b619125d10c4282b9c2ae4913
+                    - cell "Jan 13, 20263 days ago" [ref=e1823]:
+                      - generic [ref=e1824]: Jan 13, 20263 days ago
+                  - row "docs, (Directory) Regenerate documentation TOCs Jan 12, 20263 days ago" [ref=e1825]:
+                    - cell "docs, (Directory)" [ref=e261]:
+                      - generic [ref=e262]:
+                        - img [ref=e263]
+                        - link "docs, (Directory)" [ref=e268] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/tree/main/docs
+                          - text: docs
+                    - cell "Regenerate documentation TOCs" [ref=e1826]:
+                      - link "Regenerate documentation TOCs" [ref=e1829] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/f62ff634c53b94e9cf38a80ee1fc93fef8d532fb
+                    - cell "Jan 12, 20263 days ago" [ref=e1830]:
+                      - generic [ref=e1831]: Jan 12, 20263 days ago
+                  - 'row "e2e, (Directory) refactor: Introduce Inventory pattern with builder, filtering, and pe… Dec 17, 2025last month" [ref=e1832]':
+                    - cell "e2e, (Directory)" [ref=e274]:
+                      - generic [ref=e275]:
+                        - img [ref=e276]
+                        - link "e2e, (Directory)" [ref=e281] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/tree/main/e2e
+                          - text: e2e
+                    - 'cell "refactor: Introduce Inventory pattern with builder, filtering, and pe…" [ref=e1833]':
+                      - 'link "refactor: Introduce Inventory pattern with builder, filtering, and pe…" [ref=e1836] [cursor=pointer]':
+                        - /url: /github/github-mcp-server/commit/ce2e4f94725a0a3ce1557da07a40ceb0c0a10fe5
+                    - cell "Dec 17, 2025last month" [ref=e1837]:
+                      - generic [ref=e1838]: Dec 17, 2025last month
+                  - row "internal, (Directory) Add GraphQL-Features header support for agent assignment API Jan 12, 20263 days ago" [ref=e1839]:
+                    - cell "internal, (Directory)" [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e289]
+                        - link "internal, (Directory)" [ref=e294] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/tree/main/internal
+                          - text: internal
+                    - cell "Add GraphQL-Features header support for agent assignment API" [ref=e1840]:
+                      - link "Add GraphQL-Features header support for agent assignment API" [ref=e1843] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/d18f26e5595d51ed21fcc10c0aa6726f27b2fdf1
+                    - cell "Jan 12, 20263 days ago" [ref=e1844]:
+                      - generic [ref=e1845]: Jan 12, 20263 days ago
+                  - row "pkg, (Directory) Add GraphQL-Features header support for agent assignment API Jan 12, 20263 days ago" [ref=e1846]:
+                    - cell "pkg, (Directory)" [ref=e300]:
+                      - generic [ref=e301]:
+                        - img [ref=e302]
+                        - link "pkg, (Directory)" [ref=e307] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/tree/main/pkg
+                          - text: pkg
+                    - cell "Add GraphQL-Features header support for agent assignment API" [ref=e1847]:
+                      - link "Add GraphQL-Features header support for agent assignment API" [ref=e1850] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/d18f26e5595d51ed21fcc10c0aa6726f27b2fdf1
+                    - cell "Jan 12, 20263 days ago" [ref=e1851]:
+                      - generic [ref=e1852]: Jan 12, 20263 days ago
+                  - row "script, (Directory) Add list-scopes command using inventory architecture Jan 8, 2026last week" [ref=e1853]:
+                    - cell "script, (Directory)" [ref=e313]:
+                      - generic [ref=e314]:
+                        - img [ref=e315]
+                        - link "script, (Directory)" [ref=e320] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/tree/main/script
+                          - text: script
+                    - cell "Add list-scopes command using inventory architecture" [ref=e1854]:
+                      - link "Add list-scopes command using inventory architecture" [ref=e1857] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/ee8f4e6bc594bcdaee496c566cb43995025135a1
+                    - cell "Jan 8, 2026last week" [ref=e1858]:
+                      - generic [ref=e1859]: Jan 8, 2026last week
+                  - row "third-party, (Directory) Replace go-github-mock with stretchr/testify for actions/issues/proje… Jan 6, 2026last week" [ref=e1860]:
+                    - cell "third-party, (Directory)" [ref=e326]:
+                      - generic [ref=e327]:
+                        - img [ref=e328]
+                        - link "third-party, (Directory)" [ref=e333] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/tree/main/third-party
+                          - text: third-party
+                    - cell "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1861]:
+                      - link "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1864] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/80b030655769b8816b726f3ce41e2285f154cf0e
+                    - cell "Jan 6, 2026last week" [ref=e1865]:
+                      - generic [ref=e1866]: Jan 6, 2026last week
+                  - row ".dockerignore, (File) Optimize Docker build with bind mounts (#208) May 7, 20258 months ago" [ref=e1867]:
+                    - cell ".dockerignore, (File)" [ref=e339]:
+                      - generic [ref=e340]:
+                        - img [ref=e341]
+                        - link ".dockerignore, (File)" [ref=e346] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/.dockerignore
+                          - text: .dockerignore
+                    - cell "Optimize Docker build with bind mounts (#208)" [ref=e1868]:
+                      - generic [ref=e1870]:
+                        - link "Optimize Docker build with bind mounts (" [ref=e1871] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/29bf8bfebc12c6c5926c741cbe020726fc8c6219
+                        - link "#208" [ref=e1872] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/208
+                        - link ")" [ref=e1873] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/29bf8bfebc12c6c5926c741cbe020726fc8c6219
+                    - cell "May 7, 20258 months ago" [ref=e1874]:
+                      - generic [ref=e1875]: May 7, 20258 months ago
+                  - 'row ".gitignore, (File) chore: remove binary files Jan 13, 20263 days ago" [ref=e1876]':
+                    - cell ".gitignore, (File)" [ref=e352]:
+                      - generic [ref=e353]:
+                        - img [ref=e354]
+                        - link ".gitignore, (File)" [ref=e359] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/.gitignore
+                          - text: .gitignore
+                    - 'cell "chore: remove binary files" [ref=e1877]':
+                      - 'link "chore: remove binary files" [ref=e1880] [cursor=pointer]':
+                        - /url: /github/github-mcp-server/commit/31b541ea0806479b619125d10c4282b9c2ae4913
+                    - cell "Jan 13, 20263 days ago" [ref=e1881]:
+                      - generic [ref=e1882]: Jan 13, 20263 days ago
+                  - row ".golangci.yml, (File) Process improvements (#1316) Oct 27, 20253 months ago" [ref=e1883]:
+                    - cell ".golangci.yml, (File)" [ref=e365]:
+                      - generic [ref=e366]:
+                        - img [ref=e367]
+                        - link ".golangci.yml, (File)" [ref=e372] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/.golangci.yml
+                          - text: .golangci.yml
+                    - cell "Process improvements (#1316)" [ref=e1884]:
+                      - generic [ref=e1886]:
+                        - link "Process improvements (" [ref=e1887] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/bd125376b77e5c3a0792852b73c2118be84892e3
+                        - link "#1316" [ref=e1888] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1316
+                        - link ")" [ref=e1889] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/bd125376b77e5c3a0792852b73c2118be84892e3
+                    - cell "Oct 27, 20253 months ago" [ref=e1890]:
+                      - generic [ref=e1891]: Oct 27, 20253 months ago
+                  - row ".goreleaser.yaml, (File) remove licences from the goreleaser step (#72) Apr 3, 202510 months ago" [ref=e1892]:
+                    - cell ".goreleaser.yaml, (File)" [ref=e378]:
+                      - generic [ref=e379]:
+                        - img [ref=e380]
+                        - link ".goreleaser.yaml, (File)" [ref=e385] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/.goreleaser.yaml
+                          - text: .goreleaser.yaml
+                    - cell "remove licences from the goreleaser step (#72)" [ref=e1893]:
+                      - generic [ref=e1895]:
+                        - link "remove licences from the goreleaser step (" [ref=e1896] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/a14e9824701a84761ca255691663c8b4a433d22b
+                        - link "#72" [ref=e1897] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/72
+                        - link ")" [ref=e1898] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/a14e9824701a84761ca255691663c8b4a433d22b
+                    - cell "Apr 3, 202510 months ago" [ref=e1899]:
+                      - generic [ref=e1900]: Apr 3, 202510 months ago
+                  - 'row "CODE_OF_CONDUCT.md, (File) chore: move COC to top level Apr 1, 202510 months ago" [ref=e1901]':
+                    - cell "CODE_OF_CONDUCT.md, (File)" [ref=e391]:
+                      - generic [ref=e392]:
+                        - img [ref=e393]
+                        - link "CODE_OF_CONDUCT.md, (File)" [ref=e398] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/CODE_OF_CONDUCT.md
+                          - text: CODE_OF_CONDUCT.md
+                    - 'cell "chore: move COC to top level" [ref=e1902]':
+                      - 'link "chore: move COC to top level" [ref=e1905] [cursor=pointer]':
+                        - /url: /github/github-mcp-server/commit/8242ac0ac5d124733a7bd737029c41d6ce70b249
+                    - cell "Apr 1, 202510 months ago" [ref=e1906]:
+                      - generic [ref=e1907]: Apr 1, 202510 months ago
+                  - 'row "CONTRIBUTING.md, (File) feat: Add Octicon icons to MCP tools, resources, and prompts (#1603) Dec 18, 2025last month" [ref=e1908]':
+                    - cell "CONTRIBUTING.md, (File)" [ref=e404]:
+                      - generic [ref=e405]:
+                        - img [ref=e406]
+                        - link "CONTRIBUTING.md, (File)" [ref=e411] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - 'cell "feat: Add Octicon icons to MCP tools, resources, and prompts (#1603)" [ref=e1909]':
+                      - generic [ref=e1911]:
+                        - 'link "feat: Add Octicon icons to MCP tools, resources, and prompts (" [ref=e1912] [cursor=pointer]':
+                          - /url: /github/github-mcp-server/commit/6b3c375492d63dfa2cc8d4ec73523fa7916b95f6
+                        - link "#1603" [ref=e1913] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1603
+                        - link ")" [ref=e1914] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/6b3c375492d63dfa2cc8d4ec73523fa7916b95f6
+                    - cell "Dec 18, 2025last month" [ref=e1915]:
+                      - generic [ref=e1916]: Dec 18, 2025last month
+                  - 'row "Dockerfile, (File) build(deps): bump golang from 1.25.3-alpine to 1.25.4-alpine (#1381) Nov 12, 20252 months ago" [ref=e1917]':
+                    - cell "Dockerfile, (File)" [ref=e417]:
+                      - generic [ref=e418]:
+                        - img [ref=e419]
+                        - link "Dockerfile, (File)" [ref=e424] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/Dockerfile
+                          - text: Dockerfile
+                    - 'cell "build(deps): bump golang from 1.25.3-alpine to 1.25.4-alpine (#1381)" [ref=e1918]':
+                      - generic [ref=e1920]:
+                        - 'link "build(deps): bump golang from 1.25.3-alpine to 1.25.4-alpine (" [ref=e1921] [cursor=pointer]':
+                          - /url: /github/github-mcp-server/commit/b466148a55dafe0466185e9dc7fb0aa74e77578b
+                        - link "#1381" [ref=e1922] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1381
+                        - link ")" [ref=e1923] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/b466148a55dafe0466185e9dc7fb0aa74e77578b
+                    - cell "Nov 12, 20252 months ago" [ref=e1924]:
+                      - generic [ref=e1925]: Nov 12, 20252 months ago
+                  - row "LICENSE, (File) Create LICENSE Mar 13, 202510 months ago" [ref=e1926]:
+                    - cell "LICENSE, (File)" [ref=e430]:
+                      - generic [ref=e431]:
+                        - img [ref=e432]
+                        - link "LICENSE, (File)" [ref=e437] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Create LICENSE" [ref=e1927]:
+                      - link "Create LICENSE" [ref=e1930] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/57ae95d2ceca0754f4311005d0440706a172d2ec
+                    - cell "Mar 13, 202510 months ago" [ref=e1931]:
+                      - generic [ref=e1932]: Mar 13, 202510 months ago
+                  - row "README.md, (File) Add base_ref support to assign_copilot_to_issue tool Jan 12, 20263 days ago" [ref=e1933]:
+                    - cell "README.md, (File)" [ref=e443]:
+                      - generic [ref=e444]:
+                        - img [ref=e445]
+                        - link "README.md, (File)" [ref=e450] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/README.md
+                          - text: README.md
+                    - cell "Add base_ref support to assign_copilot_to_issue tool" [ref=e1934]:
+                      - link "Add base_ref support to assign_copilot_to_issue tool" [ref=e1937] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/88d117bd82f7da044fc5f1619037477d5fc691fb
+                    - cell "Jan 12, 20263 days ago" [ref=e1938]:
+                      - generic [ref=e1939]: Jan 12, 20263 days ago
+                  - 'row "SECURITY.md, (File) docs: add oss documentation Mar 19, 202510 months ago" [ref=e1940]':
+                    - cell "SECURITY.md, (File)" [ref=e456]:
+                      - generic [ref=e457]:
+                        - img [ref=e458]
+                        - link "SECURITY.md, (File)" [ref=e463] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/SECURITY.md
+                          - text: SECURITY.md
+                    - 'cell "docs: add oss documentation" [ref=e1941]':
+                      - 'link "docs: add oss documentation" [ref=e1944] [cursor=pointer]':
+                        - /url: /github/github-mcp-server/commit/35bc5f6f01a0c62613711209fde830854be1adf0
+                    - cell "Mar 19, 202510 months ago" [ref=e1945]:
+                      - generic [ref=e1946]: Mar 19, 202510 months ago
+                  - 'row "SUPPORT.md, (File) docs: add oss documentation Mar 19, 202510 months ago" [ref=e1947]':
+                    - cell "SUPPORT.md, (File)" [ref=e469]:
+                      - generic [ref=e470]:
+                        - img [ref=e471]
+                        - link "SUPPORT.md, (File)" [ref=e476] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/SUPPORT.md
+                          - text: SUPPORT.md
+                    - 'cell "docs: add oss documentation" [ref=e1948]':
+                      - 'link "docs: add oss documentation" [ref=e1951] [cursor=pointer]':
+                        - /url: /github/github-mcp-server/commit/35bc5f6f01a0c62613711209fde830854be1adf0
+                    - cell "Mar 19, 202510 months ago" [ref=e1952]:
+                      - generic [ref=e1953]: Mar 19, 202510 months ago
+                  - row "gemini-extension.json, (File) Add Gemini CLI extension (#1232) Oct 17, 20253 months ago" [ref=e1954]:
+                    - cell "gemini-extension.json, (File)" [ref=e482]:
+                      - generic [ref=e483]:
+                        - img [ref=e484]
+                        - link "gemini-extension.json, (File)" [ref=e489] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/gemini-extension.json
+                          - text: gemini-extension.json
+                    - cell "Add Gemini CLI extension (#1232)" [ref=e1955]:
+                      - generic [ref=e1957]:
+                        - link "Add Gemini CLI extension (" [ref=e1958] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/84ae0092e69085aef67a8f7e88d8d0eb25e7e1ce
+                        - link "#1232" [ref=e1959] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1232
+                        - link ")" [ref=e1960] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/84ae0092e69085aef67a8f7e88d8d0eb25e7e1ce
+                    - cell "Oct 17, 20253 months ago" [ref=e1961]:
+                      - generic [ref=e1962]: Oct 17, 20253 months ago
+                  - row "go.mod, (File) Replace go-github-mock with stretchr/testify for actions/issues/proje… Jan 6, 2026last week" [ref=e1963]:
+                    - cell "go.mod, (File)" [ref=e495]:
+                      - generic [ref=e496]:
+                        - img [ref=e497]
+                        - link "go.mod, (File)" [ref=e502] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/go.mod
+                          - text: go.mod
+                    - cell "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1964]:
+                      - link "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1967] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/80b030655769b8816b726f3ce41e2285f154cf0e
+                    - cell "Jan 6, 2026last week" [ref=e1968]:
+                      - generic [ref=e1969]: Jan 6, 2026last week
+                  - row "go.sum, (File) Replace go-github-mock with stretchr/testify for actions/issues/proje… Jan 6, 2026last week" [ref=e1970]:
+                    - cell "go.sum, (File)" [ref=e508]:
+                      - generic [ref=e509]:
+                        - img [ref=e510]
+                        - link "go.sum, (File)" [ref=e515] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/go.sum
+                          - text: go.sum
+                    - cell "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1971]:
+                      - link "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1974] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/80b030655769b8816b726f3ce41e2285f154cf0e
+                    - cell "Jan 6, 2026last week" [ref=e1975]:
+                      - generic [ref=e1976]: Jan 6, 2026last week
+                  - row "server.json, (File) Bringing back local mcp server registry config (#1767) Jan 9, 2026last week" [ref=e1977]:
+                    - cell "server.json, (File)" [ref=e521]:
+                      - generic [ref=e522]:
+                        - img [ref=e523]
+                        - link "server.json, (File)" [ref=e528] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/server.json
+                          - text: server.json
+                    - cell "Bringing back local mcp server registry config (#1767)" [ref=e1978]:
+                      - generic [ref=e1980]:
+                        - link "Bringing back local mcp server registry config (" [ref=e1981] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/44d9e1329e416082619a78a3ff8c4ef29dc3d09b
+                        - link "#1767" [ref=e1982] [cursor=pointer]:
+                          - /url: https://github.com/github/github-mcp-server/pull/1767
+                        - link ")" [ref=e1983] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/commit/44d9e1329e416082619a78a3ff8c4ef29dc3d09b
+                    - cell "Jan 9, 2026last week" [ref=e1984]:
+                      - generic [ref=e1985]: Jan 9, 2026last week
+                  - row "third-party-licenses.darwin.md, (File) Replace go-github-mock with stretchr/testify for actions/issues/proje… Jan 6, 2026last week" [ref=e1986]:
+                    - cell "third-party-licenses.darwin.md, (File)" [ref=e534]:
+                      - generic [ref=e535]:
+                        - img [ref=e536]
+                        - link "third-party-licenses.darwin.md, (File)" [ref=e541] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/third-party-licenses.darwin.md
+                          - text: third-party-licenses.darwin.md
+                    - cell "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1987]:
+                      - link "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1990] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/80b030655769b8816b726f3ce41e2285f154cf0e
+                    - cell "Jan 6, 2026last week" [ref=e1991]:
+                      - generic [ref=e1992]: Jan 6, 2026last week
+                  - row "third-party-licenses.linux.md, (File) Replace go-github-mock with stretchr/testify for actions/issues/proje… Jan 6, 2026last week" [ref=e1993]:
+                    - cell "third-party-licenses.linux.md, (File)" [ref=e547]:
+                      - generic [ref=e548]:
+                        - img [ref=e549]
+                        - link "third-party-licenses.linux.md, (File)" [ref=e554] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/third-party-licenses.linux.md
+                          - text: third-party-licenses.linux.md
+                    - cell "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1994]:
+                      - link "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e1997] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/80b030655769b8816b726f3ce41e2285f154cf0e
+                    - cell "Jan 6, 2026last week" [ref=e1998]:
+                      - generic [ref=e1999]: Jan 6, 2026last week
+                  - row "third-party-licenses.windows.md, (File) Replace go-github-mock with stretchr/testify for actions/issues/proje… Jan 6, 2026last week" [ref=e2000]:
+                    - cell "third-party-licenses.windows.md, (File)" [ref=e560]:
+                      - generic [ref=e561]:
+                        - img [ref=e562]
+                        - link "third-party-licenses.windows.md, (File)" [ref=e567] [cursor=pointer]:
+                          - /url: /github/github-mcp-server/blob/main/third-party-licenses.windows.md
+                          - text: third-party-licenses.windows.md
+                    - cell "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e2001]:
+                      - link "Replace go-github-mock with stretchr/testify for actions/issues/proje…" [ref=e2004] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/commit/80b030655769b8816b726f3ce41e2285f154cf0e
+                    - cell "Jan 6, 2026last week" [ref=e2005]:
+                      - generic [ref=e2006]: Jan 6, 2026last week
+            - generic [ref=e573]:
+              - generic [ref=e574]:
+                - heading "Repository files navigation" [level=2] [ref=e575]
+                - navigation "Repository files" [ref=e576]:
+                  - list [ref=e577]:
+                    - listitem [ref=e578]:
+                      - link "README" [ref=e579] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e581]
+                        - generic [ref=e583]: README
+                    - listitem [ref=e584]:
+                      - link "Code of conduct" [ref=e585] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e587]
+                        - generic [ref=e589]: Code of conduct
+                    - listitem [ref=e590]:
+                      - link "Contributing" [ref=e591] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e593]
+                        - generic [ref=e595]: Contributing
+                    - listitem [ref=e596]:
+                      - link "MIT license" [ref=e597] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e599]
+                        - generic [ref=e601]: MIT license
+                    - listitem [ref=e602]:
+                      - link "Security" [ref=e603] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e605]
+                        - generic [ref=e607]: Security
+                - button "Edit file" [ref=e608] [cursor=pointer]:
+                  - img [ref=e609]
+                - button "Outline" [ref=e611] [cursor=pointer]:
+                  - img [ref=e612]
+              - article [ref=e2007]:
+                - paragraph [ref=e2008]:
+                  - link "Go Report Card" [ref=e2009] [cursor=pointer]:
+                    - /url: https://goreportcard.com/report/github.com/github/github-mcp-server
+                    - img "Go Report Card" [ref=e2010]
+                - generic [ref=e2011]:
+                  - heading "GitHub MCP Server" [level=1] [ref=e2012]
+                  - 'link "Permalink: GitHub MCP Server" [ref=e2013] [cursor=pointer]':
+                    - /url: "#github-mcp-server"
+                    - img [ref=e2014]
+                - paragraph [ref=e2016]: The GitHub MCP Server connects AI tools directly to GitHub's platform. This gives AI agents, assistants, and chatbots the ability to read repositories and code files, manage issues and PRs, analyze code, and automate workflows. All through natural language interactions.
+                - generic [ref=e2017]:
+                  - heading "Use Cases" [level=3] [ref=e2018]
+                  - 'link "Permalink: Use Cases" [ref=e2019] [cursor=pointer]':
+                    - /url: "#use-cases"
+                    - img [ref=e2020]
+                - list [ref=e2022]:
+                  - listitem [ref=e2023]: "Repository Management: Browse and query code, search files, analyze commits, and understand project structure across any repository you have access to."
+                  - listitem [ref=e2024]: "Issue & PR Automation: Create, update, and manage issues and pull requests. Let AI help triage bugs, review code changes, and maintain project boards."
+                  - listitem [ref=e2025]: "CI/CD & Workflow Intelligence: Monitor GitHub Actions workflow runs, analyze build failures, manage releases, and get insights into your development pipeline."
+                  - listitem [ref=e2026]: "Code Analysis: Examine security findings, review Dependabot alerts, understand code patterns, and get comprehensive insights into your codebase."
+                  - listitem [ref=e2027]: "Team Collaboration: Access discussions, manage notifications, analyze team activity, and streamline processes for your team."
+                - paragraph [ref=e2028]: Built for developers who want to connect their AI tools to GitHub context and capabilities, from simple natural language queries to complex multi-step agent workflows.
+                - separator [ref=e2029]
+                - generic [ref=e2030]:
+                  - heading "Remote GitHub MCP Server" [level=2] [ref=e2031]
+                  - 'link "Permalink: Remote GitHub MCP Server" [ref=e2032] [cursor=pointer]':
+                    - /url: "#remote-github-mcp-server"
+                    - img [ref=e2033]
+                - paragraph [ref=e2035]:
+                  - link "Install in VS Code" [ref=e2036] [cursor=pointer]:
+                    - /url: https://insiders.vscode.dev/redirect/mcp/install?name=github&config=%7B%22type%22%3A%20%22http%22%2C%22url%22%3A%20%22https%3A%2F%2Fapi.githubcopilot.com%2Fmcp%2F%22%7D
+                    - img "Install in VS Code" [ref=e2037]
+                  - link "Install in VS Code Insiders" [ref=e2038] [cursor=pointer]:
+                    - /url: https://insiders.vscode.dev/redirect/mcp/install?name=github&config=%7B%22type%22%3A%20%22http%22%2C%22url%22%3A%20%22https%3A%2F%2Fapi.githubcopilot.com%2Fmcp%2F%22%7D&quality=insiders
+                    - img "Install in VS Code Insiders" [ref=e2039]
+                - paragraph [ref=e2040]:
+                  - text: The remote GitHub MCP Server is hosted by GitHub and provides the easiest method for getting up and running. If your MCP host does not support remote MCP servers, don't worry! You can use the
+                  - link "local version of the GitHub MCP Server" [ref=e2041] [cursor=pointer]:
+                    - /url: https://github.com/github/github-mcp-server?tab=readme-ov-file#local-github-mcp-server
+                  - text: instead.
+                - generic [ref=e2042]:
+                  - heading "Prerequisites" [level=3] [ref=e2043]
+                  - 'link "Permalink: Prerequisites" [ref=e2044] [cursor=pointer]':
+                    - /url: "#prerequisites"
+                    - img [ref=e2045]
+                - list [ref=e2047]:
+                  - listitem [ref=e2048]: A compatible MCP host with remote server support (VS Code 1.101+, Claude Desktop, Cursor, Windsurf, etc.)
+                  - listitem [ref=e2049]:
+                    - text: Any applicable
+                    - link "policies enabled" [ref=e2050] [cursor=pointer]:
+                      - /url: https://github.com/github/github-mcp-server/blob/main/docs/policies-and-governance.md
+                - generic [ref=e2051]:
+                  - heading "Install in VS Code" [level=3] [ref=e2052]
+                  - 'link "Permalink: Install in VS Code" [ref=e2053] [cursor=pointer]':
+                    - /url: "#install-in-vs-code"
+                    - img [ref=e2054]
+                - paragraph [ref=e2056]:
+                  - text: For quick installation, use one of the one-click install buttons above. Once you complete that flow, toggle Agent mode (located by the Copilot Chat text input) and the server will start. Make sure you're using
+                  - link "VS Code 1.101" [ref=e2057] [cursor=pointer]:
+                    - /url: https://code.visualstudio.com/updates/v1_101
+                  - text: or
+                  - link "later" [ref=e2058] [cursor=pointer]:
+                    - /url: https://code.visualstudio.com/updates
+                  - text: for remote MCP and OAuth support.
+                - paragraph [ref=e2059]: "Alternatively, to manually configure VS Code, choose the appropriate JSON block from the examples below and add it to your host configuration:"
+                - table [ref=e2061]:
+                  - rowgroup [ref=e2062]:
+                    - row "Using OAuth Using a GitHub PAT" [ref=e2063]:
+                      - columnheader "Using OAuth" [ref=e2064]
+                      - columnheader "Using a GitHub PAT" [ref=e2065]
+                    - row "VS Code (version 1.101 or greater)" [ref=e2066]:
+                      - columnheader "VS Code (version 1.101 or greater)" [ref=e2067]
+                    - 'row "{ \"servers\": { \"github\": { \"type\": \"http\", \"url\": \"https://api.githubcopilot.com/mcp/\" } } } Copy { \"servers\": { \"github\": { \"type\": \"http\", \"url\": \"https://api.githubcopilot.com/mcp/\", \"headers\": { \"Authorization\": \"Bearer ${input:github_mcp_pat}\" } } }, \"inputs\": [ { \"type\": \"promptString\", \"id\": \"github_mcp_pat\", \"description\": \"GitHub Personal Access Token\", \"password\": true } ] } Copy" [ref=e2068]':
+                      - 'cell "{ \"servers\": { \"github\": { \"type\": \"http\", \"url\": \"https://api.githubcopilot.com/mcp/\" } } } Copy" [ref=e2069]':
+                        - generic [ref=e2070]:
+                          - generic [ref=e2071]:
+                            - text: "{ \"servers\": { \"github\": { \"type\":"
+                            - generic [ref=e2072]: "\"http\""
+                            - text: ", \"url\":"
+                            - generic [ref=e2073]: "\"https://api.githubcopilot.com/mcp/\""
+                            - text: "} } }"
+                          - button "Copy" [ref=e2075] [cursor=pointer]:
+                            - img [ref=e2076]
+                      - 'cell "{ \"servers\": { \"github\": { \"type\": \"http\", \"url\": \"https://api.githubcopilot.com/mcp/\", \"headers\": { \"Authorization\": \"Bearer ${input:github_mcp_pat}\" } } }, \"inputs\": [ { \"type\": \"promptString\", \"id\": \"github_mcp_pat\", \"description\": \"GitHub Personal Access Token\", \"password\": true } ] } Copy" [ref=e2079]':
+                        - generic [ref=e2080]:
+                          - generic [ref=e2081]:
+                            - text: "{ \"servers\": { \"github\": { \"type\":"
+                            - generic [ref=e2082]: "\"http\""
+                            - text: ", \"url\":"
+                            - generic [ref=e2083]: "\"https://api.githubcopilot.com/mcp/\""
+                            - text: ", \"headers\": { \"Authorization\":"
+                            - generic [ref=e2084]: "\"Bearer ${input:github_mcp_pat}\""
+                            - text: "} } }, \"inputs\": [ { \"type\":"
+                            - generic [ref=e2085]: "\"promptString\""
+                            - text: ", \"id\":"
+                            - generic [ref=e2086]: "\"github_mcp_pat\""
+                            - text: ", \"description\":"
+                            - generic [ref=e2087]: "\"GitHub Personal Access Token\""
+                            - text: ", \"password\": true } ] }"
+                          - button "Copy" [ref=e2089] [cursor=pointer]:
+                            - img [ref=e2090]
+                - generic [ref=e2093]:
+                  - heading "Install in other MCP hosts" [level=3] [ref=e2094]
+                  - 'link "Permalink: Install in other MCP hosts" [ref=e2095] [cursor=pointer]':
+                    - /url: "#install-in-other-mcp-hosts"
+                    - img [ref=e2096]
+                - list [ref=e2098]:
+                  - listitem [ref=e2099]:
+                    - strong [ref=e2100]:
+                      - link "GitHub Copilot in other IDEs" [ref=e2101] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-other-copilot-ides.md
+                    - text: "- Installation for JetBrains, Visual Studio, Eclipse, and Xcode with GitHub Copilot"
+                  - listitem [ref=e2102]:
+                    - strong [ref=e2103]:
+                      - link "Claude Applications" [ref=e2104] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-claude.md
+                    - text: "- Installation guide for Claude Desktop and Claude Code CLI"
+                  - listitem [ref=e2105]:
+                    - strong [ref=e2106]:
+                      - link "Codex" [ref=e2107] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-codex.md
+                    - text: "- Installation guide for Open AI Codex"
+                  - listitem [ref=e2108]:
+                    - strong [ref=e2109]:
+                      - link "Cursor" [ref=e2110] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-cursor.md
+                    - text: "- Installation guide for Cursor IDE"
+                  - listitem [ref=e2111]:
+                    - strong [ref=e2112]:
+                      - link "Windsurf" [ref=e2113] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-windsurf.md
+                    - text: "- Installation guide for Windsurf IDE"
+                  - listitem [ref=e2114]:
+                    - strong [ref=e2115]:
+                      - link "Rovo Dev CLI" [ref=e2116] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-rovo-dev-cli.md
+                    - text: "- Installation guide for Rovo Dev CLI"
+                - blockquote [ref=e2117]:
+                  - paragraph [ref=e2118]:
+                    - strong [ref=e2119]: "Note:"
+                    - text: Each MCP host application needs to configure a GitHub App or OAuth App to support remote access via OAuth. Any host application that supports remote MCP servers should support the remote GitHub server with PAT authentication. Configuration details and support levels vary by host. Make sure to refer to the host application's documentation for more info.
+                - generic [ref=e2120]:
+                  - heading "Configuration" [level=3] [ref=e2121]
+                  - 'link "Permalink: Configuration" [ref=e2122] [cursor=pointer]':
+                    - /url: "#configuration"
+                    - img [ref=e2123]
+                - generic [ref=e2125]:
+                  - heading "Toolset configuration" [level=4] [ref=e2126]
+                  - 'link "Permalink: Toolset configuration" [ref=e2127] [cursor=pointer]':
+                    - /url: "#toolset-configuration"
+                    - img [ref=e2128]
+                - paragraph [ref=e2130]:
+                  - text: See
+                  - link "Remote Server Documentation" [ref=e2131] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/blob/main/docs/remote-server.md
+                  - text: for full details on remote server configuration, toolsets, headers, and advanced usage. This file provides comprehensive instructions and examples for connecting, customizing, and installing the remote GitHub MCP Server in VS Code and other MCP hosts.
+                - paragraph [ref=e2132]:
+                  - text: When no toolsets are specified,
+                  - link "default toolsets" [ref=e2133] [cursor=pointer]:
+                    - /url: "#default-toolset"
+                  - text: are used.
+                - generic [ref=e2134]:
+                  - heading "GitHub Enterprise" [level=4] [ref=e2135]
+                  - 'link "Permalink: GitHub Enterprise" [ref=e2136] [cursor=pointer]':
+                    - /url: "#github-enterprise"
+                    - img [ref=e2137]
+                - generic [ref=e2139]:
+                  - heading "GitHub Enterprise Cloud with data residency (ghe.com)" [level=5] [ref=e2140]
+                  - 'link "Permalink: GitHub Enterprise Cloud with data residency (ghe.com)" [ref=e2141] [cursor=pointer]':
+                    - /url: "#github-enterprise-cloud-with-data-residency-ghecom"
+                    - img [ref=e2142]
+                - paragraph [ref=e2144]: GitHub Enterprise Cloud can also make use of the remote server.
+                - paragraph [ref=e2145]:
+                  - text: Example for
+                  - code [ref=e2146]: https://octocorp.ghe.com
+                  - text: "with GitHub PAT token:"
+                - generic [ref=e2147]:
+                  - code [ref=e2149]: "{ ... \"proxima-github\": { \"type\": \"http\", \"url\": \"https://copilot-api.octocorp.ghe.com/mcp\", \"headers\": { \"Authorization\": \"Bearer ${input:github_mcp_pat}\" } }, ... }"
+                  - button "Copy" [ref=e2151] [cursor=pointer]:
+                    - img [ref=e2152]
+                - blockquote [ref=e2155]:
+                  - paragraph [ref=e2156]:
+                    - strong [ref=e2157]: "Note:"
+                    - text: When using OAuth with GitHub Enterprise with VS Code and GitHub Copilot, you also need to configure your VS Code settings to point to your GitHub Enterprise instance - see
+                    - link "Authenticate from VS Code" [ref=e2158] [cursor=pointer]:
+                      - /url: https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/configure-personal-settings/authenticate-to-ghecom
+                - generic [ref=e2159]:
+                  - heading "GitHub Enterprise Server" [level=5] [ref=e2160]
+                  - 'link "Permalink: GitHub Enterprise Server" [ref=e2161] [cursor=pointer]':
+                    - /url: "#github-enterprise-server"
+                    - img [ref=e2162]
+                - paragraph [ref=e2164]:
+                  - text: GitHub Enterprise Server does not support remote server hosting. Please refer to
+                  - link "GitHub Enterprise Server and Enterprise Cloud with data residency (ghe.com)" [ref=e2165] [cursor=pointer]:
+                    - /url: "#github-enterprise-server-and-enterprise-cloud-with-data-residency-ghecom"
+                  - text: from the local server configuration.
+                - separator [ref=e2166]
+                - generic [ref=e2167]:
+                  - heading "Local GitHub MCP Server" [level=2] [ref=e2168]
+                  - 'link "Permalink: Local GitHub MCP Server" [ref=e2169] [cursor=pointer]':
+                    - /url: "#local-github-mcp-server"
+                    - img [ref=e2170]
+                - paragraph [ref=e2172]:
+                  - link "Install with Docker in VS Code" [ref=e2173] [cursor=pointer]:
+                    - /url: https://insiders.vscode.dev/redirect/mcp/install?name=github&inputs=%5B%7B%22id%22%3A%22github_token%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22GitHub%20Personal%20Access%20Token%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22-e%22%2C%22GITHUB_PERSONAL_ACCESS_TOKEN%22%2C%22ghcr.io%2Fgithub%2Fgithub-mcp-server%22%5D%2C%22env%22%3A%7B%22GITHUB_PERSONAL_ACCESS_TOKEN%22%3A%22%24%7Binput%3Agithub_token%7D%22%7D%7D
+                    - img "Install with Docker in VS Code" [ref=e2174]
+                  - link "Install with Docker in VS Code Insiders" [ref=e2175] [cursor=pointer]:
+                    - /url: https://insiders.vscode.dev/redirect/mcp/install?name=github&inputs=%5B%7B%22id%22%3A%22github_token%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22GitHub%20Personal%20Access%20Token%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22-e%22%2C%22GITHUB_PERSONAL_ACCESS_TOKEN%22%2C%22ghcr.io%2Fgithub%2Fgithub-mcp-server%22%5D%2C%22env%22%3A%7B%22GITHUB_PERSONAL_ACCESS_TOKEN%22%3A%22%24%7Binput%3Agithub_token%7D%22%7D%7D&quality=insiders
+                    - img "Install with Docker in VS Code Insiders" [ref=e2176]
+                - generic [ref=e2177]:
+                  - heading "Prerequisites" [level=3] [ref=e2178]
+                  - 'link "Permalink: Prerequisites" [ref=e2179] [cursor=pointer]':
+                    - /url: "#prerequisites-1"
+                    - img [ref=e2180]
+                - list [ref=e2182]:
+                  - listitem [ref=e2183]:
+                    - text: To run the server in a container, you will need to have
+                    - link "Docker" [ref=e2184] [cursor=pointer]:
+                      - /url: https://www.docker.com/
+                    - text: installed.
+                  - listitem [ref=e2185]:
+                    - text: Once Docker is installed, you will also need to ensure Docker is running. The Docker image is available at
+                    - code [ref=e2186]: ghcr.io/github/github-mcp-server
+                    - text: . The image is public; if you get errors on pull, you may have an expired token and need to
+                    - code [ref=e2187]: docker logout ghcr.io
+                    - text: .
+                  - listitem [ref=e2188]:
+                    - text: Lastly you will need to
+                    - link "Create a GitHub Personal Access Token" [ref=e2189] [cursor=pointer]:
+                      - /url: https://github.com/settings/personal-access-tokens/new
+                    - text: . The MCP server can use many of the GitHub APIs, so enable the permissions that you feel comfortable granting your AI tools (to learn more about access tokens, please check out the
+                    - link "documentation" [ref=e2190] [cursor=pointer]:
+                      - /url: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+                    - text: ).
+                - group [ref=e2191]:
+                  - generic "Handling PATs Securely" [ref=e2192] [cursor=pointer]
+                - generic [ref=e2193]:
+                  - heading "GitHub Enterprise Server and Enterprise Cloud with data residency (ghe.com)" [level=3] [ref=e2194]
+                  - 'link "Permalink: GitHub Enterprise Server and Enterprise Cloud with data residency (ghe.com)" [ref=e2195] [cursor=pointer]':
+                    - /url: "#github-enterprise-server-and-enterprise-cloud-with-data-residency-ghecom"
+                    - img [ref=e2196]
+                - paragraph [ref=e2198]:
+                  - text: The flag
+                  - code [ref=e2199]: "--gh-host"
+                  - text: and the environment variable
+                  - code [ref=e2200]: GITHUB_HOST
+                  - text: can be used to set the hostname for GitHub Enterprise Server or GitHub Enterprise Cloud with data residency.
+                - list [ref=e2201]:
+                  - listitem [ref=e2202]:
+                    - text: For GitHub Enterprise Server, prefix the hostname with the
+                    - code [ref=e2203]: https://
+                    - text: URI scheme, as it otherwise defaults to
+                    - code [ref=e2204]: http://
+                    - text: ", which GitHub Enterprise Server does not support."
+                  - listitem [ref=e2205]:
+                    - text: For GitHub Enterprise Cloud with data residency, use
+                    - code [ref=e2206]: https://YOURSUBDOMAIN.ghe.com
+                    - text: as the hostname.
+                - generic [ref=e2207]:
+                  - generic [ref=e2208]:
+                    - text: "\"github\": { \"command\":"
+                    - generic [ref=e2209]: "\"docker\""
+                    - text: ", \"args\": ["
+                    - generic [ref=e2210]: "\"run\""
+                    - text: ","
+                    - generic [ref=e2211]: "\"-i\""
+                    - text: ","
+                    - generic [ref=e2212]: "\"--rm\""
+                    - text: ","
+                    - generic [ref=e2213]: "\"-e\""
+                    - text: ","
+                    - generic [ref=e2214]: "\"GITHUB_PERSONAL_ACCESS_TOKEN\""
+                    - text: ","
+                    - generic [ref=e2215]: "\"-e\""
+                    - text: ","
+                    - generic [ref=e2216]: "\"GITHUB_HOST\""
+                    - text: ","
+                    - generic [ref=e2217]: "\"ghcr.io/github/github-mcp-server\""
+                    - text: "], \"env\": { \"GITHUB_PERSONAL_ACCESS_TOKEN\":"
+                    - generic [ref=e2218]: "\"${input:github_token}\""
+                    - text: ", \"GITHUB_HOST\":"
+                    - generic [ref=e2219]: "\"https://<your GHES or ghe.com domain name>\""
+                    - text: "} }"
+                  - button "Copy" [ref=e2221] [cursor=pointer]:
+                    - img [ref=e2222]
+                - generic [ref=e2225]:
+                  - heading "Installation" [level=2] [ref=e2226]
+                  - 'link "Permalink: Installation" [ref=e2227] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e2228]
+                - generic [ref=e2230]:
+                  - heading "Install in GitHub Copilot on VS Code" [level=3] [ref=e2231]
+                  - 'link "Permalink: Install in GitHub Copilot on VS Code" [ref=e2232] [cursor=pointer]':
+                    - /url: "#install-in-github-copilot-on-vs-code"
+                    - img [ref=e2233]
+                - paragraph [ref=e2235]: For quick installation, use one of the one-click install buttons above. Once you complete that flow, toggle Agent mode (located by the Copilot Chat text input) and the server will start.
+                - paragraph [ref=e2236]:
+                  - text: More about using MCP server tools in VS Code's
+                  - link "agent mode documentation" [ref=e2237] [cursor=pointer]:
+                    - /url: https://code.visualstudio.com/docs/copilot/chat/mcp-servers
+                  - text: .
+                - paragraph [ref=e2238]: Install in GitHub Copilot on other IDEs (JetBrains, Visual Studio, Eclipse, etc.)
+                - paragraph [ref=e2239]: Add the following JSON block to your IDE's MCP settings.
+                - generic [ref=e2240]:
+                  - generic [ref=e2241]:
+                    - text: "{ \"mcp\": { \"inputs\": [ { \"type\":"
+                    - generic [ref=e2242]: "\"promptString\""
+                    - text: ", \"id\":"
+                    - generic [ref=e2243]: "\"github_token\""
+                    - text: ", \"description\":"
+                    - generic [ref=e2244]: "\"GitHub Personal Access Token\""
+                    - text: ", \"password\": true } ], \"servers\": { \"github\": { \"command\":"
+                    - generic [ref=e2245]: "\"docker\""
+                    - text: ", \"args\": ["
+                    - generic [ref=e2246]: "\"run\""
+                    - text: ","
+                    - generic [ref=e2247]: "\"-i\""
+                    - text: ","
+                    - generic [ref=e2248]: "\"--rm\""
+                    - text: ","
+                    - generic [ref=e2249]: "\"-e\""
+                    - text: ","
+                    - generic [ref=e2250]: "\"GITHUB_PERSONAL_ACCESS_TOKEN\""
+                    - text: ","
+                    - generic [ref=e2251]: "\"ghcr.io/github/github-mcp-server\""
+                    - text: "], \"env\": { \"GITHUB_PERSONAL_ACCESS_TOKEN\":"
+                    - generic [ref=e2252]: "\"${input:github_token}\""
+                    - text: "} } } } }"
+                  - button "Copy" [ref=e2254] [cursor=pointer]:
+                    - img [ref=e2255]
+                - paragraph [ref=e2258]:
+                  - text: Optionally, you can add a similar example (i.e. without the mcp key) to a file called
+                  - code [ref=e2259]: .vscode/mcp.json
+                  - text: in your workspace. This will allow you to share the configuration with other host applications that accept the same format.
+                - group [ref=e2260]:
+                  - generic "Example JSON block without the MCP key included" [ref=e2261] [cursor=pointer]
+                - generic [ref=e2262]:
+                  - heading "Install in Other MCP Hosts" [level=3] [ref=e2263]
+                  - 'link "Permalink: Install in Other MCP Hosts" [ref=e2264] [cursor=pointer]':
+                    - /url: "#install-in-other-mcp-hosts-1"
+                    - img [ref=e2265]
+                - paragraph [ref=e2267]: "For other MCP host applications, please refer to our installation guides:"
+                - list [ref=e2268]:
+                  - listitem [ref=e2269]:
+                    - strong [ref=e2270]:
+                      - link "GitHub Copilot in other IDEs" [ref=e2271] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-other-copilot-ides.md
+                    - text: "- Installation for JetBrains, Visual Studio, Eclipse, and Xcode with GitHub Copilot"
+                  - listitem [ref=e2272]:
+                    - strong [ref=e2273]:
+                      - link "Claude Code & Claude Desktop" [ref=e2274] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-claude.md
+                    - text: "- Installation guide for Claude Code and Claude Desktop"
+                  - listitem [ref=e2275]:
+                    - strong [ref=e2276]:
+                      - link "Cursor" [ref=e2277] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-cursor.md
+                    - text: "- Installation guide for Cursor IDE"
+                  - listitem [ref=e2278]:
+                    - strong [ref=e2279]:
+                      - link "Google Gemini CLI" [ref=e2280] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-gemini-cli.md
+                    - text: "- Installation guide for Google Gemini CLI"
+                  - listitem [ref=e2281]:
+                    - strong [ref=e2282]:
+                      - link "Windsurf" [ref=e2283] [cursor=pointer]:
+                        - /url: /github/github-mcp-server/blob/main/docs/installation-guides/install-windsurf.md
+                    - text: "- Installation guide for Windsurf IDE"
+                - paragraph [ref=e2284]:
+                  - text: For a complete overview of all installation options, see our
+                  - strong [ref=e2285]:
+                    - link "Installation Guides Index" [ref=e2286] [cursor=pointer]:
+                      - /url: /github/github-mcp-server/blob/main/docs/installation-guides
+                  - text: .
+                - blockquote [ref=e2287]:
+                  - paragraph [ref=e2288]:
+                    - strong [ref=e2289]: "Note:"
+                    - text: Any host application that supports local MCP servers should be able to access the local GitHub MCP server. However, the specific configuration process, syntax and stability of the integration will vary by host application. While many may follow a similar format to the examples above, this is not guaranteed. Please refer to your host application's documentation for the correct MCP configuration syntax and setup process.
+                - generic [ref=e2290]:
+                  - heading "Build from source" [level=3] [ref=e2291]
+                  - 'link "Permalink: Build from source" [ref=e2292] [cursor=pointer]':
+                    - /url: "#build-from-source"
+                    - img [ref=e2293]
+                - paragraph [ref=e2295]:
+                  - text: If you don't have Docker, you can use
+                  - code [ref=e2296]: go build
+                  - text: to build the binary in the
+                  - code [ref=e2297]: cmd/github-mcp-server
+                  - text: directory, and use the
+                  - code [ref=e2298]: github-mcp-server stdio
+                  - text: command with the
+                  - code [ref=e2299]: GITHUB_PERSONAL_ACCESS_TOKEN
+                  - text: environment variable set to your token. To specify the output location of the build, use the
+                  - code [ref=e2300]: "-o"
+                  - text: flag. You should configure your server to use the built executable as its
+                  - code [ref=e2301]: command
+                  - text: ". For example:"
+                - generic [ref=e2302]:
+                  - generic [ref=e2303]:
+                    - text: "{ \"mcp\": { \"servers\": { \"github\": { \"command\":"
+                    - generic [ref=e2304]: "\"/path/to/github-mcp-server\""
+                    - text: ", \"args\": ["
+                    - generic [ref=e2305]: "\"stdio\""
+                    - text: "], \"env\": { \"GITHUB_PERSONAL_ACCESS_TOKEN\":"
+                    - generic [ref=e2306]: "\"<YOUR_TOKEN>\""
+                    - text: "} } } } }"
+                  - button "Copy" [ref=e2308] [cursor=pointer]:
+                    - img [ref=e2309]
+                - generic [ref=e2312]:
+                  - heading "Tool Configuration" [level=2] [ref=e2313]
+                  - 'link "Permalink: Tool Configuration" [ref=e2314] [cursor=pointer]':
+                    - /url: "#tool-configuration"
+                    - img [ref=e2315]
+                - paragraph [ref=e2317]:
+                  - text: The GitHub MCP Server supports enabling or disabling specific groups of functionalities via the
+                  - code [ref=e2318]: "--toolsets"
+                  - text: flag. This allows you to control which GitHub API capabilities are available to your AI tools. Enabling only the toolsets that you need can help the LLM with tool choice and reduce the context size.
+                - paragraph [ref=e2319]:
+                  - emphasis [ref=e2320]: Toolsets are not limited to Tools. Relevant MCP Resources and Prompts are also included where applicable.
+                - paragraph [ref=e2321]:
+                  - text: When no toolsets are specified,
+                  - link "default toolsets" [ref=e2322] [cursor=pointer]:
+                    - /url: "#default-toolset"
+                  - text: are used.
+                - blockquote [ref=e2323]:
+                  - paragraph [ref=e2324]:
+                    - strong [ref=e2325]: Looking for examples?
+                    - text: See the
+                    - link "Server Configuration Guide" [ref=e2326] [cursor=pointer]:
+                      - /url: /github/github-mcp-server/blob/main/docs/server-configuration.md
+                    - text: for common recipes like minimal setups, read-only mode, and combining tools with toolsets.
+                - generic [ref=e2327]:
+                  - heading "Specifying Toolsets" [level=4] [ref=e2328]
+                  - 'link "Permalink: Specifying Toolsets" [ref=e2329] [cursor=pointer]':
+                    - /url: "#specifying-toolsets"
+                    - img [ref=e2330]
+                - paragraph [ref=e2332]: "To specify toolsets you want available to the LLM, you can pass an allow-list in two ways:"
+                - list [ref=e2333]:
+                  - listitem [ref=e2334]:
+                    - paragraph [ref=e2335]:
+                      - strong [ref=e2336]: Using Command Line Argument
+                      - text: ":"
+                    - generic [ref=e2337]:
+                      - generic [ref=e2338]: github-mcp-server --toolsets repos,issues,pull_requests,actions,code_security
+                      - button "Copy" [ref=e2340] [cursor=pointer]:
+                        - img [ref=e2341]
+                  - listitem [ref=e2344]:
+                    - paragraph [ref=e2345]:
+                      - strong [ref=e2346]: Using Environment Variable
+                      - text: ":"
+                    - generic [ref=e2347]:
+                      - generic [ref=e2348]:
+                        - text: GITHUB_TOOLSETS=
+                        - generic [ref=e2349]: "\"repos,issues,pull_requests,actions,code_security\""
+                        - text: ./github-mcp-server
+                      - button "Copy" [ref=e2351] [cursor=pointer]:
+                        - img [ref=e2352]
+                - paragraph [ref=e2355]:
+                  - text: The environment variable
+                  - code [ref=e2356]: GITHUB_TOOLSETS
+                  - text: takes precedence over the command line argument if both are provided.
+                - generic [ref=e2357]:
+                  - heading "Specifying Individual Tools" [level=4] [ref=e2358]
+                  - 'link "Permalink: Specifying Individual Tools" [ref=e2359] [cursor=pointer]':
+                    - /url: "#specifying-individual-tools"
+                    - img [ref=e2360]
+                - paragraph [ref=e2362]:
+                  - text: You can also configure specific tools using the
+                  - code [ref=e2363]: "--tools"
+                  - text: flag. Tools can be used independently or combined with toolsets and dynamic toolsets discovery for fine-grained control.
+                - list [ref=e2364]:
+                  - listitem [ref=e2365]:
+                    - paragraph [ref=e2366]:
+                      - strong [ref=e2367]: Using Command Line Argument
+                      - text: ":"
+                    - generic [ref=e2368]:
+                      - generic [ref=e2369]: github-mcp-server --tools get_file_contents,issue_read,create_pull_request
+                      - button "Copy" [ref=e2371] [cursor=pointer]:
+                        - img [ref=e2372]
+                  - listitem [ref=e2375]:
+                    - paragraph [ref=e2376]:
+                      - strong [ref=e2377]: Using Environment Variable
+                      - text: ":"
+                    - generic [ref=e2378]:
+                      - generic [ref=e2379]:
+                        - text: GITHUB_TOOLS=
+                        - generic [ref=e2380]: "\"get_file_contents,issue_read,create_pull_request\""
+                        - text: ./github-mcp-server
+                      - button "Copy" [ref=e2382] [cursor=pointer]:
+                        - img [ref=e2383]
+                  - listitem [ref=e2386]:
+                    - paragraph [ref=e2387]:
+                      - strong [ref=e2388]: Combining with Toolsets
+                      - text: "(additive):"
+                    - generic [ref=e2389]:
+                      - generic [ref=e2390]: github-mcp-server --toolsets repos,issues --tools get_gist
+                      - button "Copy" [ref=e2392] [cursor=pointer]:
+                        - img [ref=e2393]
+                    - paragraph [ref=e2396]:
+                      - text: This registers all tools from
+                      - code [ref=e2397]: repos
+                      - text: and
+                      - code [ref=e2398]: issues
+                      - text: toolsets, plus
+                      - code [ref=e2399]: get_gist
+                      - text: .
+                  - listitem [ref=e2400]:
+                    - paragraph [ref=e2401]:
+                      - strong [ref=e2402]: Combining with Dynamic Toolsets
+                      - text: "(additive):"
+                    - generic [ref=e2403]:
+                      - generic [ref=e2404]: github-mcp-server --tools get_file_contents --dynamic-toolsets
+                      - button "Copy" [ref=e2406] [cursor=pointer]:
+                        - img [ref=e2407]
+                    - paragraph [ref=e2410]:
+                      - text: This registers
+                      - code [ref=e2411]: get_file_contents
+                      - text: plus the dynamic toolset tools (
+                      - code [ref=e2412]: enable_toolset
+                      - text: ","
+                      - code [ref=e2413]: list_available_toolsets
+                      - text: ","
+                      - code [ref=e2414]: get_toolset_tools
+                      - text: ).
+                - paragraph [ref=e2415]:
+                  - strong [ref=e2416]: "Important Notes:"
+                - list [ref=e2417]:
+                  - listitem [ref=e2418]: Tools, toolsets, and dynamic toolsets can all be used together
+                  - listitem [ref=e2419]:
+                    - text: "Read-only mode takes priority: write tools are skipped if"
+                    - code [ref=e2420]: "--read-only"
+                    - text: is set, even if explicitly requested via
+                    - code [ref=e2421]: "--tools"
+                  - listitem [ref=e2422]:
+                    - text: Tool names must match exactly (e.g.,
+                    - code [ref=e2423]: get_file_contents
+                    - text: ", not"
+                    - code [ref=e2424]: getFileContents
+                    - text: ). Invalid tool names will cause the server to fail at startup with an error message
+                  - listitem [ref=e2425]:
+                    - text: When tools are renamed, old names are preserved as aliases for backward compatibility. See
+                    - link "Deprecated Tool Aliases" [ref=e2426] [cursor=pointer]:
+                      - /url: /github/github-mcp-server/blob/main/docs/deprecated-tool-aliases.md
+                    - text: for details.
+                - generic [ref=e2427]:
+                  - heading "Using Toolsets With Docker" [level=3] [ref=e2428]
+                  - 'link "Permalink: Using Toolsets With Docker" [ref=e2429] [cursor=pointer]':
+                    - /url: "#using-toolsets-with-docker"
+                    - img [ref=e2430]
+                - paragraph [ref=e2432]: "When using Docker, you can pass the toolsets as environment variables:"
+                - generic [ref=e2433]:
+                  - generic [ref=e2434]:
+                    - text: docker run -i --rm \ -e GITHUB_PERSONAL_ACCESS_TOKEN=<your-token> \ -e GITHUB_TOOLSETS=
+                    - generic [ref=e2435]: "\"repos,issues,pull_requests,actions,code_security\""
+                    - text: \ ghcr.io/github/github-mcp-server
+                  - button "Copy" [ref=e2437] [cursor=pointer]:
+                    - img [ref=e2438]
+                - generic [ref=e2441]:
+                  - heading "Using Tools With Docker" [level=3] [ref=e2442]
+                  - 'link "Permalink: Using Tools With Docker" [ref=e2443] [cursor=pointer]':
+                    - /url: "#using-tools-with-docker"
+                    - img [ref=e2444]
+                - paragraph [ref=e2446]: "When using Docker, you can pass specific tools as environment variables. You can also combine tools with toolsets:"
+                - generic [ref=e2447]:
+                  - generic [ref=e2448]:
+                    - generic [ref=e2449]: "# Tools only"
+                    - text: docker run -i --rm \ -e GITHUB_PERSONAL_ACCESS_TOKEN=<your-token> \ -e GITHUB_TOOLS=
+                    - generic [ref=e2450]: "\"get_file_contents,issue_read,create_pull_request\""
+                    - text: \ ghcr.io/github/github-mcp-server
+                    - generic [ref=e2451]: "# Tools combined with toolsets (additive)"
+                    - text: docker run -i --rm \ -e GITHUB_PERSONAL_ACCESS_TOKEN=<your-token> \ -e GITHUB_TOOLSETS=
+                    - generic [ref=e2452]: "\"repos,issues\""
+                    - text: \ -e GITHUB_TOOLS=
+                    - generic [ref=e2453]: "\"get_gist\""
+                    - text: \ ghcr.io/github/github-mcp-server
+                  - button "Copy" [ref=e2455] [cursor=pointer]:
+                    - img [ref=e2456]
+                - generic [ref=e2459]:
+                  - heading "Special toolsets" [level=3] [ref=e2460]
+                  - 'link "Permalink: Special toolsets" [ref=e2461] [cursor=pointer]':
+                    - /url: "#special-toolsets"
+                    - img [ref=e2462]
+                - generic [ref=e2464]:
+                  - heading "\"all\" toolset" [level=4] [ref=e2465]
+                  - 'link "Permalink: \"all\" toolset" [ref=e2466] [cursor=pointer]':
+                    - /url: "#all-toolset"
+                    - img [ref=e2467]
+                - paragraph [ref=e2469]:
+                  - text: The special toolset
+                  - code [ref=e2470]: all
+                  - text: "can be provided to enable all available toolsets regardless of any other configuration:"
+                - generic [ref=e2471]:
+                  - generic [ref=e2472]: ./github-mcp-server --toolsets all
+                  - button "Copy" [ref=e2474] [cursor=pointer]:
+                    - img [ref=e2475]
+                - paragraph [ref=e2478]: "Or using the environment variable:"
+                - generic [ref=e2479]:
+                  - generic [ref=e2480]:
+                    - text: GITHUB_TOOLSETS=
+                    - generic [ref=e2481]: "\"all\""
+                    - text: ./github-mcp-server
+                  - button "Copy" [ref=e2483] [cursor=pointer]:
+                    - img [ref=e2484]
+                - generic [ref=e2487]:
+                  - heading "\"default\" toolset" [level=4] [ref=e2488]
+                  - 'link "Permalink: \"default\" toolset" [ref=e2489] [cursor=pointer]':
+                    - /url: "#default-toolset"
+                    - img [ref=e2490]
+                - paragraph [ref=e2492]:
+                  - text: The default toolset
+                  - code [ref=e2493]: default
+                  - text: is the configuration that gets passed to the server if no toolsets are specified.
+                - paragraph [ref=e2494]: "The default configuration is:"
+                - list [ref=e2495]:
+                  - listitem [ref=e2496]: context
+                  - listitem [ref=e2497]: repos
+                  - listitem [ref=e2498]: issues
+                  - listitem [ref=e2499]: pull_requests
+                  - listitem [ref=e2500]: users
+                - paragraph [ref=e2501]: "To keep the default configuration and add additional toolsets:"
+                - generic [ref=e2502]:
+                  - generic [ref=e2503]:
+                    - text: GITHUB_TOOLSETS=
+                    - generic [ref=e2504]: "\"default,stargazers\""
+                    - text: ./github-mcp-server
+                  - button "Copy" [ref=e2506] [cursor=pointer]:
+                    - img [ref=e2507]
+                - generic [ref=e2510]:
+                  - heading "Available Toolsets" [level=3] [ref=e2511]
+                  - 'link "Permalink: Available Toolsets" [ref=e2512] [cursor=pointer]':
+                    - /url: "#available-toolsets"
+                    - img [ref=e2513]
+                - paragraph [ref=e2515]: "The following sets of tools are available:"
+                - table [ref=e2517]:
+                  - rowgroup [ref=e2518]:
+                    - row "Toolset Description" [ref=e2519]:
+                      - columnheader [ref=e2520]
+                      - columnheader "Toolset" [ref=e2521]
+                      - columnheader "Description" [ref=e2522]
+                  - rowgroup [ref=e2523]:
+                    - 'row "person context Strongly recommended: Tools that provide context about the current user and GitHub context you are operating in" [ref=e2524]':
+                      - cell "person" [ref=e2525]:
+                        - img "person" [ref=e2528]
+                      - cell "context" [ref=e2529]:
+                        - code [ref=e2530]: context
+                      - 'cell "Strongly recommended: Tools that provide context about the current user and GitHub context you are operating in" [ref=e2531]':
+                        - strong [ref=e2532]: Strongly recommended
+                        - text: ": Tools that provide context about the current user and GitHub context you are operating in"
+                    - row "workflow actions GitHub Actions workflows and CI/CD operations" [ref=e2533]:
+                      - cell "workflow" [ref=e2534]:
+                        - img "workflow" [ref=e2537]
+                      - cell "actions" [ref=e2538]:
+                        - code [ref=e2539]: actions
+                      - cell "GitHub Actions workflows and CI/CD operations" [ref=e2540]
+                    - row "codescan code_security Code security related tools, such as GitHub Code Scanning" [ref=e2541]:
+                      - cell "codescan" [ref=e2542]:
+                        - img "codescan" [ref=e2545]
+                      - cell "code_security" [ref=e2546]:
+                        - code [ref=e2547]: code_security
+                      - cell "Code security related tools, such as GitHub Code Scanning" [ref=e2548]
+                    - row "dependabot dependabot Dependabot tools" [ref=e2549]:
+                      - cell "dependabot" [ref=e2550]:
+                        - img "dependabot" [ref=e2553]
+                      - cell "dependabot" [ref=e2554]:
+                        - code [ref=e2555]: dependabot
+                      - cell "Dependabot tools" [ref=e2556]
+                    - row "comment-discussion discussions GitHub Discussions related tools" [ref=e2557]:
+                      - cell "comment-discussion" [ref=e2558]:
+                        - img "comment-discussion" [ref=e2561]
+                      - cell "discussions" [ref=e2562]:
+                        - code [ref=e2563]: discussions
+                      - cell "GitHub Discussions related tools" [ref=e2564]
+                    - row "logo-gist gists GitHub Gist related tools" [ref=e2565]:
+                      - cell "logo-gist" [ref=e2566]:
+                        - img "logo-gist" [ref=e2569]
+                      - cell "gists" [ref=e2570]:
+                        - code [ref=e2571]: gists
+                      - cell "GitHub Gist related tools" [ref=e2572]
+                    - row "git-branch git GitHub Git API related tools for low-level Git operations" [ref=e2573]:
+                      - cell "git-branch" [ref=e2574]:
+                        - img "git-branch" [ref=e2577]
+                      - cell "git" [ref=e2578]:
+                        - code [ref=e2579]: git
+                      - cell "GitHub Git API related tools for low-level Git operations" [ref=e2580]
+                    - row "issue-opened issues GitHub Issues related tools" [ref=e2581]:
+                      - cell "issue-opened" [ref=e2582]:
+                        - img "issue-opened" [ref=e2585]
+                      - cell "issues" [ref=e2586]:
+                        - code [ref=e2587]: issues
+                      - cell "GitHub Issues related tools" [ref=e2588]
+                    - row "tag labels GitHub Labels related tools" [ref=e2589]:
+                      - cell "tag" [ref=e2590]:
+                        - img "tag" [ref=e2593]
+                      - cell "labels" [ref=e2594]:
+                        - code [ref=e2595]: labels
+                      - cell "GitHub Labels related tools" [ref=e2596]
+                    - row "bell notifications GitHub Notifications related tools" [ref=e2597]:
+                      - cell "bell" [ref=e2598]:
+                        - img "bell" [ref=e2601]
+                      - cell "notifications" [ref=e2602]:
+                        - code [ref=e2603]: notifications
+                      - cell "GitHub Notifications related tools" [ref=e2604]
+                    - row "organization orgs GitHub Organization related tools" [ref=e2605]:
+                      - cell "organization" [ref=e2606]:
+                        - img "organization" [ref=e2609]
+                      - cell "orgs" [ref=e2610]:
+                        - code [ref=e2611]: orgs
+                      - cell "GitHub Organization related tools" [ref=e2612]
+                    - row "project projects GitHub Projects related tools" [ref=e2613]:
+                      - cell "project" [ref=e2614]:
+                        - img "project" [ref=e2617]
+                      - cell "projects" [ref=e2618]:
+                        - code [ref=e2619]: projects
+                      - cell "GitHub Projects related tools" [ref=e2620]
+                    - row "git-pull-request pull_requests GitHub Pull Request related tools" [ref=e2621]:
+                      - cell "git-pull-request" [ref=e2622]:
+                        - img "git-pull-request" [ref=e2625]
+                      - cell "pull_requests" [ref=e2626]:
+                        - code [ref=e2627]: pull_requests
+                      - cell "GitHub Pull Request related tools" [ref=e2628]
+                    - row "repo repos GitHub Repository related tools" [ref=e2629]:
+                      - cell "repo" [ref=e2630]:
+                        - img "repo" [ref=e2633]
+                      - cell "repos" [ref=e2634]:
+                        - code [ref=e2635]: repos
+                      - cell "GitHub Repository related tools" [ref=e2636]
+                    - row "shield-lock secret_protection Secret protection related tools, such as GitHub Secret Scanning" [ref=e2637]:
+                      - cell "shield-lock" [ref=e2638]:
+                        - img "shield-lock" [ref=e2641]
+                      - cell "secret_protection" [ref=e2642]:
+                        - code [ref=e2643]: secret_protection
+                      - cell "Secret protection related tools, such as GitHub Secret Scanning" [ref=e2644]
+                    - row "shield security_advisories Security advisories related tools" [ref=e2645]:
+                      - cell "shield" [ref=e2646]:
+                        - img "shield" [ref=e2649]
+                      - cell "security_advisories" [ref=e2650]:
+                        - code [ref=e2651]: security_advisories
+                      - cell "Security advisories related tools" [ref=e2652]
+                    - row "star stargazers GitHub Stargazers related tools" [ref=e2653]:
+                      - cell "star" [ref=e2654]:
+                        - img "star" [ref=e2657]
+                      - cell "stargazers" [ref=e2658]:
+                        - code [ref=e2659]: stargazers
+                      - cell "GitHub Stargazers related tools" [ref=e2660]
+                    - row "people users GitHub User related tools" [ref=e2661]:
+                      - cell "people" [ref=e2662]:
+                        - img "people" [ref=e2665]
+                      - cell "users" [ref=e2666]:
+                        - code [ref=e2667]: users
+                      - cell "GitHub User related tools" [ref=e2668]
+                - generic [ref=e2669]:
+                  - heading "Additional Toolsets in Remote GitHub MCP Server" [level=3] [ref=e2670]
+                  - 'link "Permalink: Additional Toolsets in Remote GitHub MCP Server" [ref=e2671] [cursor=pointer]':
+                    - /url: "#additional-toolsets-in-remote-github-mcp-server"
+                    - img [ref=e2672]
+                - table [ref=e2675]:
+                  - rowgroup [ref=e2676]:
+                    - row "Toolset Description" [ref=e2677]:
+                      - columnheader "Toolset" [ref=e2678]
+                      - columnheader "Description" [ref=e2679]
+                  - rowgroup [ref=e2680]:
+                    - row "copilot Copilot related tools (e.g. Copilot Coding Agent)" [ref=e2681]:
+                      - cell "copilot" [ref=e2682]:
+                        - code [ref=e2683]: copilot
+                      - cell "Copilot related tools (e.g. Copilot Coding Agent)" [ref=e2684]
+                    - row "copilot_spaces Copilot Spaces related tools" [ref=e2685]:
+                      - cell "copilot_spaces" [ref=e2686]:
+                        - code [ref=e2687]: copilot_spaces
+                      - cell "Copilot Spaces related tools" [ref=e2688]
+                    - row "github_support_docs_search Search docs to answer GitHub product and support questions" [ref=e2689]:
+                      - cell "github_support_docs_search" [ref=e2690]:
+                        - code [ref=e2691]: github_support_docs_search
+                      - cell "Search docs to answer GitHub product and support questions" [ref=e2692]
+                - generic [ref=e2693]:
+                  - heading "Tools" [level=2] [ref=e2694]
+                  - 'link "Permalink: Tools" [ref=e2695] [cursor=pointer]':
+                    - /url: "#tools"
+                    - img [ref=e2696]
+                - group [ref=e2698]:
+                  - generic "workflow Actions" [ref=e2699] [cursor=pointer]:
+                    - img "workflow" [ref=e2702]
+                    - text: Actions
+                - group [ref=e2703]:
+                  - generic "codescan Code Security" [ref=e2704] [cursor=pointer]:
+                    - img "codescan" [ref=e2707]
+                    - text: Code Security
+                - group [ref=e2708]:
+                  - generic "person Context" [ref=e2709] [cursor=pointer]:
+                    - img "person" [ref=e2712]
+                    - text: Context
+                - group [ref=e2713]:
+                  - generic "dependabot Dependabot" [ref=e2714] [cursor=pointer]:
+                    - img "dependabot" [ref=e2717]
+                    - text: Dependabot
+                - group [ref=e2718]:
+                  - generic "comment-discussion Discussions" [ref=e2719] [cursor=pointer]:
+                    - img "comment-discussion" [ref=e2722]
+                    - text: Discussions
+                - group [ref=e2723]:
+                  - generic "logo-gist Gists" [ref=e2724] [cursor=pointer]:
+                    - img "logo-gist" [ref=e2727]
+                    - text: Gists
+                - group [ref=e2728]:
+                  - generic "git-branch Git" [ref=e2729] [cursor=pointer]:
+                    - img "git-branch" [ref=e2732]
+                    - text: Git
+                - group [ref=e2733]:
+                  - generic "issue-opened Issues" [ref=e2734] [cursor=pointer]:
+                    - img "issue-opened" [ref=e2737]
+                    - text: Issues
+                - group [ref=e2738]:
+                  - generic "tag Labels" [ref=e2739] [cursor=pointer]:
+                    - img "tag" [ref=e2742]
+                    - text: Labels
+                - group [ref=e2743]:
+                  - generic "bell Notifications" [ref=e2744] [cursor=pointer]:
+                    - img "bell" [ref=e2747]
+                    - text: Notifications
+                - group [ref=e2748]:
+                  - generic "organization Organizations" [ref=e2749] [cursor=pointer]:
+                    - img "organization" [ref=e2752]
+                    - text: Organizations
+                - group [ref=e2753]:
+                  - generic "project Projects" [ref=e2754] [cursor=pointer]:
+                    - img "project" [ref=e2757]
+                    - text: Projects
+                - group [ref=e2758]:
+                  - generic "git-pull-request Pull Requests" [ref=e2759] [cursor=pointer]:
+                    - img "git-pull-request" [ref=e2762]
+                    - text: Pull Requests
+                - group [ref=e2763]:
+                  - generic "repo Repositories" [ref=e2764] [cursor=pointer]:
+                    - img "repo" [ref=e2767]
+                    - text: Repositories
+                - group [ref=e2768]:
+                  - generic "shield-lock Secret Protection" [ref=e2769] [cursor=pointer]:
+                    - img "shield-lock" [ref=e2772]
+                    - text: Secret Protection
+                - group [ref=e2773]:
+                  - generic "shield Security Advisories" [ref=e2774] [cursor=pointer]:
+                    - img "shield" [ref=e2777]
+                    - text: Security Advisories
+                - group [ref=e2778]:
+                  - generic "star Stargazers" [ref=e2779] [cursor=pointer]:
+                    - img "star" [ref=e2782]
+                    - text: Stargazers
+                - group [ref=e2783]:
+                  - generic "people Users" [ref=e2784] [cursor=pointer]:
+                    - img "people" [ref=e2787]
+                    - text: Users
+                - generic [ref=e2788]:
+                  - heading "Additional Tools in Remote GitHub MCP Server" [level=3] [ref=e2789]
+                  - 'link "Permalink: Additional Tools in Remote GitHub MCP Server" [ref=e2790] [cursor=pointer]':
+                    - /url: "#additional-tools-in-remote-github-mcp-server"
+                    - img [ref=e2791]
+                - group [ref=e2793]:
+                  - generic "Copilot" [ref=e2794] [cursor=pointer]
+                - group [ref=e2795]:
+                  - generic "Copilot Spaces" [ref=e2796] [cursor=pointer]
+                - group [ref=e2797]:
+                  - generic "GitHub Support Docs Search" [ref=e2798] [cursor=pointer]
+                - generic [ref=e2799]:
+                  - heading "Dynamic Tool Discovery" [level=2] [ref=e2800]
+                  - 'link "Permalink: Dynamic Tool Discovery" [ref=e2801] [cursor=pointer]':
+                    - /url: "#dynamic-tool-discovery"
+                    - img [ref=e2802]
+                - paragraph [ref=e2804]:
+                  - strong [ref=e2805]: Note
+                  - text: ": This feature is currently in beta and is not available in the Remote GitHub MCP Server. Please test it out and let us know if you encounter any issues."
+                - paragraph [ref=e2806]: Instead of starting with all tools enabled, you can turn on dynamic toolset discovery. Dynamic toolsets allow the MCP host to list and enable toolsets in response to a user prompt. This should help to avoid situations where the model gets confused by the sheer number of tools available.
+                - generic [ref=e2807]:
+                  - heading "Using Dynamic Tool Discovery" [level=3] [ref=e2808]
+                  - 'link "Permalink: Using Dynamic Tool Discovery" [ref=e2809] [cursor=pointer]':
+                    - /url: "#using-dynamic-tool-discovery"
+                    - img [ref=e2810]
+                - paragraph [ref=e2812]:
+                  - text: When using the binary, you can pass the
+                  - code [ref=e2813]: "--dynamic-toolsets"
+                  - text: flag.
+                - generic [ref=e2814]:
+                  - generic [ref=e2815]: ./github-mcp-server --dynamic-toolsets
+                  - button "Copy" [ref=e2817] [cursor=pointer]:
+                    - img [ref=e2818]
+                - paragraph [ref=e2821]: "When using Docker, you can pass the toolsets as environment variables:"
+                - generic [ref=e2822]:
+                  - generic [ref=e2823]: docker run -i --rm \ -e GITHUB_PERSONAL_ACCESS_TOKEN=<your-token> \ -e GITHUB_DYNAMIC_TOOLSETS=1 \ ghcr.io/github/github-mcp-server
+                  - button "Copy" [ref=e2825] [cursor=pointer]:
+                    - img [ref=e2826]
+                - generic [ref=e2829]:
+                  - heading "Read-Only Mode" [level=2] [ref=e2830]
+                  - 'link "Permalink: Read-Only Mode" [ref=e2831] [cursor=pointer]':
+                    - /url: "#read-only-mode"
+                    - img [ref=e2832]
+                - paragraph [ref=e2834]:
+                  - text: To run the server in read-only mode, you can use the
+                  - code [ref=e2835]: "--read-only"
+                  - text: flag. This will only offer read-only tools, preventing any modifications to repositories, issues, pull requests, etc.
+                - generic [ref=e2836]:
+                  - generic [ref=e2837]: ./github-mcp-server --read-only
+                  - button "Copy" [ref=e2839] [cursor=pointer]:
+                    - img [ref=e2840]
+                - paragraph [ref=e2843]: "When using Docker, you can pass the read-only mode as an environment variable:"
+                - generic [ref=e2844]:
+                  - generic [ref=e2845]: docker run -i --rm \ -e GITHUB_PERSONAL_ACCESS_TOKEN=<your-token> \ -e GITHUB_READ_ONLY=1 \ ghcr.io/github/github-mcp-server
+                  - button "Copy" [ref=e2847] [cursor=pointer]:
+                    - img [ref=e2848]
+                - generic [ref=e2851]:
+                  - heading "Lockdown Mode" [level=2] [ref=e2852]
+                  - 'link "Permalink: Lockdown Mode" [ref=e2853] [cursor=pointer]':
+                    - /url: "#lockdown-mode"
+                    - img [ref=e2854]
+                - paragraph [ref=e2856]: Lockdown mode limits the content that the server will surface from public repositories. When enabled, the server checks whether the author of each item has push access to the repository. Private repositories are unaffected, and collaborators keep full access to their own content.
+                - generic [ref=e2857]:
+                  - generic [ref=e2858]: ./github-mcp-server --lockdown-mode
+                  - button "Copy" [ref=e2860] [cursor=pointer]:
+                    - img [ref=e2861]
+                - paragraph [ref=e2864]: "When running with Docker, set the corresponding environment variable:"
+                - generic [ref=e2865]:
+                  - generic [ref=e2866]: docker run -i --rm \ -e GITHUB_PERSONAL_ACCESS_TOKEN=<your-token> \ -e GITHUB_LOCKDOWN_MODE=1 \ ghcr.io/github/github-mcp-server
+                  - button "Copy" [ref=e2868] [cursor=pointer]:
+                    - img [ref=e2869]
+                - paragraph [ref=e2872]: The behavior of lockdown mode depends on the tool invoked.
+                - paragraph [ref=e2873]: "Following tools will return an error when the author lacks the push access:"
+                - list [ref=e2874]:
+                  - listitem [ref=e2875]:
+                    - code [ref=e2876]: issue_read:get
+                  - listitem [ref=e2877]:
+                    - code [ref=e2878]: pull_request_read:get
+                - paragraph [ref=e2879]: "Following tools will filter out content from users lacking the push access:"
+                - list [ref=e2880]:
+                  - listitem [ref=e2881]:
+                    - code [ref=e2882]: issue_read:get_comments
+                  - listitem [ref=e2883]:
+                    - code [ref=e2884]: issue_read:get_sub_issues
+                  - listitem [ref=e2885]:
+                    - code [ref=e2886]: pull_request_read:get_comments
+                  - listitem [ref=e2887]:
+                    - code [ref=e2888]: pull_request_read:get_review_comments
+                  - listitem [ref=e2889]:
+                    - code [ref=e2890]: pull_request_read:get_reviews
+                - generic [ref=e2891]:
+                  - heading "i18n / Overriding Descriptions" [level=2] [ref=e2892]
+                  - 'link "Permalink: i18n / Overriding Descriptions" [ref=e2893] [cursor=pointer]':
+                    - /url: "#i18n--overriding-descriptions"
+                    - img [ref=e2894]
+                - paragraph [ref=e2896]:
+                  - text: The descriptions of the tools can be overridden by creating a
+                  - code [ref=e2897]: github-mcp-server-config.json
+                  - text: file in the same directory as the binary.
+                - paragraph [ref=e2898]: "The file should contain a JSON object with the tool names as keys and the new descriptions as values. For example:"
+                - generic [ref=e2899]:
+                  - generic [ref=e2900]:
+                    - text: "{ \"TOOL_ADD_ISSUE_COMMENT_DESCRIPTION\":"
+                    - generic [ref=e2901]: "\"an alternative description\""
+                    - text: ", \"TOOL_CREATE_BRANCH_DESCRIPTION\":"
+                    - generic [ref=e2902]: "\"Create a new branch in a GitHub repository\""
+                    - text: "}"
+                  - button "Copy" [ref=e2904] [cursor=pointer]:
+                    - img [ref=e2905]
+                - paragraph [ref=e2908]:
+                  - text: You can create an export of the current translations by running the binary with the
+                  - code [ref=e2909]: "--export-translations"
+                  - text: flag.
+                - paragraph [ref=e2910]: This flag will preserve any translations/overrides you have made, while adding any new translations that have been added to the binary since the last time you exported.
+                - generic [ref=e2911]:
+                  - generic [ref=e2912]: ./github-mcp-server --export-translations cat github-mcp-server-config.json
+                  - button "Copy" [ref=e2914] [cursor=pointer]:
+                    - img [ref=e2915]
+                - paragraph [ref=e2918]:
+                  - text: You can also use ENV vars to override the descriptions. The environment variable names are the same as the keys in the JSON file, prefixed with
+                  - code [ref=e2919]: GITHUB_MCP_
+                  - text: and all uppercase.
+                - paragraph [ref=e2920]:
+                  - text: For example, to override the
+                  - code [ref=e2921]: TOOL_ADD_ISSUE_COMMENT_DESCRIPTION
+                  - text: "tool, you can set the following environment variable:"
+                - generic [ref=e2922]:
+                  - generic [ref=e2923]:
+                    - text: export GITHUB_MCP_TOOL_ADD_ISSUE_COMMENT_DESCRIPTION=
+                    - generic [ref=e2924]: "\"an alternative description\""
+                  - button "Copy" [ref=e2926] [cursor=pointer]:
+                    - img [ref=e2927]
+                - generic [ref=e2930]:
+                  - heading "Library Usage" [level=2] [ref=e2931]
+                  - 'link "Permalink: Library Usage" [ref=e2932] [cursor=pointer]':
+                    - /url: "#library-usage"
+                    - img [ref=e2933]
+                - paragraph [ref=e2935]: The exported Go API of this module should currently be considered unstable, and subject to breaking changes. In the future, we may offer stability; please file an issue if there is a use case where this would be valuable.
+                - generic [ref=e2936]:
+                  - heading "License" [level=2] [ref=e2937]
+                  - 'link "Permalink: License" [ref=e2938] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e2939]
+                - paragraph [ref=e2941]:
+                  - text: This project is licensed under the terms of the MIT open source license. Please refer to
+                  - link "MIT" [ref=e2942] [cursor=pointer]:
+                    - /url: /github/github-mcp-server/blob/main/LICENSE
+                  - text: for the full terms.
+        - generic [ref=e1552]:
+          - generic [ref=e1555]:
+            - heading "About" [level=2] [ref=e1556]
+            - paragraph [ref=e1557]: GitHub's official MCP Server
+            - heading "Topics" [level=3] [ref=e1558]
+            - generic [ref=e1560]:
+              - link "github" [ref=e1561] [cursor=pointer]:
+                - /url: /topics/github
+              - link "mcp" [ref=e1562] [cursor=pointer]:
+                - /url: /topics/mcp
+              - link "mcp-server" [ref=e1563] [cursor=pointer]:
+                - /url: /topics/mcp-server
+            - heading "Resources" [level=3] [ref=e1564]
+            - link "Readme" [ref=e1566] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1567]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1569]
+            - link "MIT license" [ref=e1571] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e1572]
+              - text: MIT license
+            - heading "Code of conduct" [level=3] [ref=e1574]
+            - link "Code of conduct" [ref=e1576] [cursor=pointer]:
+              - /url: "#coc-ov-file"
+              - img [ref=e1577]
+              - text: Code of conduct
+            - heading "Contributing" [level=3] [ref=e1579]
+            - link "Contributing" [ref=e1581] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1582]
+              - text: Contributing
+            - heading "Security policy" [level=3] [ref=e1584]
+            - link "Security policy" [ref=e1586] [cursor=pointer]:
+              - /url: "#security-ov-file"
+              - img [ref=e1587]
+              - text: Security policy
+            - link "Activity" [ref=e1590] [cursor=pointer]:
+              - /url: /github/github-mcp-server/activity
+              - img [ref=e1591]
+              - text: Activity
+            - link "Custom properties" [ref=e1594] [cursor=pointer]:
+              - /url: /github/github-mcp-server/custom-properties
+              - img [ref=e1595]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e1597]
+            - link "25.9k stars" [ref=e1599] [cursor=pointer]:
+              - /url: /github/github-mcp-server/stargazers
+              - img [ref=e1600]
+              - strong [ref=e1602]: 25.9k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1603]
+            - link "294 watching" [ref=e1605] [cursor=pointer]:
+              - /url: /github/github-mcp-server/watchers
+              - img [ref=e1606]
+              - strong [ref=e1608]: "294"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1609]
+            - link "3.4k forks" [ref=e1611] [cursor=pointer]:
+              - /url: /github/github-mcp-server/forks
+              - img [ref=e1612]
+              - strong [ref=e1614]: 3.4k
+              - text: forks
+            - link "Report repository" [ref=e1616] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fgithub%2Fgithub-mcp-server&report=github+%28user%29
+          - generic [ref=e1618]:
+            - heading "Releases 48" [level=2] [ref=e1619]:
+              - link "Releases 48" [ref=e1620] [cursor=pointer]:
+                - /url: /github/github-mcp-server/releases
+                - text: Releases
+                - generic "48" [ref=e1621]
+            - link "GitHub MCP Server 0.28.1 Latest Jan 12, 20263 days ago" [ref=e1622] [cursor=pointer]:
+              - /url: /github/github-mcp-server/releases/tag/v0.28.1
+              - img [ref=e1623]
+              - generic [ref=e1625]:
+                - generic [ref=e1626]:
+                  - generic [ref=e1627]: GitHub MCP Server 0.28.1
+                  - 'generic "Label: Latest" [ref=e1628]': Latest
+                - generic [ref=e1629]: Jan 12, 20263 days ago
+            - link "+ 47 releases" [ref=e1631] [cursor=pointer]:
+              - /url: /github/github-mcp-server/releases
+          - generic [ref=e1633]:
+            - heading "Packages 1" [level=2] [ref=e1634]:
+              - link "Packages 1" [ref=e1635] [cursor=pointer]:
+                - /url: /orgs/github/packages?repo_name=github-mcp-server
+                - text: Packages
+                - generic "1" [ref=e1636]
+            - list [ref=e1637]:
+              - listitem [ref=e1638]:
+                - img [ref=e1640]
+                - link "github-mcp-server" [ref=e1642] [cursor=pointer]:
+                  - /url: /orgs/github/packages/container/package/github-mcp-server
+          - generic [ref=e1644]:
+            - heading "Contributors 109" [level=2] [ref=e1645]:
+              - link "Contributors 109" [ref=e1646] [cursor=pointer]:
+                - /url: /github/github-mcp-server/graphs/contributors
+                - text: Contributors
+                - generic "109" [ref=e1647]
+            - list [ref=e1648]:
+              - listitem [ref=e1649]:
+                - link "@SamMorrowDrums" [ref=e1650] [cursor=pointer]:
+                  - /url: https://github.com/SamMorrowDrums
+                  - img "@SamMorrowDrums" [ref=e1651]
+              - listitem [ref=e1652]:
+                - link "@JoannaaKL" [ref=e1653] [cursor=pointer]:
+                  - /url: https://github.com/JoannaaKL
+                  - img "@JoannaaKL" [ref=e1654]
+              - listitem [ref=e1655]:
+                - link "@williammartin" [ref=e1656] [cursor=pointer]:
+                  - /url: https://github.com/williammartin
+                  - img "@williammartin" [ref=e1657]
+              - listitem [ref=e1658]:
+                - link "@Copilot" [ref=e1659] [cursor=pointer]:
+                  - /url: https://github.com/apps/copilot-pull-request-reviewer
+                  - img "@Copilot" [ref=e1660]
+              - listitem [ref=e1661]:
+                - link "@juruen" [ref=e1662] [cursor=pointer]:
+                  - /url: https://github.com/juruen
+                  - img "@juruen" [ref=e1663]
+              - listitem [ref=e1664]:
+                - link "@dependabot[bot]" [ref=e1665] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e1666]
+              - listitem [ref=e1667]:
+                - link "@Copilot" [ref=e1668] [cursor=pointer]:
+                  - /url: https://github.com/apps/copilot-swe-agent
+                  - img "@Copilot" [ref=e1669]
+              - listitem [ref=e1670]:
+                - link "@tonytrg" [ref=e1671] [cursor=pointer]:
+                  - /url: https://github.com/tonytrg
+                  - img "@tonytrg" [ref=e1672]
+              - listitem [ref=e1673]:
+                - link "@tommaso-moro" [ref=e1674] [cursor=pointer]:
+                  - /url: https://github.com/tommaso-moro
+                  - img "@tommaso-moro" [ref=e1675]
+              - listitem [ref=e1676]:
+                - link "@mattdholloway" [ref=e1677] [cursor=pointer]:
+                  - /url: https://github.com/mattdholloway
+                  - img "@mattdholloway" [ref=e1678]
+              - listitem [ref=e1679]:
+                - link "@almaleksia" [ref=e1680] [cursor=pointer]:
+                  - /url: https://github.com/almaleksia
+                  - img "@almaleksia" [ref=e1681]
+              - listitem [ref=e1682]:
+                - link "@LuluBeatson" [ref=e1683] [cursor=pointer]:
+                  - /url: https://github.com/LuluBeatson
+                  - img "@LuluBeatson" [ref=e1684]
+              - listitem [ref=e1685]:
+                - link "@omgitsads" [ref=e1686] [cursor=pointer]:
+                  - /url: https://github.com/omgitsads
+                  - img "@omgitsads" [ref=e1687]
+              - listitem [ref=e1688]:
+                - link "@toby" [ref=e1689] [cursor=pointer]:
+                  - /url: https://github.com/toby
+                  - img "@toby" [ref=e1690]
+            - link "+ 95 contributors" [ref=e1692] [cursor=pointer]:
+              - /url: /github/github-mcp-server/graphs/contributors
+          - generic [ref=e1694]:
+            - heading "Languages" [level=2] [ref=e1695]
+            - list [ref=e1701]:
+              - listitem [ref=e1702]:
+                - link "Go 97.9%" [ref=e1703] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/search?l=go
+                  - img [ref=e1704]
+                  - generic [ref=e1706]: Go
+                  - generic [ref=e1707]: 97.9%
+              - listitem [ref=e1708]:
+                - link "Shell 2.0%" [ref=e1709] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/search?l=shell
+                  - img [ref=e1710]
+                  - generic [ref=e1712]: Shell
+                  - generic [ref=e1713]: 2.0%
+              - listitem [ref=e1714]:
+                - link "Dockerfile 0.1%" [ref=e1715] [cursor=pointer]:
+                  - /url: /github/github-mcp-server/search?l=dockerfile
+                  - img [ref=e1716]
+                  - generic [ref=e1718]: Dockerfile
+                  - generic [ref=e1719]: 0.1%
+  - contentinfo [ref=e1720]:
+    - heading "Footer" [level=2] [ref=e1721]
+    - generic [ref=e1722]:
+      - generic [ref=e1723]:
+        - link "GitHub Homepage" [ref=e1724] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1725]
+        - generic [ref=e1727]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1728]:
+        - heading "Footer navigation" [level=3] [ref=e1729]
+        - list "Footer navigation" [ref=e1730]:
+          - listitem [ref=e1731]:
+            - link "Terms" [ref=e1732] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1733]:
+            - link "Privacy" [ref=e1734] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1735]:
+            - link "Security" [ref=e1736] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1737]:
+            - link "Status" [ref=e1738] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1739]:
+            - link "Community" [ref=e1740] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1741]:
+            - link "Docs" [ref=e1742] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1743]:
+            - link "Contact" [ref=e1744] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1745]:
+            - button "Manage cookies" [ref=e1747] [cursor=pointer]
+          - listitem [ref=e1748]:
+            - button "Do not share my personal information" [ref=e1750] [cursor=pointer]
+```

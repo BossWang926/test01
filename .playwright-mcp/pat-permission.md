@@ -1,0 +1,257 @@
+### Page state
+- Page URL: https://github.com/settings/personal-access-tokens/new
+- Page Title: New Fine-grained Personal Access Token
+- Page Snapshot:
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4009]:
+    - region
+    - generic [ref=e4010]:
+      - link "Skip to content" [ref=e4011] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e4013]:
+        - heading "Navigation Menu" [level=2] [ref=e4014]
+        - generic [ref=e4015]:
+          - generic [ref=e4016]:
+            - button "Open global navigation menu" [ref=e4019] [cursor=pointer]:
+              - img [ref=e4022]
+            - link "Homepage" [ref=e4024] [cursor=pointer]:
+              - /url: https://github.com/
+              - img [ref=e4025]
+            - navigation "GitHub Breadcrumb" [ref=e4029]:
+              - list [ref=e4030]:
+                - listitem [ref=e4031]:
+                  - link "Settings" [ref=e4032] [cursor=pointer]:
+                    - /url: /settings/profile
+                    - generic [ref=e4033]: Settings
+                  - generic [ref=e4035]:
+                    - generic [ref=e4036]: /
+                    - img [ref=e4037]
+                - listitem [ref=e4039]:
+                  - link "Developer Settings" [ref=e4040] [cursor=pointer]:
+                    - /url: /settings/apps
+                    - generic [ref=e4041]: Developer Settings
+          - generic [ref=e4042]:
+            - generic [ref=e4048]:
+              - generic "Search or jump to…":
+                - img
+              - button "Type / to search" [ref=e4049] [cursor=pointer]:
+                - generic [ref=e4051]:
+                  - text: Type
+                  - generic [ref=e4052]: /
+                  - text: to search
+            - generic [ref=e4054]:
+              - link "Chat with Copilot" [ref=e4056] [cursor=pointer]:
+                - /url: /copilot
+                - img
+              - button "Open Copilot…" [ref=e4059] [cursor=pointer]:
+                - img
+            - generic [ref=e4060]:
+              - button "Create something new" [ref=e4062] [cursor=pointer]:
+                - generic [ref=e4063]:
+                  - generic:
+                    - img
+                  - img [ref=e4065]
+              - link "Your issues" [ref=e4067] [cursor=pointer]:
+                - /url: /issues
+                - img
+              - link "Your pull requests" [ref=e4068] [cursor=pointer]:
+                - /url: /pulls
+                - img
+              - link "Repositories" [ref=e4069] [cursor=pointer]:
+                - /url: /repos
+                - img
+            - link "You have no unread notifications" [ref=e4071] [cursor=pointer]:
+              - /url: /notifications
+              - img
+            - button "Open user navigation menu" [ref=e4076] [cursor=pointer]
+    - main [ref=e4081]:
+      - generic [ref=e4083]:
+        - navigation "Developer settings" [ref=e4086]:
+          - list [ref=e4088]:
+            - listitem [ref=e4089]:
+              - link "GitHub Apps" [ref=e4090] [cursor=pointer]:
+                - /url: /settings/apps
+                - generic:
+                  - img
+                - generic [ref=e4091]: GitHub Apps
+            - listitem [ref=e4092]:
+              - link "OAuth Apps" [ref=e4093] [cursor=pointer]:
+                - /url: /settings/developers
+                - generic:
+                  - img
+                - generic [ref=e4094]: OAuth Apps
+            - listitem [ref=e4095]:
+              - button "Personal access tokens" [expanded] [ref=e4096] [cursor=pointer]:
+                - generic:
+                  - img
+                - generic [ref=e4097]: Personal access tokens
+                - generic:
+                  - img
+              - list "Personal access tokens" [ref=e4098]:
+                - listitem [ref=e4099]:
+                  - link "Fine-grained tokens" [ref=e4100] [cursor=pointer]:
+                    - /url: /settings/personal-access-tokens
+                    - generic [ref=e4101]: Fine-grained tokens
+                - listitem [ref=e4102]:
+                  - link "Tokens (classic)" [ref=e4103] [cursor=pointer]:
+                    - /url: /settings/tokens
+                    - generic [ref=e4104]: Tokens (classic)
+        - generic [ref=e4107]:
+          - heading "New fine-grained personal access token" [level=2] [ref=e4109]
+          - paragraph [ref=e4110]: Create a fine-grained, repository-scoped token suitable for personal API use and for using Git over HTTPS.
+          - form "personal access token" [ref=e4111]:
+            - generic [ref=e4112]:
+              - generic [ref=e4113]: Token name *
+              - textbox "Token name" [ref=e4116]: Claude Code MCP - GitHub
+              - generic [ref=e4231]:
+                - img [ref=e4233]
+                - generic [ref=e4235]:
+                  - text: "'"
+                  - strong [ref=e4236]: Claude Code MCP - GitHub
+                  - text: "' is available."
+              - text: A unique name for this token. May be visible to resource owners or users with possession of the token.
+            - generic [ref=e4117]:
+              - generic [ref=e4118]: Description
+              - textbox "Description" [ref=e4119]
+            - generic [ref=e4120]:
+              - generic [ref=e4121]: Resource owner
+              - button "Resource owner" [ref=e4124] [cursor=pointer]:
+                - generic [ref=e4126]:
+                  - img "@BossWang926" [ref=e4127]
+                  - text: BossWang926
+                - generic:
+                  - img
+              - generic [ref=e4128]: The token will only be able to make changes to resources owned by the selected resource owner. Tokens can always read all public repositories.
+            - generic [ref=e4130]:
+              - generic [ref=e4131]:
+                - generic [ref=e4132]:
+                  - term [ref=e4133]: Expiration
+                  - definition [ref=e4134]:
+                    - button "Custom" [ref=e4261] [cursor=pointer]:
+                      - generic [ref=e4140]:
+                        - generic:
+                          - img
+                        - generic [ref=e4141]: Custom
+                      - generic:
+                        - img
+                - generic [ref=e4262]:
+                  - term [ref=e4263]: Select date *
+                  - definition [ref=e4264]:
+                    - textbox "Expiration" [ref=e4265]: 2027-01-15
+              - generic [ref=e4142]: The token will expire on the selected date
+            - generic [ref=e4143]:
+              - generic [ref=e4144]:
+                - heading "Repository access" [level=3] [ref=e4146]
+                - radiogroup [ref=e4148]:
+                  - generic [ref=e4149]:
+                    - generic [ref=e4150]:
+                      - radio "Public repositories" [ref=e4151] [cursor=pointer]
+                      - generic [ref=e4152]:
+                        - generic [ref=e4153] [cursor=pointer]: Public repositories
+                        - generic [ref=e4154]: Read-only access to public repositories.
+                    - generic [ref=e4155]:
+                      - radio "All repositories" [checked] [ref=e4156] [cursor=pointer]
+                      - generic [ref=e4157]:
+                        - generic [ref=e4158] [cursor=pointer]: All repositories
+                        - generic [ref=e4159]: This applies to all future repositories you own. Also includes public repositories (read-only).
+              - generic [ref=e4161]:
+                - heading "Permissions" [level=3] [ref=e4163]
+                - paragraph [ref=e4164]:
+                  - text: Choose the minimal permissions necessary for your needs.
+                  - link "Learn more about permissions." [ref=e4165] [cursor=pointer]:
+                    - /url: https://docs.github.com/rest/overview/permissions-required-for-fine-grained-personal-access-tokens
+                - generic [ref=e4167]:
+                  - heading "Permissions" [level=2] [ref=e4168]
+                  - generic [ref=e4169]:
+                    - generic [ref=e4170]:
+                      - button "Repositories (2)" [ref=e4417] [cursor=pointer]:
+                        - generic [ref=e4268]:
+                          - generic [ref=e4270]: Repositories
+                          - generic:
+                            - generic: "2"
+                            - generic: (2)
+                      - button "Account (0)" [ref=e4172] [cursor=pointer]:
+                        - generic [ref=e4173]:
+                          - generic [ref=e4175]: Account
+                          - generic:
+                            - generic: "0"
+                            - generic: (0)
+                    - button "Add permissions" [active] [ref=e4177] [cursor=pointer]:
+                      - generic [ref=e4179]:
+                        - img [ref=e4180]
+                        - text: Add permissions
+                  - list "Permissions" [ref=e4182]:
+                    - listitem "Contents. More information available below." [ref=e4418]:
+                      - heading "Contents" [level=3] [ref=e4420]
+                      - generic [ref=e4423]:
+                        - text: Repository contents, commits, branches, downloads, releases, and merges.
+                        - link "Learn more." [ref=e4424] [cursor=pointer]:
+                          - /url: https://docs.github.com/rest/overview/permissions-required-for-fine-grained-personal-access-tokens#repository-permissions-for-contents
+                      - generic [ref=e4426]:
+                        - button "Access:Read-only" [ref=e4427] [cursor=pointer]:
+                          - generic [ref=e4429]: Access:Read-only
+                          - generic:
+                            - img
+                        - button "Remove Contents" [ref=e4430] [cursor=pointer]:
+                          - img [ref=e4431]
+                    - listitem "Metadata. More information available below." [ref=e4433]:
+                      - generic [ref=e4434]:
+                        - heading "Metadata" [level=3] [ref=e4435]
+                        - generic [ref=e4440]: Required
+                      - generic [ref=e4443]:
+                        - text: Search repositories, list collaborators, and access repository metadata.
+                        - link "Learn more." [ref=e4444] [cursor=pointer]:
+                          - /url: https://docs.github.com/rest/overview/permissions-required-for-fine-grained-personal-access-tokens#repository-permissions-for-metadata
+                      - generic [ref=e4446]:
+                        - 'button "Access: Read-only" [ref=e4447]':
+                          - generic [ref=e4449]:
+                            - text: "Access: Read-only"
+                            - img [ref=e4450]
+                        - button "Read access required to use other repository permissions" [ref=e4452] [cursor=pointer]:
+                          - img [ref=e4453]
+              - generic [ref=e4192]:
+                - button "Generate token" [ref=e4193] [cursor=pointer]:
+                  - generic [ref=e4195]: Generate token
+                - link "Cancel" [ref=e4196] [cursor=pointer]:
+                  - /url: /settings/personal-access-tokens
+                  - generic [ref=e4198]: Cancel
+              - paragraph [ref=e4199]: This token will be ready for use immediately.
+    - contentinfo [ref=e4200]:
+      - heading "Footer" [level=2] [ref=e4201]
+      - generic [ref=e4202]:
+        - generic [ref=e4203]:
+          - link "GitHub Homepage" [ref=e4204] [cursor=pointer]:
+            - /url: https://github.com
+            - img [ref=e4205]
+          - generic [ref=e4207]: © 2026 GitHub, Inc.
+        - navigation "Footer" [ref=e4208]:
+          - heading "Footer navigation" [level=3] [ref=e4209]
+          - list "Footer navigation" [ref=e4210]:
+            - listitem [ref=e4211]:
+              - link "Terms" [ref=e4212] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+            - listitem [ref=e4213]:
+              - link "Privacy" [ref=e4214] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+            - listitem [ref=e4215]:
+              - link "Security" [ref=e4216] [cursor=pointer]:
+                - /url: https://github.com/security
+            - listitem [ref=e4217]:
+              - link "Status" [ref=e4218] [cursor=pointer]:
+                - /url: https://www.githubstatus.com/
+            - listitem [ref=e4219]:
+              - link "Community" [ref=e4220] [cursor=pointer]:
+                - /url: https://github.community/
+            - listitem [ref=e4221]:
+              - link "Docs" [ref=e4222] [cursor=pointer]:
+                - /url: https://docs.github.com/
+            - listitem [ref=e4223]:
+              - link "Contact" [ref=e4224] [cursor=pointer]:
+                - /url: https://support.github.com?tags=dotcom-footer
+            - listitem [ref=e4225]:
+              - button "Manage cookies" [ref=e4227] [cursor=pointer]
+            - listitem [ref=e4228]:
+              - button "Do not share my personal information" [ref=e4230] [cursor=pointer]
+  - alert [ref=e4007]
+```
